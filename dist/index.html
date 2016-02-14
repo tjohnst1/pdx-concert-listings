@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="concertListings">
   <head>
     <meta charset="utf-8">
     <title>PDX Concert Listings</title>
@@ -9,8 +9,9 @@
     <!-- /Type Kit -->
     <link rel="stylesheet" href="styles.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body ng-controller="MainCtrl as main">
     <script type="text/javascript" src="bundle.js"></script>
     <h1>PDX Concert Listings</h1>
+    {{ main.events | json }}
   </body>
 </html>
