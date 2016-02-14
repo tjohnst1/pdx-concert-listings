@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './app/app.js',
+  entry: "./app/app.js",
   output: {
     path: './dist',
     filename: "bundle.js",
@@ -7,12 +7,12 @@ module.exports = {
   },
   devServer: {
     inline: true,
-    contentBase: './dist'
+    contentBase: './dist',
   },
   module: {
     loaders: [
       {
-        test: /\.js/,
+        test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
         loader: 'babel',
         query: {
