@@ -9,11 +9,12 @@
     <!-- /Type Kit -->
     <link rel="stylesheet" href="styles.css" media="screen" charset="utf-8">
   </head>
-  <body ng-controller="MainCtrl as main">
+  <body class="index-container" ng-controller="MainCtrl as main">
     <script type="text/javascript" src="bundle.js"></script>
     <h1>PDX Concert Listings</h1>
-    <ul ng-repeat="event in main.events">
-      <event-headline event="event"></event-headline>
-    </ul>
+    <p ng-show="main.events.length === 0">Loading...</p>
+    <div class="event-headline-container">
+      <event-headline ng-repeat="event in main.events" event="event" class="event-headline"></event-headline>
+    </div>
   </body>
 </html>

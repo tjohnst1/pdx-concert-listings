@@ -1,0 +1,36 @@
+body{
+  font-family: "europa";
+}
+
+.index-container{
+  @include outer-container;
+}
+
+.event-headline-container{
+}
+
+.event-headline{
+  list-style: none;
+  padding: 2% 0;
+  @include span-columns(12);
+  border-top: 1px solid #eee;
+  &:last-of-type{
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.event-headline-date{
+  margin: 0;
+  @include span-columns(2);
+}
+
+.event-headline-artists{
+  margin: 0;
+  @include span-columns(6);
+}
+
+.event-headline-venue{
+  margin: 0;
+  @include span-columns(4);
+  @include omega;
+}
