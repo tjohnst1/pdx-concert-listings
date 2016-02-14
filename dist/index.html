@@ -12,6 +12,8 @@
   <body ng-controller="MainCtrl as main">
     <script type="text/javascript" src="bundle.js"></script>
     <h1>PDX Concert Listings</h1>
-    {{ main.events | json }}
+    <ul ng-repeat="event in main.events">
+      <event-headline event="event"></event-headline>
+    </ul>
   </body>
 </html>
