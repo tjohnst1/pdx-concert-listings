@@ -14,7 +14,7 @@
     <h1>PDX Concert Listings</h1>
     <p ng-show="main.events.length === 0">Loading...</p>
     <div class="event-headline-container">
-      <event-headline ng-repeat="event in events " event="event" class="event-headline"></event-headline>
+      <event-headline ng-repeat="event in events | limitTo: 50" event="event" class="event-headline"></event-headline>
     </div>
   </body>
 </html>
