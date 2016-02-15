@@ -4,16 +4,20 @@ import Firebase from 'firebase';
 
 const concertListings = angular.module('concertListings', ['firebase']);
 
-concertListings.constant('FBURL', 'https://concertlistings.firebaseio.com/');
+concertListings.controller('MainCtrl',  ["$scope", "$timeout", "$window", function($scope, $timeout, $window){
 
-concertListings.service('FirebaseRef', ['FBURL', Firebase]);
+  $scope.events = [];
+  $scope.venues = [];
 
-concertListings.factory('Events', function(FirebaseRef, $firebaseArray){
-  return $firebaseArray(FirebaseRef);
-});
+  var ref = new $window.Firebase('https://concertlistings.firebaseio.com/');
+  ref.on("value", function(snapshot) {
+    $timeout(function() {
+      let events = snapshot.val();
+      events = Object.keys(events).map(key => events[key]);
+      $scope.events = events;
+    });
+  });
 
-concertListings.controller('MainCtrl', function(Events){
-  this.events = Events
-});
+}]);
 
 require('./directives')(concertListings);
