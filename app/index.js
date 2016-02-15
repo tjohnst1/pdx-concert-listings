@@ -8,6 +8,7 @@ concertListings.controller('MainCtrl',  ["$scope", "$timeout", "$window", functi
 
   $scope.events = [];
   $scope.venues = [];
+  $scope.filterOptions = {venue: "", startingDate: "", endingDate: ""};
 
   function getVenues(eventsArr){
     var venues = [];
@@ -25,7 +26,7 @@ concertListings.controller('MainCtrl',  ["$scope", "$timeout", "$window", functi
       let events = snapshot.val();
       events = Object.keys(events).map(key => events[key]);
       $scope.events = events;
-      $scope.venues = getVenues(events);
+      $scope.venues = getVenues(events).sort();
     });
   });
 

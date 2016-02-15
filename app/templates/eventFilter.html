@@ -1,5 +1,5 @@
 <form>
-  <select name="select">
-    <option ng-repeat="venue in venues" value="venue">{{venue}}</option>
-  </select>
+  <input type="date" name="startingDate" ng-model="startingDate">
+  <input type="date" name="endingDate" ng-model="endingDate">
+  <select ng-model="selectedVenue" ng-options="venue for venue in venues"></select>
 </form>

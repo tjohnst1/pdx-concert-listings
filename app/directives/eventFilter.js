@@ -3,7 +3,10 @@ export default concertListings => {
     return {
       restrict: 'E',
       scope: {
-        events: '=',
+        venues: '=',
+        selectedVenue: '=',
+        startingDate: '=',
+        endingDate: '='
       },
       template: require('../templates/eventFilter.html')
     }
