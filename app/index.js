@@ -33,3 +33,4 @@ concertListings.controller('MainCtrl',  ["$scope", "$timeout", "$window", functi
 }]);
 
 require('./directives')(concertListings);
+require('./filters')(concertListings);
