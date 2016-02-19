@@ -14,9 +14,6 @@
     <h1>PDX Concert Listings</h1>
     <p ng-show="main.events.length === 0">Loading...</p>
     <div class="event-headline-container">
-      <p>Selected Venue: {{filterOptions.venue}}</p>
-      <p>startingDate: {{filterOptions.startingDate}}</p>
-      <p>endingDate: {{filterOptions.endingDate}}</p>
       <event-filter venues="venues" selected-venue="filterOptions.venue" starting-date="filterOptions.startingDate" ending-date="filterOptions.endingDate"></event-filter>
       <event-headline ng-repeat="event in events | venueFilter:filterOptions.venue | dateBefore:filterOptions.endingDate | dateAfter:filterOptions.startingDate"
       event="event" class="event-headline"></event-headline>
