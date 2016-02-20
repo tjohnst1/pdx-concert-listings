@@ -1,5 +1,5 @@
 export default concertListings => {
-  concertListings.controller('MainCtrl', ["EventsFactory", "$timeout", function(EventsFactory, $timeout){
+  concertListings.controller('EventsCtrl', ["EventsFactory", "$timeout", function(EventsFactory, $timeout){
     var vm = this;
     vm.events = EventsFactory.events;
     vm.venues = EventsFactory.venues;
@@ -10,9 +10,7 @@ export default concertListings => {
      let events = Object.keys(fbSnapshot).map(key => fbSnapshot[key]);
       $timeout(function() {
         vm.events = events;
-        vm.venues = EventsFactory.getVenues(events)
-        console.log(vm.events)
-        console.log(vm.venues)
+        vm.venues = EventsFactory.getVenues(events);
       });
     });
 

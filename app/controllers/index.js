@@ -1,3 +1,4 @@
 export default concertListings => {
-  require('./mainCtrl')(concertListings);
+  require('./eventsCtrl')(concertListings);
+  require('./eventCtrl')(concertListings);
 };
