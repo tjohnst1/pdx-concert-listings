@@ -5,13 +5,14 @@ export default concertListings => {
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
-      .state('index', {
+      .state('events', {
         url: '/',
         template: require('../templates/index.html')
       })
       .state('event', {
         url: '/events/:eventid',
-        template: '../templates/event.html'
+        template: '../templates/event.html',
+        controller: require('../controllers/eventCtrl')
       })
   })
 }
