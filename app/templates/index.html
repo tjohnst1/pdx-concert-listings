@@ -1,0 +1,6 @@
+<p ng-show="main.events.length === 0">Loading...</p>
+<div class="event-headline-container">
+  <event-filter venues="venues" selected-venue="filterOptions.venue" starting-date="filterOptions.startingDate" ending-date="filterOptions.endingDate"></event-filter>
+  <event-headline ng-repeat="event in events | venueFilter:filterOptions.venue | dateBefore:filterOptions.endingDate | dateAfter:filterOptions.startingDate"
+  event="event" class="event-headline"></event-headline>
+</div>
