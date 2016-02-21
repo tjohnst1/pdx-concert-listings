@@ -20,6 +20,12 @@ export default concertListings => {
       return new $window.Firebase('https://concertlistings.firebaseio.com/');
     }
 
+    EventsFactory.getEventById = (events, id) => {
+      return events.filter((event) => {
+        return event.id === id
+      });
+    }
+
     return EventsFactory;
   }]);
 }

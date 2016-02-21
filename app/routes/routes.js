@@ -8,7 +8,7 @@ export default (concertListings) => {
         template: require('../templates/index.html'),
       })
       .state('event', {
-        url: '/events/:eventid',
+        url: '/events/:eventId',
         template: require('../templates/eventDetails.html'),
       })
   })

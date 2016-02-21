@@ -1,4 +1,4 @@
-<a ui-sref="event">
+<a ui-sref="event({eventId: event.id})">
   <p class="event-headline-date">{{event.date.day | date : format : short}}</p>
   <p class="event-headline-artists">{{event.artists.join(', ')}}</p>
   <p class="event-headline-venue">{{event.venue.name}}<p>

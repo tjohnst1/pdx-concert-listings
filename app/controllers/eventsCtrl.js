@@ -1,9 +1,12 @@
 export default concertListings => {
-  concertListings.controller('EventsCtrl', ["EventsFactory", "$timeout", function(EventsFactory, $timeout){
+  concertListings.controller('EventsCtrl', ["EventsFactory", "$timeout", "$stateParams", function(EventsFactory, $timeout, $stateParams){
     var vm = this;
+
     vm.events = EventsFactory.events;
     vm.venues = EventsFactory.venues;
     vm.filterOptions = {venue: "", startingDate: "", endingDate: ""};
+
+    vm.event = [];
 
     EventsFactory.getData().on("value", function(snapshot) {
      const fbSnapshot = snapshot.val();
@@ -11,8 +14,8 @@ export default concertListings => {
       $timeout(function() {
         vm.events = events;
         vm.venues = EventsFactory.getVenues(events);
+        vm.event = EventsFactory.getEventById(vm.events, Number($stateParams.eventId));
       });
     });
-
   }]);
 }
