@@ -103,12 +103,12 @@ function getVenueLocationData(eventArr, venueLocationCallback){
 function getSpotifyInfo(eventArr, spotifyInfoCallback){
   var eventsWithSpotifyInfo = [];
   async.eachSeries(eventArr, function(event, callback){
-    var artist = event.artists[0];
+    var artist = event.artists.artists[0].replace(/[^a-z\s]/gi, '').replace(/\s/g, '+');
     var url = `https://api.spotify.com/v1/search?q=${artist}&type=artist&market=US&limit=1`;
     request(url, function (error, response, body) {
       var newEvent = event;
       var json = JSON.parse(body);
-      if (json.artists !== undefined && json.artists.length !== 0){
+      if (json.artists !== undefined && json.artists.items.length !== 0 && json.artists.items[0].images.length !== 0){
         newEvent.artists.image = json.artists.items[0].images[0].url;
         newEvent.artists.spotifyUrl = json.artists.items[0].external_urls.spotify;
       } else {
