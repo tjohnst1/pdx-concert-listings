@@ -1,1 +1,20 @@
+.event-container{
+  @include display(flex);
+}
 
+.event-image{
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-details{
+  width: 60%;
+  p{
+    margin: 0;
+  }
+}
+
+.event-artists{
+  margin: 0;
+}

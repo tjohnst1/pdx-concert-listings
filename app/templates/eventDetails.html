@@ -1,13 +1,11 @@
-<div>
-  <img src="{{vm.event.artists.image}}" alt="{{vm.event.artists.artists[0]}}"/>
-  <h2>{{ vm.event.artists.artists.join(", ") }}</h2>
-  <p>Spotify Url: {{ vm.event.artists.spotifyUrl}}</p>
-  <div>
+<div class="event-container">
+  <div class="event-image" style="background-image: url('{{vm.event.artists.image}}')" alt="{{vm.event.artists.artists[0]}}"/></div>
+  <div class="event-details">
+    <h2 class="event-artists">{{ vm.event.artists.artists.join(", ") }}</h2>
     <p>{{ vm.event.date.day | date: 'longDate' }}</p>
     <p>{{ vm.event.date.time }}</p>
-  <div>
-  <div>
     <p>{{ vm.event.venue.name }}</p>
     <p>{{ vm.event.venue.address }}</p>
+    <p>Spotify Url: {{ vm.event.artists.spotifyUrl}}</p>
   </div>
 </div>
