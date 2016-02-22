@@ -13,7 +13,8 @@ function populateFirebase(){
   async.waterfall([
     getNumberOfEntries,
     getAllEvents,
-    getVenueLocationData
+    getVenueLocationData,
+    getSpotifyInfo
   ], function (err, eventsArr){
     fs.writeFile('data.json', JSON.stringify({events: eventsArr}, null, 4), (err) => {
       if (err) throw err;
@@ -31,7 +32,7 @@ function getNumberOfEntries(entriesCallback){
   request(songkickAPI, function (error, response, body) {
     var json = JSON.parse(body);
     var totalEntries = Number(json.resultsPage.totalEntries);
-    var numberOfPages = Math.floor(totalEntries / 50);
+    var numberOfPages = 2;
     entriesCallback(null, numberOfPages);
   })
 };
@@ -56,9 +57,11 @@ function getAllEvents(numberOfPages, allEventsCallback){
               lat: event.venue.lat,
               lng: event.venue.lng
             },
-            artists: event.performance.map(function(artist){
-              return artist.artist.displayName
-            }),
+            artists: {
+              artists: event.performance.map(function(artist){
+                        return artist.artist.displayName
+                       })
+            },
             date: {
               day: event.start.date,
               time: event.start.time
@@ -93,5 +96,29 @@ function getVenueLocationData(eventArr, venueLocationCallback){
     });
   }, function(err){
       venueLocationCallback(null, eventsWithAddress);
+  })
+}
+
+// Add artist info from Spotify
+function getSpotifyInfo(eventArr, spotifyInfoCallback){
+  var eventsWithSpotifyInfo = [];
+  async.eachSeries(eventArr, function(event, callback){
+    var artist = event.artists[0];
+    var url = `https://api.spotify.com/v1/search?q=${artist}&type=artist&market=US&limit=1`;
+    request(url, function (error, response, body) {
+      var newEvent = event;
+      var json = JSON.parse(body);
+      if (json.artists !== undefined && json.artists.length !== 0){
+        newEvent.artists.image = json.artists.items[0].images[0].url;
+        newEvent.artists.spotifyUrl = json.artists.items[0].external_urls.spotify;
+      } else {
+        newEvent.artists.image = null;
+        newEvent.artists.spotifyUrl = null;
+      };
+      eventsWithSpotifyInfo.push(newEvent);
+      callback();
+    });
+  }, function(err){
+      spotifyInfoCallback(null, eventsWithSpotifyInfo);
   })
 }
