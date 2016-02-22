@@ -5,8 +5,7 @@ export default concertListings => {
     vm.events = EventsFactory.events;
     vm.venues = EventsFactory.venues;
     vm.filterOptions = {venue: "", startingDate: "", endingDate: ""};
-
-    vm.event = [];
+    vm.event = {};
 
     EventsFactory.getData().on("value", function(snapshot) {
      const fbSnapshot = snapshot.val();
