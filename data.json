@@ -1,0 +1,2084 @@
+{
+    "events": [
+        {
+            "id": 24090219,
+            "venue": {
+                "name": "Arlene Schnitzer Concert Hall",
+                "lat": 45.5168547,
+                "lng": -122.6811831,
+                "address": "SW Main St, Portland, OR 97205"
+            },
+            "artists": {
+                "artists": [
+                    "Joshua Bell"
+                ],
+                "image": "https://i.scdn.co/image/4a744bbf02710df7dc825defeeaca2aa7543f3da",
+                "spotifyUrl": "https://open.spotify.com/artist/3Ka1nDpDzxDveEqUPzIeom"
+            },
+            "date": {
+                "day": "2016-02-22",
+                "time": null
+            }
+        },
+        {
+            "id": 25637084,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Kneebody",
+                    "Daedelus",
+                    "Naytronix"
+                ],
+                "image": "https://i.scdn.co/image/c37a4192050bff857dadf795d3cfae4156894eef",
+                "spotifyUrl": "https://open.spotify.com/artist/0rS1Y2DkDJhLiaR0MyJyCg"
+            },
+            "date": {
+                "day": "2016-02-22",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 26072473,
+            "venue": {
+                "name": "Unknown venue",
+                "lat": null,
+                "lng": null,
+                "address": "Null Crossing, MO"
+            },
+            "artists": {
+                "artists": [
+                    "Japperwock",
+                    "FreQ Masons"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-22",
+                "time": "18:30:00"
+            }
+        },
+        {
+            "id": 24879274,
+            "venue": {
+                "name": "Arlene Schnitzer Concert Hall",
+                "lat": 45.5168547,
+                "lng": -122.6811831,
+                "address": "SW Main St, Portland, OR 97205"
+            },
+            "artists": {
+                "artists": [
+                    "Vance Joy",
+                    "Elle King",
+                    "Jamie Lawson"
+                ],
+                "image": "https://i.scdn.co/image/e596d7e72d2d57edba030a07994e6b1a6f09f5da",
+                "spotifyUrl": "https://open.spotify.com/artist/10exVja0key0uqUkk6LJRT"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25545824,
+            "venue": {
+                "name": "McMenamin's Edgefield Winery",
+                "lat": 45.5370766,
+                "lng": -122.4064734,
+                "address": "Street, Troutdale, OR 97060"
+            },
+            "artists": {
+                "artists": [
+                    "Sean Rowe"
+                ],
+                "image": "https://i.scdn.co/image/6edfb5342f72a0cfb83b7246ef9a206e5de986e3",
+                "spotifyUrl": "https://open.spotify.com/artist/0h8q5Df7MVYUDg4Ic8IHwF"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25593279,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Julien Baker",
+                    "Haley Heynderickx"
+                ],
+                "image": "https://i.scdn.co/image/cdf55b88ff1f9a8b23170fc0e2da5b7ba439aafd",
+                "spotifyUrl": "https://open.spotify.com/artist/12zbUHbPHL5DGuJtiUfsip"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": null
+            }
+        },
+        {
+            "id": 25604419,
+            "venue": {
+                "name": "Hawthorne Theatre",
+                "lat": 45.5118718,
+                "lng": -122.6229791,
+                "address": "1507 SE Cesar E Chavez Blvd, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "blessthefall",
+                    "Miss May I"
+                ],
+                "image": "https://i.scdn.co/image/16b6f24fb9fc836c1a40e1ed14f5a5bcc9bb600d",
+                "spotifyUrl": "https://open.spotify.com/artist/7t2C8WwLyKUKRe0LVh8zl9"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": null
+            }
+        },
+        {
+            "id": 25626519,
+            "venue": {
+                "name": "McMenamin's Crystal Ballroom",
+                "lat": 45.5229001,
+                "lng": -122.6847806,
+                "address": "1346 W Burnside St, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Melanie Martinez",
+                    "Alvarez Kings"
+                ],
+                "image": "https://i.scdn.co/image/bc3a371b53aab7726cdd4a1bf4684092da08d482",
+                "spotifyUrl": "https://open.spotify.com/artist/63yrD80RY3RNEM2YDpUpO8"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": null
+            }
+        },
+        {
+            "id": 25676249,
+            "venue": {
+                "name": "Aladdin Theater",
+                "lat": 45.501102,
+                "lng": -122.654253,
+                "address": "3017 SE Milwaukie Ave, Portland, OR 97202"
+            },
+            "artists": {
+                "artists": [
+                    "Cœur de pirate"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25676254,
+            "venue": {
+                "name": "Wonder Ballroom",
+                "lat": 45.5408474,
+                "lng": -122.6634854,
+                "address": "178 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Migos"
+                ],
+                "image": "https://i.scdn.co/image/c9d45f3360914a613fd529082c73b94765d7a0ab",
+                "spotifyUrl": "https://open.spotify.com/artist/6oMuImdp5ZcFhWP0ESe6mG"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25977948,
+            "venue": {
+                "name": "Mcmenamins",
+                "lat": 45.540756,
+                "lng": -122.6754525,
+                "address": "2532 N Mississippi Ave, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Phillip",
+                    "Phillip-Michael Scales"
+                ],
+                "image": "https://i.scdn.co/image/c815ab1a18a5895b3c331bbd335cdd9aededf92f",
+                "spotifyUrl": "https://open.spotify.com/artist/6p5JxpTc7USNnBnLzctyd4"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": "19:30:00"
+            }
+        },
+        {
+            "id": 26138953,
+            "venue": {
+                "name": "Doug Fir Lounge",
+                "lat": 45.5229238,
+                "lng": -122.6587133,
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Scott Mulvahill"
+                ],
+                "image": "https://i.scdn.co/image/d77ff5e1574c7cf7aa826f0d2a61a71bc3b1ea28",
+                "spotifyUrl": "https://open.spotify.com/artist/2wfUus9ndQRBntDugGk5bn"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 26163419,
+            "venue": {
+                "name": "The Goodfoot Pub & Lounge",
+                "lat": 45.5193317,
+                "lng": -122.636328,
+                "address": "2875 SE Stark St, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Asher Fulero Band"
+                ],
+                "image": "https://i.scdn.co/image/17385e378762e853a143907eeb2ea7e117efb6a9",
+                "spotifyUrl": "https://open.spotify.com/artist/2noBGyZn0V2GATVx00ZrJT"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 26193359,
+            "venue": {
+                "name": "Valentine's",
+                "lat": 45.5225331,
+                "lng": -122.6728607,
+                "address": "26 SW 3rd Ave, Portland, OR 97204"
+            },
+            "artists": {
+                "artists": [
+                    "Dead Men Talking",
+                    "Rambush",
+                    "Dr. Burtrum"
+                ],
+                "image": "https://i.scdn.co/image/e30d0a6cd5b745ddcf17622396cf0c62a1a40acf",
+                "spotifyUrl": "https://open.spotify.com/artist/3QpUBVFlu7O7oQxeWrpbxE"
+            },
+            "date": {
+                "day": "2016-02-23",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 24455399,
+            "venue": {
+                "name": "The Newmark Theatre",
+                "lat": 45.516623,
+                "lng": -122.6813252,
+                "address": "SW Main St, Portland, OR 97205"
+            },
+            "artists": {
+                "artists": [
+                    "Roseanne Barr"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25342539,
+            "venue": {
+                "name": "Wonder Ballroom",
+                "lat": 45.5408474,
+                "lng": -122.6634854,
+                "address": "178 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Parquet Courts",
+                    "The Woolen Men"
+                ],
+                "image": "https://i.scdn.co/image/570e91ea15c167cb8b547a16aad000a7c5cd7bb6",
+                "spotifyUrl": "https://open.spotify.com/artist/23NIwARd4vPbxt3wwNnJ6k"
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "20:30:00"
+            }
+        },
+        {
+            "id": 25545834,
+            "venue": {
+                "name": "White Eagle Saloon",
+                "lat": 45.540794,
+                "lng": -122.675448,
+                "address": "860 N Russell St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Sean Rowe"
+                ],
+                "image": "https://i.scdn.co/image/6edfb5342f72a0cfb83b7246ef9a206e5de986e3",
+                "spotifyUrl": "https://open.spotify.com/artist/0h8q5Df7MVYUDg4Ic8IHwF"
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25553479,
+            "venue": {
+                "name": "Not Really A Venue",
+                "lat": 45.4313662,
+                "lng": -122.3734641,
+                "address": "28153 OR-212, Boring, OR 97009"
+            },
+            "artists": {
+                "artists": [
+                    "2416"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "23:00:00"
+            }
+        },
+        {
+            "id": 25566269,
+            "venue": {
+                "name": "Roseland Theater",
+                "lat": 45.5233129,
+                "lng": -122.6764367,
+                "address": "36 NW 6th Ave, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Kip Moore",
+                    "The Cadillac Three"
+                ],
+                "image": "https://i.scdn.co/image/44b95f647dad1453fc2b9f66bc5d4f17685cc5f1",
+                "spotifyUrl": "https://open.spotify.com/artist/2hJPr4lk7Q8SSvCVBl9fWM"
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": null
+            }
+        },
+        {
+            "id": 25676269,
+            "venue": {
+                "name": "Revolution Hall",
+                "lat": 45.5188269,
+                "lng": -122.6516506,
+                "address": "571 SE 14th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Indigo Girls",
+                    "Lucy Wainwright Roche"
+                ],
+                "image": "https://i.scdn.co/image/21e726eae6d1ea3be22e9e1f820e5b18028c5801",
+                "spotifyUrl": "https://open.spotify.com/artist/4wM29TDTr3HI0qFY3KoSFG"
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25686999,
+            "venue": {
+                "name": "Doug Fir Lounge",
+                "lat": 45.5229238,
+                "lng": -122.6587133,
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Mike Love"
+                ],
+                "image": "https://i.scdn.co/image/2fad1219c2333741ebe857d7fce4cbda9d62103b",
+                "spotifyUrl": "https://open.spotify.com/artist/2sgVQmhRbgSEe47A1bJRrC"
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25956668,
+            "venue": {
+                "name": "Holocene",
+                "lat": 45.5175739,
+                "lng": -122.6553277,
+                "address": "748 SE 10th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Ráfaël",
+                    "Strategy",
+                    "Dylan Stark",
+                    "Ghost Feet",
+                    "Apartment Fox",
+                    "Vektroid",
+                    "EASTGHOST",
+                    "Rap Class",
+                    "Glas"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "19:30:00"
+            }
+        },
+        {
+            "id": 25997928,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Sam Outlaw",
+                    "Whitney Rose"
+                ],
+                "image": "https://i.scdn.co/image/b8e04c83ef5a5cd1613d0e73c20c553aef8a2ae7",
+                "spotifyUrl": "https://open.spotify.com/artist/7H7Gnji0UkEt9bWGPRP55r"
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "21:30:00"
+            }
+        },
+        {
+            "id": 26102868,
+            "venue": {
+                "name": "Helium Comedy Club",
+                "lat": 45.5120025,
+                "lng": -122.6566073,
+                "address": "1530 SE 9th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Nathan Brannon"
+                ],
+                "image": "https://i.scdn.co/image/c0886bc6b9a74a043e380737aede520a4851fdbd",
+                "spotifyUrl": "https://open.spotify.com/artist/5Dre0LemQrRKltbeySjSq4"
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 26242444,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Jed"
+                ],
+                "image": "https://i.scdn.co/image/827381bf6e11d513fc863f0a1b604f33deee81f9",
+                "spotifyUrl": "https://open.spotify.com/artist/7DRgc0ko15aNa7DMeZ3J8G"
+            },
+            "date": {
+                "day": "2016-02-24",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25283684,
+            "venue": {
+                "name": "Revolution Hall",
+                "lat": 45.5188269,
+                "lng": -122.6516506,
+                "address": "571 SE 14th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Brian Blade",
+                    "Alicia Olatuja"
+                ],
+                "image": "https://i.scdn.co/image/4a404b3e51d407ae9559863914ad411390f0137c",
+                "spotifyUrl": "https://open.spotify.com/artist/4gjFkHMQ2r46oQ7gsIQaCF"
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25392804,
+            "venue": {
+                "name": "Goodfoot Lounge",
+                "lat": 45.5193317,
+                "lng": -122.636328,
+                "address": "2875 SE Stark St, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Deadphish Orchestra"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "17:00:00"
+            }
+        },
+        {
+            "id": 25429864,
+            "venue": {
+                "name": "Roseland Theater",
+                "lat": 45.5233129,
+                "lng": -122.6764367,
+                "address": "36 NW 6th Ave, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Keys N Krates"
+                ],
+                "image": "https://i.scdn.co/image/e8371b5db033a966c3b916e98ddec226cd289e04",
+                "spotifyUrl": "https://open.spotify.com/artist/6c1pBXHYjFcGQQNO5MMsdd"
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25713344,
+            "venue": {
+                "name": "Clinton Street Theater",
+                "lat": 45.5032586,
+                "lng": -122.6397926,
+                "address": "2717 SE 26th Ave, Portland, OR 97202"
+            },
+            "artists": {
+                "artists": [
+                    "East Forest",
+                    "Waver Clamor Bellow"
+                ],
+                "image": "https://i.scdn.co/image/f5cd2481b6462087131c41e90ff89a2483f1ea22",
+                "spotifyUrl": "https://open.spotify.com/artist/0okmfBroVgFuvvljnUbqPW"
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "19:30:00"
+            }
+        },
+        {
+            "id": 25729849,
+            "venue": {
+                "name": "Doug Fir Lounge",
+                "lat": 45.5229238,
+                "lng": -122.6587133,
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Earphunk",
+                    "Dip"
+                ],
+                "image": "https://i.scdn.co/image/997183e54dfe7ea8d8818f08d6e3f293aa04f37b",
+                "spotifyUrl": "https://open.spotify.com/artist/0NT4JPjqC8p5VfiVMYAwqU"
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25786419,
+            "venue": {
+                "name": "Analog Theater (upstairs)",
+                "lat": 45.512006,
+                "lng": -122.658176,
+                "address": "752 SE Hawthorne Blvd, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Secrets",
+                    "Palisades",
+                    "Too Close to Touch",
+                    "Picturesque"
+                ],
+                "image": "https://i.scdn.co/image/edd4805ebd40379459e6095541744d1f3ff470ab",
+                "spotifyUrl": "https://open.spotify.com/artist/1TRVqozKc5Qk1cjwRdWBSl"
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "18:30:00"
+            }
+        },
+        {
+            "id": 25823259,
+            "venue": {
+                "name": "Wonder Ballroom",
+                "lat": 45.5408474,
+                "lng": -122.6634854,
+                "address": "178 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Jeff Austin Band"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25832719,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "The Hill Dogs",
+                    "Mike Coykendall"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25837689,
+            "venue": {
+                "name": "The Secret Society Ballroom",
+                "lat": 45.5409227,
+                "lng": -122.6637325,
+                "address": "150 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Doug"
+                ],
+                "image": "https://i.scdn.co/image/4f08481574fc5549eb6fac3c6cf839a89d178be9",
+                "spotifyUrl": "https://open.spotify.com/artist/0VxJIeWiVEKVinnkusea8P"
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "18:00:00"
+            }
+        },
+        {
+            "id": 25869199,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "The Hill Dogs",
+                    "Mike Coykendall"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25926538,
+            "venue": {
+                "name": "Ash Street Saloon",
+                "lat": 45.5222868,
+                "lng": -122.6729338,
+                "address": "255 SW Ash St, Portland, OR 97204"
+            },
+            "artists": {
+                "artists": [
+                    "Almost Rock",
+                    "Vandfald"
+                ],
+                "image": "https://i.scdn.co/image/ee78b861c4775f6e9390da40292dac2e9c6f3f16",
+                "spotifyUrl": "https://open.spotify.com/artist/12Tpsx3rWAOGM6eA6vKWxH"
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 26061893,
+            "venue": {
+                "name": "StreetCar Bistro & Taproom",
+                "lat": 45.531728,
+                "lng": -122.68295,
+                "address": "NW Northrup St, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Saint John And The Revelations"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 26067253,
+            "venue": {
+                "name": "Holocene",
+                "lat": 45.5175739,
+                "lng": -122.6553277,
+                "address": "748 SE 10th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Tribe Mars"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "20:30:00"
+            }
+        },
+        {
+            "id": 26202969,
+            "venue": {
+                "name": "The Starday Tavern",
+                "lat": 45.4892606,
+                "lng": -122.5955051,
+                "address": "6535 SE Foster Rd, Portland, OR 97206"
+            },
+            "artists": {
+                "artists": [
+                    "The Toads (Portland, OR)"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 26208174,
+            "venue": {
+                "name": "Solae's",
+                "lat": 45.5592291,
+                "lng": -122.6464471,
+                "address": "1835 NE Alberta St, Portland, OR 97211"
+            },
+            "artists": {
+                "artists": [
+                    "Euge Organ Trio"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 26229169,
+            "venue": {
+                "name": "Dante's",
+                "lat": 45.5229781,
+                "lng": -122.6736892,
+                "address": "332 W Burnside St, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Supersuckers"
+                ],
+                "image": "https://i.scdn.co/image/3ec1bf8b954c18e01bb4197e64560ae85c9af0ae",
+                "spotifyUrl": "https://open.spotify.com/artist/7gMCi9ouTHLfqzJsjL1UVg"
+            },
+            "date": {
+                "day": "2016-02-25",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 24401444,
+            "venue": {
+                "name": "Aladdin Theater",
+                "lat": 45.501102,
+                "lng": -122.654253,
+                "address": "3017 SE Milwaukie Ave, Portland, OR 97202"
+            },
+            "artists": {
+                "artists": [
+                    "Drew Holcomb & the Neighbors",
+                    "Jamie N Commons",
+                    "Sean McConnell"
+                ],
+                "image": "https://i.scdn.co/image/0bffbcc74661685defc04a62dc6eb0561099d3a3",
+                "spotifyUrl": "https://open.spotify.com/artist/4RwbDag6jWIYJnEGH6Wte9"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 24710749,
+            "venue": {
+                "name": "The Newmark Theatre",
+                "lat": 45.516623,
+                "lng": -122.6813252,
+                "address": "SW Main St, Portland, OR 97205"
+            },
+            "artists": {
+                "artists": [
+                    "Ravi Coltrane"
+                ],
+                "image": "https://i.scdn.co/image/f37dfa597ce5a29f870f05f82d4c724ac9d08a06",
+                "spotifyUrl": "https://open.spotify.com/artist/7acdJJMSkYQly2X92K3u7u"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25162989,
+            "venue": {
+                "name": "Revolution Hall",
+                "lat": 45.5188269,
+                "lng": -122.6516506,
+                "address": "571 SE 14th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Railroad Earth",
+                    "Scott Pemberton"
+                ],
+                "image": "https://i.scdn.co/image/2c3a1a63c1fab62707fb7e60a2b30ee21b53e64e",
+                "spotifyUrl": "https://open.spotify.com/artist/6ijT84fUReKCGYV3MjhB2y"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25246524,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "The Dustbowl Revival",
+                    "Kory Quinn & the Comrades",
+                    "Kory Quinn"
+                ],
+                "image": "https://i.scdn.co/image/ca771c854363fd1b79f2dfbb0715ff95ed312f76",
+                "spotifyUrl": "https://open.spotify.com/artist/3cB0nIIeIGSuMlw6rnu1dm"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25301414,
+            "venue": {
+                "name": "Doug Fir Lounge",
+                "lat": 45.5229238,
+                "lng": -122.6587133,
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Just People",
+                    "Marv Ellis and WE Tribe"
+                ],
+                "image": "https://i.scdn.co/image/abdd9a48b69a9817ab05a263f66ed9da115e864b",
+                "spotifyUrl": "https://open.spotify.com/artist/4M703cvqVa0A8H5csM0R0P"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25331849,
+            "venue": {
+                "name": "Wonder Ballroom",
+                "lat": 45.5408474,
+                "lng": -122.6634854,
+                "address": "178 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Papadosio",
+                    "Saqi"
+                ],
+                "image": "https://i.scdn.co/image/3782233efaad95241bb4f579c3fc8f278c27e6bf",
+                "spotifyUrl": "https://open.spotify.com/artist/22nCgEikczPLtGfDdpRroh"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25342544,
+            "venue": {
+                "name": "Wonder Ballroom",
+                "lat": 45.5408474,
+                "lng": -122.6634854,
+                "address": "178 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Papadosio",
+                    "Saqi"
+                ],
+                "image": "https://i.scdn.co/image/3782233efaad95241bb4f579c3fc8f278c27e6bf",
+                "spotifyUrl": "https://open.spotify.com/artist/22nCgEikczPLtGfDdpRroh"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25411879,
+            "venue": {
+                "name": "A Jesus Church",
+                "lat": 45.4437744,
+                "lng": -122.7851838,
+                "address": "10580 SW Nimbus Ave, Portland, OR 97223"
+            },
+            "artists": {
+                "artists": [
+                    "Rend Collective"
+                ],
+                "image": "https://i.scdn.co/image/b2f06588e89f93990b107c3b5f85a15052b371ed",
+                "spotifyUrl": "https://open.spotify.com/artist/11Y54BxlxC3UIAUkU2eadQ"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25661114,
+            "venue": {
+                "name": "Star Theater",
+                "lat": 45.52335,
+                "lng": -122.6765882,
+                "address": "7 NW 6th Ave, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "R. City"
+                ],
+                "image": "https://i.scdn.co/image/42d26574da8fe764cec5e6c20eb7ea5ae9380f99",
+                "spotifyUrl": "https://open.spotify.com/artist/4TH4BHy0LdBi3dpBW4P2UX"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "21:30:00"
+            }
+        },
+        {
+            "id": 25774209,
+            "venue": {
+                "name": "The Secret Society Ballroom",
+                "lat": 45.5409227,
+                "lng": -122.6637325,
+                "address": "150 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Goldfoot",
+                    "La Rivera",
+                    "Teddy Presberg"
+                ],
+                "image": "https://i.scdn.co/image/4af9f3fa0535a71b84f036f54d3630ff76e40822",
+                "spotifyUrl": "https://open.spotify.com/artist/6UZYJ1Qa1OAOVGL6xWWVz8"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "20:30:00"
+            }
+        },
+        {
+            "id": 25866459,
+            "venue": {
+                "name": "The Secret Society Ballroom",
+                "lat": 45.5409227,
+                "lng": -122.6637325,
+                "address": "150 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Pete Krebs & His Portland Playboys"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "18:00:00"
+            }
+        },
+        {
+            "id": 25942483,
+            "venue": {
+                "name": "Euphoria Nightclub",
+                "lat": 45.520509,
+                "lng": -122.6630973,
+                "address": "343 SE 3rd Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Vanilla Ace"
+                ],
+                "image": "https://i.scdn.co/image/c46a1e53084238d2406bef7127f554e1fa6e4986",
+                "spotifyUrl": "https://open.spotify.com/artist/5RsczpoJXjqTqZLToj3nRn"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25976428,
+            "venue": {
+                "name": "The Hallowed Halls",
+                "lat": 45.5230622,
+                "lng": -122.6764816,
+                "address": "605 W Burnside St, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "The Autonomics",
+                    "Coastlands",
+                    "Foxy Lemon",
+                    "Yardsss",
+                    "Small Skies",
+                    "Shannon Entropy"
+                ],
+                "image": "https://i.scdn.co/image/8edb1f388787e816e8f8829143a72e0bfaa74203",
+                "spotifyUrl": "https://open.spotify.com/artist/6euGE6R6lJr9GagWmK9TW6"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": null
+            }
+        },
+        {
+            "id": 26004918,
+            "venue": {
+                "name": "Dante's",
+                "lat": 45.5229781,
+                "lng": -122.6736892,
+                "address": "332 W Burnside St, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Sharkmuffin"
+                ],
+                "image": "https://i.scdn.co/image/c9f459d5230c35777f1b2b5c3c4f29634355bf65",
+                "spotifyUrl": "https://open.spotify.com/artist/4YdwFEF9k0YQOqpdanOU9b"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 26076693,
+            "venue": {
+                "name": "The Know",
+                "lat": 45.5590696,
+                "lng": -122.6441853,
+                "address": "2066 NE Alberta St, Portland, OR 97211"
+            },
+            "artists": {
+                "artists": [
+                    "The Bloodtypes",
+                    "Don't",
+                    "The Birth Defects (US)"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 26102943,
+            "venue": {
+                "name": "Plews Brews",
+                "lat": 45.5897755,
+                "lng": -122.7532146,
+                "address": "8435 N Lombard St, Portland, OR 97203"
+            },
+            "artists": {
+                "artists": [
+                    "Three for Silver"
+                ],
+                "image": "https://i.scdn.co/image/08aac40a6f473d036f435c4a46fdf91fcb922014",
+                "spotifyUrl": "https://open.spotify.com/artist/4oaHP6wA2Bo7qRdFyNJ942"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": null
+            }
+        },
+        {
+            "id": 26133438,
+            "venue": {
+                "name": "World Famous Kenton Club",
+                "lat": 45.582616,
+                "lng": -122.687552,
+                "address": "2075 N Kilpatrick St, Portland, OR 97217"
+            },
+            "artists": {
+                "artists": [
+                    "manx",
+                    "Wave Action",
+                    "Wett Nurse"
+                ],
+                "image": "https://i.scdn.co/image/d543d2b8f688fd0ee46fde716c7949cea93874f4",
+                "spotifyUrl": "https://open.spotify.com/artist/7JIDretlR52LyL3yvqr2kX"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "07:00:00"
+            }
+        },
+        {
+            "id": 26156024,
+            "venue": {
+                "name": "High Water Mark Lounge",
+                "lat": 45.5719428,
+                "lng": -122.6611701,
+                "address": "6812 NE Martin Luther King Jr Blvd, Portland, OR 97211"
+            },
+            "artists": {
+                "artists": [
+                    "Boss' Daughter",
+                    "John Underwood",
+                    "Fools Rush",
+                    "Shootdang"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 26169829,
+            "venue": {
+                "name": "Oregon",
+                "lat": 45.5230622,
+                "lng": -122.6764816,
+                "address": "605 W Burnside St, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Emmanuel Manny Lizardo"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 26184974,
+            "venue": {
+                "name": "Smart Collective",
+                "lat": 45.4875662,
+                "lng": -122.5917513,
+                "address": "6964 SE Foster Rd, Portland, OR 97206"
+            },
+            "artists": {
+                "artists": [
+                    "Fringe Class",
+                    "Peridot"
+                ],
+                "image": "https://i.scdn.co/image/308104c13010176cfba6ec6adfe049b13e1e55e6",
+                "spotifyUrl": "https://open.spotify.com/artist/7sGjFrOvafEWE0iZXBgqbJ"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "18:00:00"
+            }
+        },
+        {
+            "id": 26185139,
+            "venue": {
+                "name": "Red Shed, McMenamin's Edgefield",
+                "lat": 45.5370766,
+                "lng": -122.4064734,
+                "address": "Street, Troutdale, OR 97060"
+            },
+            "artists": {
+                "artists": [
+                    "The Resolectrics"
+                ],
+                "image": "https://i.scdn.co/image/3b95b8b917cf322d82876fd992acef65c5a41bef",
+                "spotifyUrl": "https://open.spotify.com/artist/4G6XmJGdUdPVcdKQb4UbkA"
+            },
+            "date": {
+                "day": "2016-02-26",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 24710754,
+            "venue": {
+                "name": "The Newmark Theatre",
+                "lat": 45.516623,
+                "lng": -122.6813252,
+                "address": "SW Main St, Portland, OR 97205"
+            },
+            "artists": {
+                "artists": [
+                    "Ravi Coltrane"
+                ],
+                "image": "https://i.scdn.co/image/f37dfa597ce5a29f870f05f82d4c724ac9d08a06",
+                "spotifyUrl": "https://open.spotify.com/artist/7acdJJMSkYQly2X92K3u7u"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 24940239,
+            "venue": {
+                "name": "Roseland Theater",
+                "lat": 45.5233129,
+                "lng": -122.6764367,
+                "address": "36 NW 6th Ave, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Party Favor",
+                    "Jackal"
+                ],
+                "image": "https://i.scdn.co/image/d9c9a7d363b7748d98cbde6ca34f1c3af511faf8",
+                "spotifyUrl": "https://open.spotify.com/artist/7yPPzu5UdAK7yagQqjEZQm"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25163004,
+            "venue": {
+                "name": "Revolution Hall",
+                "lat": 45.5188269,
+                "lng": -122.6516506,
+                "address": "571 SE 14th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Railroad Earth",
+                    "Scott Pemberton"
+                ],
+                "image": "https://i.scdn.co/image/2c3a1a63c1fab62707fb7e60a2b30ee21b53e64e",
+                "spotifyUrl": "https://open.spotify.com/artist/6ijT84fUReKCGYV3MjhB2y"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25293714,
+            "venue": {
+                "name": "Doug Fir Lounge",
+                "lat": 45.5229238,
+                "lng": -122.6587133,
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Basia Bulat",
+                    "The Weather Station"
+                ],
+                "image": "https://i.scdn.co/image/659dba2d8e410d6557ab5433e3261df1ebac9063",
+                "spotifyUrl": "https://open.spotify.com/artist/2iuqXpyyC67z6S2pq2m0gV"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25382044,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Beacon",
+                    "Natasha Kmeto",
+                    "Vektroid"
+                ],
+                "image": "https://i.scdn.co/image/c43e71c999e64f39a1678b64fddc6c2b09dad6fe",
+                "spotifyUrl": "https://open.spotify.com/artist/3sb3yLRnhW2L2ulU93eKfl"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25594779,
+            "venue": {
+                "name": "Unknown venue",
+                "lat": null,
+                "lng": null,
+                "address": "Null Crossing, MO"
+            },
+            "artists": {
+                "artists": [
+                    "D3"
+                ],
+                "image": "https://i.scdn.co/image/cdec8941332a899a09854dbcd56fc65ce4548b58",
+                "spotifyUrl": "https://open.spotify.com/artist/6kBDZFXuLrZgHnvmPu9NsG"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "18:00:00"
+            }
+        },
+        {
+            "id": 25615524,
+            "venue": {
+                "name": "McMenamin's Crystal Ballroom",
+                "lat": 45.5229001,
+                "lng": -122.6847806,
+                "address": "1346 W Burnside St, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Galactic"
+                ],
+                "image": "https://i.scdn.co/image/60dc162fad0a47d4e39c71b091d1e5a81a81dc1f",
+                "spotifyUrl": "https://open.spotify.com/artist/4rMUtWPGbE6waga7PQO0oQ"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25704149,
+            "venue": {
+                "name": "Alberta Rose Theatre",
+                "lat": 45.5589455,
+                "lng": -122.6347471,
+                "address": "4982 NE 30th Ave, Portland, OR 97211"
+            },
+            "artists": {
+                "artists": [
+                    "Eilen Jewell"
+                ],
+                "image": "https://i.scdn.co/image/b3f8f683f3b25ed81b364b86d28fb65d8286db52",
+                "spotifyUrl": "https://open.spotify.com/artist/7caMdiwqwg1WefL7Jjm23M"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25759014,
+            "venue": {
+                "name": "Gigs at Greenway",
+                "lat": 45.444906,
+                "lng": -122.7952085,
+                "address": "11480 SW Scholls Ferry Rd, OR 97008"
+            },
+            "artists": {
+                "artists": [
+                    "ahorsenamedglue"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": null
+            }
+        },
+        {
+            "id": 25788254,
+            "venue": {
+                "name": "Goodfoot",
+                "lat": 45.5193317,
+                "lng": -122.636328,
+                "address": "2875 SE Stark St, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Garcia Birthday Band"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "21:30:00"
+            }
+        },
+        {
+            "id": 25866524,
+            "venue": {
+                "name": "The Secret Society Ballroom",
+                "lat": 45.5409227,
+                "lng": -122.6637325,
+                "address": "150 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Redray Frazier",
+                    "Lael Alderman",
+                    "Frequence",
+                    "LOVED"
+                ],
+                "image": "https://i.scdn.co/image/f65ac59d67303efd023946ba8b47079710ad62f3",
+                "spotifyUrl": "https://open.spotify.com/artist/4zZFzN8AVwfiQxssStOF4f"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25914818,
+            "venue": {
+                "name": "Hotel Vintage Plaza",
+                "lat": 45.5208801,
+                "lng": -122.6787147,
+                "address": "462 SW Broadway, Portland, OR 97205"
+            },
+            "artists": {
+                "artists": [
+                    "Courtney Freed",
+                    "Jenny Finn Orchestra"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "18:00:00"
+            }
+        },
+        {
+            "id": 26069988,
+            "venue": {
+                "name": "Pdx Festival",
+                "lat": 45.5166218,
+                "lng": -122.681321,
+                "address": "SW Main St, Portland, OR 97205"
+            },
+            "artists": {
+                "artists": [
+                    "Pharoah Sanders"
+                ],
+                "image": "https://i.scdn.co/image/5deeee22ad3481607df0a046f9a7014b263fe1de",
+                "spotifyUrl": "https://open.spotify.com/artist/3JLUCojZaHrX2LaUkSj7Ud"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 26114903,
+            "venue": {
+                "name": "Club 21",
+                "lat": 45.526761,
+                "lng": -122.644758,
+                "address": "531 NE 21st Ave, Portland, OR 97232"
+            },
+            "artists": {
+                "artists": [
+                    "Acid Teeth"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 26169854,
+            "venue": {
+                "name": "Sellwood Bridge",
+                "lat": 45.4807521,
+                "lng": -122.6427372,
+                "address": "5691 SE 23rd Ave, Portland, OR 97202"
+            },
+            "artists": {
+                "artists": [
+                    "The New Iberians Zydeco Blues Band"
+                ],
+                "image": "https://i.scdn.co/image/dd7609d5f39d4fe53ca96f4784318de99eaed750",
+                "spotifyUrl": "https://open.spotify.com/artist/7aTIV6Sn3Ln9Vuh2j2ugH0"
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "14:00:00"
+            }
+        },
+        {
+            "id": 26197244,
+            "venue": {
+                "name": "Mothership Music",
+                "lat": 45.5491425,
+                "lng": -122.6617279,
+                "address": "3623 NE Martin Luther King Jr Blvd, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Sea Charms (PDX)"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-27",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25283694,
+            "venue": {
+                "name": "Revolution Hall",
+                "lat": 45.5188269,
+                "lng": -122.6516506,
+                "address": "571 SE 14th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "John Scofield"
+                ],
+                "image": "https://i.scdn.co/image/7ae38a00a936b0010f7ab0de42dc1141ae9cf04e",
+                "spotifyUrl": "https://open.spotify.com/artist/14RXohtx6NiBGFTW8IdmAK"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25322254,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Freakwater",
+                    "Drunken Prayer",
+                    "Jaye Jayle"
+                ],
+                "image": "https://i.scdn.co/image/84dd6ea3cf86ae14d57462c7831f31556c604fdd",
+                "spotifyUrl": "https://open.spotify.com/artist/6JjE9yVvCNV5EbUpvS7JcQ"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25437814,
+            "venue": {
+                "name": "Aladdin Theater",
+                "lat": 45.501102,
+                "lng": -122.654253,
+                "address": "3017 SE Milwaukie Ave, Portland, OR 97202"
+            },
+            "artists": {
+                "artists": [
+                    "Hapa"
+                ],
+                "image": "https://i.scdn.co/image/021dcf8edfbcdde4d3ba00208aa2c488ee979094",
+                "spotifyUrl": "https://open.spotify.com/artist/3w0M90LteiOnPZkklwQPqZ"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "19:30:00"
+            }
+        },
+        {
+            "id": 25571049,
+            "venue": {
+                "name": "The Secret Society Ballroom",
+                "lat": 45.5409227,
+                "lng": -122.6637325,
+                "address": "150 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Bumper Jacksons",
+                    "Pretty Gritty"
+                ],
+                "image": "https://i.scdn.co/image/7750b4ed233c7b36a931697856165b83f67aeddc",
+                "spotifyUrl": "https://open.spotify.com/artist/4orJo2KYI4j5rBsD7mAboN"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25625954,
+            "venue": {
+                "name": "Doug Fir Lounge",
+                "lat": 45.5229238,
+                "lng": -122.6587133,
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "John Moreland",
+                    "Lilly Hiatt"
+                ],
+                "image": "https://i.scdn.co/image/364e77115337804ffc46547b7bdef96c4b1ae2be",
+                "spotifyUrl": "https://open.spotify.com/artist/5MPWTD6J1H9XqYEOb4QkdH"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25767274,
+            "venue": {
+                "name": "Recital Hall, Classic Pianos of Portland",
+                "lat": 45.5010143,
+                "lng": -122.6545299,
+                "address": "3050 SE 11th Ave, Portland, OR 97202"
+            },
+            "artists": {
+                "artists": [
+                    "Brandee Younger"
+                ],
+                "image": "https://i.scdn.co/image/66166db107fa5a45ef1f19d5e545468b150297e1",
+                "spotifyUrl": "https://open.spotify.com/artist/1DT11FntvMnaU47ZZWlTpB"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": null
+            }
+        },
+        {
+            "id": 26047423,
+            "venue": {
+                "name": "The Birk",
+                "lat": 45.5772089,
+                "lng": -122.6684386,
+                "address": "7497 N Vancouver Ave, Portland, OR 97217"
+            },
+            "artists": {
+                "artists": [
+                    "The Letters Home"
+                ],
+                "image": "https://i.scdn.co/image/417804e0a0e2c368a752500460255e33c60ee10d",
+                "spotifyUrl": "https://open.spotify.com/artist/0OBSB0LUo574IL4M9K7uWA"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "13:00:00"
+            }
+        },
+        {
+            "id": 26071838,
+            "venue": {
+                "name": "Unknown venue",
+                "lat": null,
+                "lng": null,
+                "address": "Null Crossing, MO"
+            },
+            "artists": {
+                "artists": [
+                    "FreQ Masons"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 26104278,
+            "venue": {
+                "name": "Porch Couch",
+                "lat": 45.4968295,
+                "lng": -122.6116529,
+                "address": "4993 SE Lafayette St, Portland, OR 97206"
+            },
+            "artists": {
+                "artists": [
+                    "Tan Tien",
+                    "bangbakc"
+                ],
+                "image": "https://i.scdn.co/image/d1bddba735e33ee421d1512e17a6bdbebe7090ef",
+                "spotifyUrl": "https://open.spotify.com/artist/46ZXGgkCvpvb4Q7dgitaAZ"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": null
+            }
+        },
+        {
+            "id": 26125258,
+            "venue": {
+                "name": "Hawthorne Theatre",
+                "lat": 45.5118718,
+                "lng": -122.6229791,
+                "address": "1507 SE Cesar E Chavez Blvd, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Vince Staples"
+                ],
+                "image": "https://i.scdn.co/image/59a439406770176f759580a2585ca758b6d3765d",
+                "spotifyUrl": "https://open.spotify.com/artist/68kEuyFKyqrdQQLLsmiatm"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": null
+            }
+        },
+        {
+            "id": 26186269,
+            "venue": {
+                "name": "Rontoms",
+                "lat": 45.522535,
+                "lng": -122.659492,
+                "address": "56 SE 6th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "And And And",
+                    "Joel Magid",
+                    "Candace",
+                    "Boone Howard"
+                ],
+                "image": "https://i.scdn.co/image/830d7ee17a91bc17cebd36ba0cb8929e53c7bdc4",
+                "spotifyUrl": "https://open.spotify.com/artist/1moxjboGR7GNWYIMWsRjgG"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 26250144,
+            "venue": {
+                "name": "High Water Mark Lounge",
+                "lat": 45.5719428,
+                "lng": -122.6611701,
+                "address": "6812 NE Martin Luther King Jr Blvd, Portland, OR 97211"
+            },
+            "artists": {
+                "artists": [
+                    "We the Wild",
+                    "Gladiators Eat Fire",
+                    "Tigers On Opium"
+                ],
+                "image": "https://i.scdn.co/image/17c5d46cf4895161bc35b4ebf78d14ce3f6911d2",
+                "spotifyUrl": "https://open.spotify.com/artist/2xtl7LoCpTanOhb68R4SM6"
+            },
+            "date": {
+                "day": "2016-02-28",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25751624,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Bobby Long",
+                    "Santi Elijah Holley"
+                ],
+                "image": "https://i.scdn.co/image/f036d6d8b427ea815da6bf6b21a2c6fc999ecf87",
+                "spotifyUrl": "https://open.spotify.com/artist/6SJt67wYCaKq6TTdqiRwFv"
+            },
+            "date": {
+                "day": "2016-02-29",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25970698,
+            "venue": {
+                "name": "Analog Theater (upstairs)",
+                "lat": 45.512006,
+                "lng": -122.658176,
+                "address": "752 SE Hawthorne Blvd, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "From Indian Lakes"
+                ],
+                "image": "https://i.scdn.co/image/0cbc22d671292981965cf9ad4bebd1ede3d2e3d8",
+                "spotifyUrl": "https://open.spotify.com/artist/3YvQkjWJ5ykJVUNP7YbTy9"
+            },
+            "date": {
+                "day": "2016-02-29",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 26125508,
+            "venue": {
+                "name": "Produce Row Cafe",
+                "lat": 45.5199408,
+                "lng": -122.6635406,
+                "address": "224 SE Oak St, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Kerry Politzer",
+                    "George Colligan"
+                ],
+                "image": "https://i.scdn.co/image/1fd42f5d2bb34ed82b5de8f526db943a6ae0643a",
+                "spotifyUrl": "https://open.spotify.com/artist/1bX2Yy6txDSxRU2iAq9sqZ"
+            },
+            "date": {
+                "day": "2016-02-29",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 26254654,
+            "venue": {
+                "name": "Bunk Bar",
+                "lat": 45.5153991,
+                "lng": -122.6656588,
+                "address": "1046 SE Water Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "P.T. Banks",
+                    "There Is No Mountain"
+                ],
+                "image": "https://i.scdn.co/image/ba0d6404d1351332969dad5bfadb3a8081d8b431",
+                "spotifyUrl": "https://open.spotify.com/artist/3cZGVK2rRaUKJVwCFKyK2T"
+            },
+            "date": {
+                "day": "2016-02-29",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 26264754,
+            "venue": {
+                "name": "Moda Center",
+                "lat": 45.5318596,
+                "lng": -122.6668196,
+                "address": "1293 NE Wheeler Ave, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "The Soul Commanders"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-02-29",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25563059,
+            "venue": {
+                "name": "Alberta Rose Theatre",
+                "lat": 45.5589455,
+                "lng": -122.6347471,
+                "address": "4982 NE 30th Ave, Portland, OR 97211"
+            },
+            "artists": {
+                "artists": [
+                    "Lorie Line"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-03-01",
+                "time": "19:30:00"
+            }
+        },
+        {
+            "id": 25625969,
+            "venue": {
+                "name": "Wonder Ballroom",
+                "lat": 45.5408474,
+                "lng": -122.6634854,
+                "address": "178 NE Russell St, Portland, OR 97212"
+            },
+            "artists": {
+                "artists": [
+                    "Carly Rae Jepsen",
+                    "Cardiknox",
+                    "Fairground Saints"
+                ],
+                "image": "https://i.scdn.co/image/04147f786ec7d50788471f1f4f11853e83214c40",
+                "spotifyUrl": "https://open.spotify.com/artist/6sFIWsNpZYqfjUpaCgueju"
+            },
+            "date": {
+                "day": "2016-03-01",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25677234,
+            "venue": {
+                "name": "Roseland Theater",
+                "lat": 45.5233129,
+                "lng": -122.6764367,
+                "address": "36 NW 6th Ave, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Shinedown",
+                    "The Virginmarys"
+                ],
+                "image": "https://i.scdn.co/image/66f272ae1fab876819160c678a6f84ad2c2168ee",
+                "spotifyUrl": "https://open.spotify.com/artist/70BYFdaZbEKbeauJ670ysI"
+            },
+            "date": {
+                "day": "2016-03-01",
+                "time": null
+            }
+        },
+        {
+            "id": 25952628,
+            "venue": {
+                "name": "Unknown venue",
+                "lat": null,
+                "lng": null,
+                "address": "Null Crossing, MO"
+            },
+            "artists": {
+                "artists": [
+                    "MOSTAFA"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "date": {
+                "day": "2016-03-01",
+                "time": null
+            }
+        },
+        {
+            "id": 26003068,
+            "venue": {
+                "name": "Hawthorne Theatre",
+                "lat": 45.5118718,
+                "lng": -122.6229791,
+                "address": "1507 SE Cesar E Chavez Blvd, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "gnash"
+                ],
+                "image": "https://i.scdn.co/image/107fc1cb69fa33d9b352853d77d06ef312774a21",
+                "spotifyUrl": "https://open.spotify.com/artist/3iri9nBFs9e4wN7PLIetAw"
+            },
+            "date": {
+                "day": "2016-03-01",
+                "time": "19:00:00"
+            }
+        }
+    ]
+}
