@@ -1,3 +1,7 @@
 <div class="" ng-controller="EventsCtrl as vm">
-  <p>{{vm.event}}</p>
+  <h2>{{ vm.event.artists.join(", ") }}</h2>
+  <p>{{ vm.event.date.day | date: 'longDate' }}</p>
+  <p>{{ vm.event.date.time }}</p>
+  <p>{{ vm.event.venue.name }}</p>
+  <p>{{ vm.event.venue.address }}</p>
 </div>

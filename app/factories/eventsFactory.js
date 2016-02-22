@@ -23,7 +23,7 @@ export default concertListings => {
     EventsFactory.getEventById = (events, id) => {
       return events.filter((event) => {
         return event.id === id
-      });
+      })[0];
     }
 
     return EventsFactory;
