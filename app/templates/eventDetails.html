@@ -1,4 +1,6 @@
-  <h2>{{ vm.event.artists.join(", ") }}</h2>
+  <img src="{{vm.event.artists.image}}" alt="{{vm.event.artists.artists[0]}}"/>
+  <h2>{{ vm.event.artists.artists.join(", ") }}</h2>
+  <p>Spotify Url: {{ vm.event.artists.spotifyUrl}}</p>
   <div>
     <p>{{ vm.event.date.day | date: 'longDate' }}</p>
     <p>{{ vm.event.date.time }}</p>
