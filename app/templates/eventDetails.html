@@ -6,6 +6,10 @@
     <p>{{ vm.event.date.time }}</p>
     <p>{{ vm.event.venue.name }}</p>
     <p>{{ vm.event.venue.address }}</p>
-    <p>Spotify Url: {{ vm.event.artists.spotifyUrl}}</p>
+    <!-- <a href="{{vm.calendarLink}}">Add to your google calendar</p> -->
+    <a href="{{ vm.event.artists.spotifyUrl}}">
+      <img src="/images/listen-green.svg" class="event-listen-btn">
+    </a>
+    
   </div>
 </div>
