@@ -6,10 +6,8 @@
     <p>{{ vm.event.eventDate.time }}</p>
     <p>{{ vm.event.venue.name }}</p>
     <p>{{ vm.event.venue.address }}</p>
-    <a href="{{ vm.event.artists.spotifyUrl}}">
-      <img src="/images/listen-green.svg" class="event-listen-btn">
-    </a>
-    <add-to-calendar title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address"></add-to-calendar>
+    <a href="{{ vm.event.artists.spotifyUrl}}"><img src="/images/listen-green.svg" class="event-listen-btn"></a>
+    <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address"></sharing-links>
   </div>
   <h1>{{ vm.combined }}</h1>
 </div>
