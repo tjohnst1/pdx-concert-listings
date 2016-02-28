@@ -10,6 +10,7 @@
     <a href="{{ vm.event.artists.spotifyUrl}}">
       <img src="/images/listen-green.svg" class="event-listen-btn">
     </a>
-    
+    <add-to-calendar title='vm.event.artists.artists.join(", ")' eventStart="vm.event.date.day" time="vm.event.date.time" venue="vm.event.venue.name" address="vm.event.venue.address"></add-to-calendar>
   </div>
+  <h1>{{ vm.combined }}</h1>
 </div>

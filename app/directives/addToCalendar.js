@@ -1,20 +1,28 @@
-export default concertlistings => {
+export default concertListings => {
 
   concertListings.directive('addToCalendar', function(){
     return {
       restrict: 'E',
-      scope: {
+      scope: {},
+      template: require('../templates/addToCalendar.html'),
+      bindToController: {
         title: '=',
-        location: '=',
-        description: '=',
-        startDate: '=',
-        endDate: '='
+        eventStart: '=',
+        time: '=',
+        venue: '=',
+        address: '=',
       },
-      template: require('../templates/addToCalendar.html')
+      controller: function($scope){
+        const vm = this;
+        $scope.$watch(function(){
+          return vm.title
+        }, function(updatedVal){
+          console.log(updatedVal);
+          vm.combined = updatedVal;
+        })
+      },
+      controllerAs: 'vm'
     }
   })
-  });
-
-
 
 }
