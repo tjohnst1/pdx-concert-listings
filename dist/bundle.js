@@ -66,9 +66,9 @@
 
 	__webpack_require__(7)(concertListings);
 	__webpack_require__(107)(concertListings);
-	__webpack_require__(110)(concertListings);
-	__webpack_require__(117)(concertListings);
-	__webpack_require__(121)(concertListings);
+	__webpack_require__(109)(concertListings);
+	__webpack_require__(116)(concertListings);
+	__webpack_require__(120)(concertListings);
 
 /***/ },
 /* 1 */
@@ -37674,19 +37674,6 @@
 	      })[0];
 	    };
 
-	    // EventsFactory.getCalendarLink = (event) => {
-	    //   const eventTitle = `${event.artists.artists.join(', ')} @ ${event.venue.name}`;
-	    //   const time = event.date.time || "";
-	    //   let eventStartDate = moment(new Date(event.date.day);
-	    //   if (time) {
-	    //     eventStartDate = moment(new Date(`${event.date.day}T${time}`));
-	    //   }
-	    //   console.log(eventTitle);
-	    //   console.log(eventDate);
-	    //   const id = event.id;
-	    //   return `https://www.google.com/calendar/render?action=TEMPLATE&text=${eventTitle}&dates=${eventDate}&details=See+the+following+for+more+info:+http://localhost:8080/#/events/${id}`
-	    // }
-
 	    return EventsFactory;
 	  }]);
 	};
@@ -50523,7 +50510,6 @@
 
 	exports.default = function (concertListings) {
 	  __webpack_require__(108)(concertListings);
-	  __webpack_require__(109)(concertListings);
 	};
 
 	module.exports = exports['default'];
@@ -50557,7 +50543,7 @@
 	        vm.events = events;
 	        vm.venues = EventsFactory.getVenues(events);
 	        vm.event = EventsFactory.getEventById(vm.events, Number($stateParams.eventId));
-	        // vm.calendarLink = EventsFactory.getCalendarLink(vm.event);
+	        console.log('event:', vm.event);
 	      });
 	    });
 	  }]);
@@ -50567,7 +50553,7 @@
 
 /***/ },
 /* 109 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -50576,23 +50562,9 @@
 	});
 
 	exports.default = function (concertListings) {
-	  concertListings.controller('EventCtrl', ['$stateParams', 'EventsFactory', function ($stateParams, EventsFactory) {
-	    var vm = this;
-	    var id = Number($stateParams.eventId);
-	    vm.event = EventsFactory.events;
-	    vm.something = 'blah';
-
-	    EventsFactory.getData().on("value", function (snapshot) {
-	      var fbSnapshot = snapshot.val();
-	      var events = Object.keys(fbSnapshot).map(function (key) {
-	        return fbSnapshot[key];
-	      });
-	      $timeout(function () {
-	        vm.events = events;
-	        vm.venues = EventsFactory.getVenues(events);
-	      });
-	    });
-	  }]);
+	  __webpack_require__(110)(concertListings);
+	  __webpack_require__(112)(concertListings);
+	  __webpack_require__(114)(concertListings);
 	};
 
 	module.exports = exports['default'];
@@ -50608,32 +50580,13 @@
 	});
 
 	exports.default = function (concertListings) {
-	  __webpack_require__(111)(concertListings);
-	  __webpack_require__(113)(concertListings);
-	  __webpack_require__(115)(concertListings);
-	};
-
-	module.exports = exports['default'];
-
-/***/ },
-/* 111 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	exports.default = function (concertListings) {
 	  concertListings.directive('eventHeadline', function () {
 	    return {
 	      restrict: 'E',
 	      scope: {
 	        event: '='
 	      },
-	      template: __webpack_require__(112),
-	      link: function link(scope, elem, attrs) {}
+	      template: __webpack_require__(111)
 	    };
 	  });
 	};
@@ -50641,13 +50594,13 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 112 */
+/* 111 */
 /***/ function(module, exports) {
 
-	module.exports = "<a ui-sref=\"event({eventId: event.id})\">\n  <p class=\"event-headline-date\">{{event.date.day | date: format: short}}</p>\n  <p class=\"event-headline-artists\">{{event.artists.artists.join(', ')}}</p>\n  <p class=\"event-headline-venue\">{{event.venue.name}}<p>\n</a>\n"
+	module.exports = "<a ui-sref=\"event({eventId: event.id})\">\n  <p class=\"event-headline-date\">{{event.eventDate.day | date: format: short}}</p>\n  <p class=\"event-headline-artists\">{{event.artists.artists.join(', ')}}</p>\n  <p class=\"event-headline-venue\">{{event.venue.name}}<p>\n</a>\n"
 
 /***/ },
-/* 113 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -50666,7 +50619,7 @@
 	        startingDate: '=',
 	        endingDate: '='
 	      },
-	      template: __webpack_require__(114)
+	      template: __webpack_require__(113)
 	    };
 	  });
 	};
@@ -50674,13 +50627,13 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 114 */
+/* 113 */
 /***/ function(module, exports) {
 
 	module.exports = "<form>\n  <input type=\"date\" name=\"startingDate\" ng-model=\"startingDate\">\n  <input type=\"date\" name=\"endingDate\" ng-model=\"endingDate\">\n  <select ng-model=\"selectedVenue\" ng-options=\"venue for venue in venues\">\n    <option value=\"\">Venues</option>\n  </select>\n</form>\n"
 
 /***/ },
-/* 115 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -50690,26 +50643,35 @@
 	});
 
 	exports.default = function (concertListings) {
-
 	  concertListings.directive('addToCalendar', function () {
 	    return {
 	      restrict: 'E',
-	      scope: {},
-	      template: __webpack_require__(116),
+	      template: __webpack_require__(115),
+	      controllerAs: 'calendarCtrl',
 	      bindToController: {
 	        title: '=',
-	        eventStart: '=',
+	        eventDate: '@',
 	        time: '=',
 	        venue: '=',
 	        address: '='
 	      },
-	      controller: function controller() {
-	        var vm = this;
-	      },
-	      controllerAs: 'vm',
-	      link: function link(scope, element, attrs, controller) {
-	        console.log(controller);
-	        console.log(scope);
+	      controller: function controller($scope) {
+	        var calendarCtrl = this;
+	        calendarCtrl.formattedValues = {};
+	        calendarCtrl.gCalendar = '';
+	        $scope.$watchCollection('[calendarCtrl.title, calendarCtrl.eventDate, calendarCtrl.time, calendarCtrl.venue, calendarCtrl.address]', function (newVals, oldVals) {
+	          if (newVals[0] !== undefined) {
+	            calendarCtrl.formattedValues = {
+	              title: newVals[0].replace(/\s/g, "+"),
+	              eventDate: newVals[1],
+	              time: newVals[2],
+	              venue: newVals[3],
+	              address: newVals[4]
+	            };
+	            console.log('arr:', calendarCtrl.formattedValues);
+	            // `http://www.google.com/calendar/event?action=TEMPLATE&text=${calendarCtrl.title.replace(/\s/g, "+")}&dates=customformat1/customformat2&details=${calendarCtrl.title.replace(/\s/g, "+")}+@+${calendarCtrl.location.replace(/\s/g, "+")}&location=${calendarCtrl.location.replace(/\s/g, "+")}`
+	          }
+	        });
 	      }
 	    };
 	  });
@@ -50718,10 +50680,28 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 116 */
+/* 115 */
 /***/ function(module, exports) {
 
-	module.exports = "<p>{{vm.title}}</p>\n<p>{{vm.eventStart}}</p>\n<p>{{vm.time}}</p>\n<p>{{vm.venue}}</p>\n<p>{{vm.address}}</p>\n<p>{{vm.mashup}}</p>\n<!-- <p>{{vm.event}}</p> -->\n"
+	module.exports = "<p>{{calendarCtrl.gCalendar}}</p>\n"
+
+/***/ },
+/* 116 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	exports.default = function (concertListings) {
+	  __webpack_require__(117)(concertListings);
+	  __webpack_require__(118)(concertListings);
+	  __webpack_require__(119)(concertListings);
+	};
+
+	module.exports = exports['default'];
 
 /***/ },
 /* 117 */
@@ -50733,10 +50713,25 @@
 	  value: true
 	});
 
+	var _moment = __webpack_require__(8);
+
+	var _moment2 = _interopRequireDefault(_moment);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	exports.default = function (concertListings) {
-	  __webpack_require__(118)(concertListings);
-	  __webpack_require__(119)(concertListings);
-	  __webpack_require__(120)(concertListings);
+	  concertListings.filter('dateAfter', function () {
+	    return function (events, inputDate) {
+	      var filteredEvents = events.filter(function (event) {
+	        return (0, _moment2.default)(event.eventDate.day).isSameOrAfter(inputDate);
+	      });
+	      if (filteredEvents.length === 0) {
+	        return events;
+	      } else {
+	        return filteredEvents;
+	      }
+	    };
+	  });
 	};
 
 	module.exports = exports['default'];
@@ -50758,10 +50753,10 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = function (concertListings) {
-	  concertListings.filter('dateAfter', function () {
+	  concertListings.filter('dateBefore', function () {
 	    return function (events, inputDate) {
 	      var filteredEvents = events.filter(function (event) {
-	        return (0, _moment2.default)(event.date.day).isSameOrAfter(inputDate);
+	        return (0, _moment2.default)(event.eventDate.day).isSameOrBefore(inputDate);
 	      });
 	      if (filteredEvents.length === 0) {
 	        return events;
@@ -50776,39 +50771,6 @@
 
 /***/ },
 /* 119 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _moment = __webpack_require__(8);
-
-	var _moment2 = _interopRequireDefault(_moment);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = function (concertListings) {
-	  concertListings.filter('dateBefore', function () {
-	    return function (events, inputDate) {
-	      var filteredEvents = events.filter(function (event) {
-	        return (0, _moment2.default)(event.date.day).isSameOrBefore(inputDate);
-	      });
-	      if (filteredEvents.length === 0) {
-	        return events;
-	      } else {
-	        return filteredEvents;
-	      }
-	    };
-	  });
-	};
-
-	module.exports = exports['default'];
-
-/***/ },
-/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -50841,7 +50803,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 121 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -50856,12 +50818,12 @@
 
 	    $stateProvider.state('events', {
 	      url: '',
-	      template: __webpack_require__(122),
+	      template: __webpack_require__(121),
 	      controller: 'EventsCtrl',
 	      controllerAs: 'vm'
 	    }).state('event', {
 	      url: '/events/:eventId',
-	      template: __webpack_require__(123),
+	      template: __webpack_require__(122),
 	      controller: 'EventsCtrl',
 	      controllerAs: 'vm'
 	    });
@@ -50871,16 +50833,16 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 122 */
+/* 121 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"event-headline-container\">\n  <event-filter venues=\"vm.venues\" selected-venue=\"vm.filterOptions.venue\" starting-date=\"vm.filterOptions.startingDate\" ending-date=\"vm.filterOptions.endingDate\"></event-filter>\n  <event-headline ng-repeat=\"event in vm.events | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate\"\n  event=\"event\" class=\"event-headline\"></event-headline>\n</div>\n<p ng-show=\"vm.events.length === 0\">Loading...</p>\n"
 
 /***/ },
-/* 123 */
+/* 122 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"event-container\">\n  <div class=\"event-image\" style=\"background-image: url('{{vm.event.artists.image}}')\" alt=\"{{vm.event.artists.artists[0]}}\"/></div>\n  <div class=\"event-details\">\n    <h2 class=\"event-artists\">{{ vm.event.artists.artists.join(\", \") }}</h2>\n    <p>{{ vm.event.date.day | date: 'longDate' }}</p>\n    <p>{{ vm.event.date.time }}</p>\n    <p>{{ vm.event.venue.name }}</p>\n    <p>{{ vm.event.venue.address }}</p>\n    <!-- <a href=\"{{vm.calendarLink}}\">Add to your google calendar</p> -->\n    <a href=\"{{ vm.event.artists.spotifyUrl}}\">\n      <img src=\"/images/listen-green.svg\" class=\"event-listen-btn\">\n    </a>\n    <add-to-calendar title='vm.event.artists.artists.join(\", \")' eventStart=\"vm.event.date.day\" time=\"vm.event.date.time\" venue=\"vm.event.venue.name\" address=\"vm.event.venue.address\"></add-to-calendar>\n  </div>\n</div>\n"
+	module.exports = "<div class=\"event-container\">\n  <div class=\"event-image\" style=\"background-image: url('{{vm.event.artists.image}}')\" alt=\"{{vm.event.artists.artists[0]}}\"/></div>\n  <div class=\"event-details\">\n    <h2 class=\"event-artists\">{{ vm.event.artists.artists.join(\", \") }}</h2>\n    <p>{{ vm.event.eventDate.day | date: 'longDate' }}</p>\n    <p>{{ vm.event.eventDate.time }}</p>\n    <p>{{ vm.event.venue.name }}</p>\n    <p>{{ vm.event.venue.address }}</p>\n    <a href=\"{{ vm.event.artists.spotifyUrl}}\">\n      <img src=\"/images/listen-green.svg\" class=\"event-listen-btn\">\n    </a>\n    <add-to-calendar title=\"vm.event.artists.artists.join(', ')\" eventDate=\"hello\" time=\"vm.event.eventDate.time\" venue=\"vm.event.venue.name\" address=\"vm.event.venue.address\"></add-to-calendar>\n  </div>\n  <h1>{{ vm.combined }}</h1>\n</div>\n"
 
 /***/ }
 /******/ ]);

@@ -15,7 +15,7 @@ export default concertListings => {
         vm.events = events;
         vm.venues = EventsFactory.getVenues(events);
         vm.event = EventsFactory.getEventById(vm.events, Number($stateParams.eventId));
-        // vm.calendarLink = EventsFactory.getCalendarLink(vm.event);
+        console.log('event:', vm.event);
       });
     });
   }]);

@@ -2,15 +2,14 @@
   <div class="event-image" style="background-image: url('{{vm.event.artists.image}}')" alt="{{vm.event.artists.artists[0]}}"/></div>
   <div class="event-details">
     <h2 class="event-artists">{{ vm.event.artists.artists.join(", ") }}</h2>
-    <p>{{ vm.event.date.day | date: 'longDate' }}</p>
-    <p>{{ vm.event.date.time }}</p>
+    <p>{{ vm.event.eventDate.day | date: 'longDate' }}</p>
+    <p>{{ vm.event.eventDate.time }}</p>
     <p>{{ vm.event.venue.name }}</p>
     <p>{{ vm.event.venue.address }}</p>
-    <!-- <a href="{{vm.calendarLink}}">Add to your google calendar</p> -->
     <a href="{{ vm.event.artists.spotifyUrl}}">
       <img src="/images/listen-green.svg" class="event-listen-btn">
     </a>
-    <add-to-calendar title='vm.event.artists.artists.join(", ")' eventStart="vm.event.date.day" time="vm.event.date.time" venue="vm.event.venue.name" address="vm.event.venue.address"></add-to-calendar>
+    <add-to-calendar title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address"></add-to-calendar>
   </div>
   <h1>{{ vm.combined }}</h1>
 </div>

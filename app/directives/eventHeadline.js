@@ -5,10 +5,7 @@ export default concertListings => {
       scope: {
         event: '='
       },
-      template: require('../templates/eventHeadline.html'),
-      link:function(scope,elem,attrs){
-
-      }
+      template: require('../templates/eventHeadline.html')
     };
   });
 };

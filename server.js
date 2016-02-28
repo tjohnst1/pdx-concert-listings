@@ -62,7 +62,7 @@ function getAllEvents(numberOfPages, allEventsCallback){
                         return artist.artist.displayName
                        })
             },
-            date: {
+            eventDate: {
               day: event.start.date,
               time: event.start.time
             }
