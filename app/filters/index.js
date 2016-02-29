@@ -3,4 +3,5 @@ export default concertListings => {
   require('./dateBefore')(concertListings);
   require('./venueFilter')(concertListings);
   require('./formatTime')(concertListings);
+  require('./fixedNumLength')(concertListings);
 };
