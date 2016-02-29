@@ -8,7 +8,7 @@
     <p>{{ vm.event.venue.address }}</p>
     <a href="{{ vm.venueDirections }}" rel="nofollow">Directions</a>
     <a href="{{ vm.event.artists.spotifyUrl}}" rel="nofollow"><img src="/images/listen-green.svg" class="event-listen-btn"></a>
-    <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address"></sharing-links>
+    <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address" class="sharing-links-container"></sharing-links>
   </div>
   <h1>{{ vm.combined }}</h1>
 </div>
