@@ -5,4 +5,11 @@ body{
 
 .icon{
   max-width: 40px;
+  fill: $charcoal;
+}
+
+gm-map {
+    display: block;
+    width: 100%;
+    height: 300px;
 }

@@ -68,7 +68,7 @@
 	__webpack_require__(107)(concertListings);
 	__webpack_require__(109)(concertListings);
 	__webpack_require__(116)(concertListings);
-	__webpack_require__(120)(concertListings);
+	__webpack_require__(122)(concertListings);
 
 /***/ },
 /* 1 */
@@ -50532,7 +50532,7 @@
 	    vm.venues = EventsFactory.venues;
 	    vm.filterOptions = { venue: "", startingDate: "", endingDate: "" };
 	    vm.event = {};
-	    vm.calendarLink = "";
+	    vm.venueDirections = '';
 
 	    EventsFactory.getData().on("value", function (snapshot) {
 	      var fbSnapshot = snapshot.val();
@@ -50543,6 +50543,7 @@
 	        vm.events = events;
 	        vm.venues = EventsFactory.getVenues(events);
 	        vm.event = EventsFactory.getEventById(vm.events, Number($stateParams.eventId));
+	        vm.venueDirections = "https://maps.google.com?q=" + vm.event.venue.address.replace(/\s/g, '+');
 	        console.log('event:', vm.event);
 	      });
 	    });
@@ -50643,33 +50644,48 @@
 	});
 
 	exports.default = function (concertListings) {
-	  concertListings.directive('addToCalendar', function () {
+	  concertListings.directive('sharingLinks', function () {
 	    return {
 	      restrict: 'E',
 	      template: __webpack_require__(115),
-	      controllerAs: 'calendarCtrl',
+	      controllerAs: 'sharingLinksCtrl',
 	      bindToController: {
 	        title: '=',
-	        eventDate: '@',
+	        day: '=',
 	        time: '=',
 	        venue: '=',
 	        address: '='
 	      },
-	      controller: function controller($scope) {
-	        var calendarCtrl = this;
-	        calendarCtrl.formattedValues = {};
-	        calendarCtrl.gCalendar = '';
-	        $scope.$watchCollection('[calendarCtrl.title, calendarCtrl.eventDate, calendarCtrl.time, calendarCtrl.venue, calendarCtrl.address]', function (newVals, oldVals) {
+	      controller: function controller($scope, $location) {
+	        var sharingLinksCtrl = this;
+	        sharingLinksCtrl.formattedValues = {};
+	        sharingLinksCtrl.gCalendar = '';
+	        sharingLinksCtrl.facebook = '';
+	        sharingLinksCtrl.twitter = '';
+	        sharingLinksCtrl.googlePlus = '';
+	        sharingLinksCtrl.email = '';
+	        sharingLinksCtrl.date = '';
+	        console.log('arr:', sharingLinksCtrl.eventDate);
+	        $scope.$watchCollection('[sharingLinksCtrl.title, sharingLinksCtrl.day, sharingLinksCtrl.time, sharingLinksCtrl.venue, sharingLinksCtrl.address]', function (newVals, oldVals) {
 	          if (newVals[0] !== undefined) {
-	            calendarCtrl.formattedValues = {
+	            var formattedValues = {
 	              title: newVals[0].replace(/\s/g, "+"),
-	              eventDate: newVals[1],
-	              time: newVals[2],
-	              venue: newVals[3],
-	              address: newVals[4]
+	              startingTime: new Date(newVals[1] + ' ' + newVals[2]).toISOString().replace(/-|:|\.\d\d\d/g, ""),
+	              endingTime: new Date(newVals[1] + ' 22:00:00').toISOString().replace(/-|:|\.\d\d\d/g, ""),
+	              venue: newVals[3].replace(/\s/g, "+"),
+	              address: newVals[4].replace(/\s/g, "+"),
+	              details: newVals[0] + '+@+' + newVals[3],
+	              encodedEventUrl: encodeURIComponent($location.$$absUrl),
+	              encodedHeadline: encodeURIComponent(newVals[0] + ' @ ' + newVals[3] + ' on ' + newVals[1]),
+	              encodedDecription: encodeURIComponent('Check out the following link for details: '),
+	              date: new Date(newVals[1]).getDate()
 	            };
-	            console.log('arr:', calendarCtrl.formattedValues);
-	            // `http://www.google.com/calendar/event?action=TEMPLATE&text=${calendarCtrl.title.replace(/\s/g, "+")}&dates=customformat1/customformat2&details=${calendarCtrl.title.replace(/\s/g, "+")}+@+${calendarCtrl.location.replace(/\s/g, "+")}&location=${calendarCtrl.location.replace(/\s/g, "+")}`
+	            sharingLinksCtrl.gCalendar = 'http://www.google.com/calendar/event?action=TEMPLATE&text=' + formattedValues.title + '&dates=' + formattedValues.startingTime + '/' + formattedValues.endingTime + '&details=' + formattedValues.details + '&location=' + formattedValues.address;
+	            sharingLinksCtrl.facebook = 'https://www.facebook.com/sharer/sharer.php?u=' + formattedValues.encodedEventUrl + '&t=' + formattedValues.encodedHeadline;
+	            sharingLinksCtrl.twitter = 'https://twitter.com/intent/tweet?source=' + formattedValues.encodedEventUrl + '&text=' + formattedValues.encodedHeadline + ':%20' + formattedValues.encodedEventUrl;
+	            sharingLinksCtrl.googlePlus = 'https://plus.google.com/share?url=' + formattedValues.encodedEventUrl;
+	            sharingLinksCtrl.email = 'mailto:?subject=' + formattedValues.encodedHeadline + '&body=' + formattedValues.encodedHeadline + formattedValues.encodedEventUrl;
+	            sharingLinksCtrl.date = formattedValues.date;
 	          }
 	        });
 	      }
@@ -50683,7 +50699,7 @@
 /* 115 */
 /***/ function(module, exports) {
 
-	module.exports = "<p>{{calendarCtrl.gCalendar}}</p>\n"
+	module.exports = "<ul class=\"sharing-social-links\">\n  <li>\n    <a href=\"{{sharingLinksCtrl.facebook}}\" target=\"_blank\" title=\"Share on Facebook\" rel=\"nofollow\">\n      <img src=\"/images/facebook.svg\" alt=\"Share on Facebook\" class=\"icon\"/>\n    </a>\n  </li>\n  <li>\n    <a href=\"{{sharingLinksCtrl.twitter}}\" target=\"_blank\" title=\"Tweet\" rel=\"nofollow\">\n      <img src=\"/images/twitter.svg\" alt=\"Share on Twitter\" class=\"icon\"/>\n    </a>\n  </li>\n  <li>\n    <a href=\"{{sharingLinksCtrl.googlePlus}}\" target=\"_blank\" title=\"Share on Google+\" rel=\"nofollow\">\n      <img src=\"/images/googlePlus.svg\" alt=\"Share on Google+\" class=\"icon\"/>\n    </a>\n  </li>\n  <li>\n    <a href=\"{{sharingLinksCtrl.email}}\" target=\"_blank\" title=\"Email\" rel=\"nofollow\">\n      <img src=\"/images/email.svg\" alt=\"Share via E-mail\" class=\"icon\"/>\n    </a>\n  </li>\n</ul>\n<a href=\"{{sharingLinksCtrl.gCalendar}}\" rel=\"nofollow\" class=\"event-calendar-link\">\n  <div class=\"event-calendar-icon\">\n    <img src=\"/images/calendar.svg\" alt=\"Calendar\" class=\"event-calendar-icon\"/>\n    <span class=\"event-calendar-date\">{{sharingLinksCtrl.date | fixedNumLength: 2}}</span>\n  </div>\n  <p class=\"event-calendar-text\">Add to Google Calendar</p>\n</a>\n"
 
 /***/ },
 /* 116 */
@@ -50699,6 +50715,8 @@
 	  __webpack_require__(117)(concertListings);
 	  __webpack_require__(118)(concertListings);
 	  __webpack_require__(119)(concertListings);
+	  __webpack_require__(120)(concertListings);
+	  __webpack_require__(121)(concertListings);
 	};
 
 	module.exports = exports['default'];
@@ -50804,6 +50822,64 @@
 
 /***/ },
 /* 120 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	exports.default = function (concertListings) {
+	  concertListings.filter('formatTime', function () {
+	    return function (unformattedTime) {
+	      var timeArr = unformattedTime.split(":");
+	      var amOrPm = "";
+	      if (Number(timeArr[0]) > 12) {
+	        amOrPm = "PM";
+	        timeArr[0] = Number(timeArr[0]) - 12;
+	      } else {
+	        amOrPm = "AM";
+	      }
+	      timeArr.pop();
+	      timeArr = timeArr.join(":");
+	      return timeArr + " " + amOrPm;
+	    };
+	  });
+	};
+
+	module.exports = exports['default'];
+
+/***/ },
+/* 121 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	exports.default = function (concertListings) {
+
+	  concertListings.filter('fixedNumLength', function () {
+	    return function (num, desiredLength) {
+	      var valToReturn = num.toString();
+	      var numberLength = valToReturn.length;
+	      if (valToReturn.length !== desiredLength) {
+	        while (valToReturn.length !== desiredLength) {
+	          valToReturn = "0" + valToReturn;
+	        }
+	      }
+	      return valToReturn;
+	    };
+	  });
+	};
+
+	module.exports = exports['default'];
+
+/***/ },
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -50818,12 +50894,12 @@
 
 	    $stateProvider.state('events', {
 	      url: '',
-	      template: __webpack_require__(121),
+	      template: __webpack_require__(123),
 	      controller: 'EventsCtrl',
 	      controllerAs: 'vm'
 	    }).state('event', {
 	      url: '/events/:eventId',
-	      template: __webpack_require__(122),
+	      template: __webpack_require__(124),
 	      controller: 'EventsCtrl',
 	      controllerAs: 'vm'
 	    });
@@ -50833,16 +50909,16 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 121 */
+/* 123 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"event-headline-container\">\n  <event-filter venues=\"vm.venues\" selected-venue=\"vm.filterOptions.venue\" starting-date=\"vm.filterOptions.startingDate\" ending-date=\"vm.filterOptions.endingDate\"></event-filter>\n  <event-headline ng-repeat=\"event in vm.events | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate\"\n  event=\"event\" class=\"event-headline\"></event-headline>\n</div>\n<p ng-show=\"vm.events.length === 0\">Loading...</p>\n"
 
 /***/ },
-/* 122 */
+/* 124 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"event-container\">\n  <div class=\"event-image\" style=\"background-image: url('{{vm.event.artists.image}}')\" alt=\"{{vm.event.artists.artists[0]}}\"/></div>\n  <div class=\"event-details\">\n    <h2 class=\"event-artists\">{{ vm.event.artists.artists.join(\", \") }}</h2>\n    <p>{{ vm.event.eventDate.day | date: 'longDate' }}</p>\n    <p>{{ vm.event.eventDate.time }}</p>\n    <p>{{ vm.event.venue.name }}</p>\n    <p>{{ vm.event.venue.address }}</p>\n    <a href=\"{{ vm.event.artists.spotifyUrl}}\">\n      <img src=\"/images/listen-green.svg\" class=\"event-listen-btn\">\n    </a>\n    <add-to-calendar title=\"vm.event.artists.artists.join(', ')\" eventDate=\"hello\" time=\"vm.event.eventDate.time\" venue=\"vm.event.venue.name\" address=\"vm.event.venue.address\"></add-to-calendar>\n  </div>\n  <h1>{{ vm.combined }}</h1>\n</div>\n"
+	module.exports = "<div class=\"event-container\">\n  <div class=\"event-image\" style=\"background-image: url('{{vm.event.artists.image}}')\" alt=\"{{vm.event.artists.artists[0]}}\"/></div>\n  <div class=\"event-details\">\n    <div class=\"event-heading-container\">\n      <h2 class=\"event-artists\">{{ vm.event.artists.artists.join(\", \") }}</h2>\n      <p class=\"event-date\">{{ vm.event.eventDate.day | date: 'longDate' }}</p>\n      <p class=\"event-time\">{{ vm.event.eventDate.time | formatTime }}</p>\n    </div>\n    <div class=\"event-venue-container\">\n      <p class=\"event-venue-info\">Venue Information:</p>\n      <p class=\"event-venue-info\">{{ vm.event.venue.name }}</p>\n      <p class=\"event-venue-info\">{{ vm.event.venue.address }}</p>\n    </div>\n    <sharing-links title=\"vm.event.artists.artists.join(', ')\" day=\"vm.event.eventDate.day\" time=\"vm.event.eventDate.time\" venue=\"vm.event.venue.name\" address=\"vm.event.venue.address\" class=\"sharing-links-container\"></sharing-links>\n    <a href=\"{{ vm.event.artists.spotifyUrl}}\" rel=\"nofollow\"><img src=\"/images/listen-green.svg\" class=\"event-listen-btn\"></a>\n    <a href=\"{{ vm.venueDirections }}\" rel=\"nofollow\" class=\"event-venue-directions\">Directions</a>\n  </div>\n  <h1>{{ vm.combined }}</h1>\n</div>\n"
 
 /***/ }
 /******/ ]);

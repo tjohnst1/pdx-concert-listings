@@ -15,7 +15,8 @@
 .event-calendar-link{
   text-decoration: none;
   display: inline-block;
-  margin: 0 0 0 20px;
+  margin: 0;
+  font-size: 1em;
 }
 
 .event-calendar-icon{
@@ -30,9 +31,7 @@
   font-size: 1.2em;
 }
 
-.event-calendar-text{
-  display: inline-block;
-  position: relative;
-  left: 0;
-  top: -10px;
+.event-calendar-icon{
+  max-width: 40px;
+  fill: $charcoal;
 }
