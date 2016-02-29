@@ -1,14 +1,19 @@
 <div class="event-container">
   <div class="event-image" style="background-image: url('{{vm.event.artists.image}}')" alt="{{vm.event.artists.artists[0]}}"/></div>
   <div class="event-details">
-    <h2 class="event-artists">{{ vm.event.artists.artists.join(", ") }}</h2>
-    <p>{{ vm.event.eventDate.day | date: 'longDate' }}</p>
-    <p>{{ vm.event.eventDate.time | formatTime }}</p>
-    <p>{{ vm.event.venue.name }}</p>
-    <p>{{ vm.event.venue.address }}</p>
+    <div class="event-heading-container">
+      <h2 class="event-artists">{{ vm.event.artists.artists.join(", ") }}</h2>
+      <p class="event-date">{{ vm.event.eventDate.day | date: 'longDate' }}</p>
+      <p class="event-time">{{ vm.event.eventDate.time | formatTime }}</p>
+    </div>
+    <div class="event-venue-container">
+      <p class="event-venue-info">Venue Information:</p>
+      <p class="event-venue-info">{{ vm.event.venue.name }}</p>
+      <p class="event-venue-info">{{ vm.event.venue.address }}</p>
+    </div>
+    <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address" class="sharing-links-container"></sharing-links>
     <a href="{{ vm.venueDirections }}" rel="nofollow">Directions</a>
     <a href="{{ vm.event.artists.spotifyUrl}}" rel="nofollow"><img src="/images/listen-green.svg" class="event-listen-btn"></a>
-    <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address" class="sharing-links-container"></sharing-links>
   </div>
   <h1>{{ vm.combined }}</h1>
 </div>

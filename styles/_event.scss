@@ -10,9 +10,38 @@
 
 .event-details{
   width: 60%;
+  padding: 0 20px;
+}
+
+.event-heading-container{
+  margin: 10px 0;
 }
 
 .event-artists{
+  margin: 0;
+  font-size: 2em;
+  font-weight: 800;
+  color: black;
+}
+
+.event-date{
+  margin: 0;
+  font-weight: 600;
+}
+
+.event-time{
+  margin: 0;
+}
+
+.event-venue-container{
+}
+
+.event-venue-info{
+  margin: 0;
+  font-weight: 300;
+}
+
+.event-metadata{
   margin: 0;
 }
 
