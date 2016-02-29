@@ -20,4 +20,10 @@
     </a>
   </li>
 </ul>
-<a href="{{sharingLinksCtrl.gCalendar}}" rel="nofollow" class="event-calendar-link">Add to Google Calendar</a>
+<a href="{{sharingLinksCtrl.gCalendar}}" rel="nofollow" class="event-calendar-link">
+  <div class="event-calendar-icon">
+    <img src="/images/calendar.svg" alt="Calendar" class="icon"/>
+    <span class="event-calendar-date">{{sharingLinksCtrl.date}}</span>
+  </div>
+  <p class="event-calendar-text">Add to Google Calendar</p>
+</a>

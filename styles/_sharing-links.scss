@@ -10,3 +10,27 @@
     display: inline-block;
   }
 }
+
+.event-calendar-link{
+  text-decoration: none;
+  display: block;
+}
+
+.event-calendar-icon{
+  position: relative;
+  display: inline-block;
+}
+
+.event-calendar-date{
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  font-size: 1.2em;
+}
+
+.event-calendar-text{
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: -10px;
+}

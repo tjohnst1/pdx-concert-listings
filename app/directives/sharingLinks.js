@@ -19,6 +19,7 @@ export default concertListings => {
         sharingLinksCtrl.twitter = '';
         sharingLinksCtrl.googlePlus = '';
         sharingLinksCtrl.email = '';
+        sharingLinksCtrl.date = '';
         console.log('arr:', sharingLinksCtrl.eventDate);
         $scope.$watchCollection('[sharingLinksCtrl.title, sharingLinksCtrl.day, sharingLinksCtrl.time, sharingLinksCtrl.venue, sharingLinksCtrl.address]',
           function(newVals, oldVals){
@@ -32,13 +33,15 @@ export default concertListings => {
                 details: `${newVals[0]}+@+${newVals[3]}`,
                 encodedEventUrl: encodeURIComponent($location.$$absUrl),
                 encodedHeadline: encodeURIComponent(`${newVals[0]} @ ${newVals[3]} on ${newVals[1]}`),
-                encodedDecription: encodeURIComponent(`Check out the following link for details: `)
+                encodedDecription: encodeURIComponent(`Check out the following link for details: `),
+                date: new Date(newVals[1]).getDate()
               }
               sharingLinksCtrl.gCalendar = `http://www.google.com/calendar/event?action=TEMPLATE&text=${formattedValues.title}&dates=${formattedValues.startingTime}/${formattedValues.endingTime}&details=${formattedValues.details}&location=${formattedValues.address}`
               sharingLinksCtrl.facebook = `https://www.facebook.com/sharer/sharer.php?u=${formattedValues.encodedEventUrl}&t=${formattedValues.encodedHeadline}`;
               sharingLinksCtrl.twitter = `https://twitter.com/intent/tweet?source=${formattedValues.encodedEventUrl}&text=${formattedValues.encodedHeadline}:%20${formattedValues.encodedEventUrl}`;
               sharingLinksCtrl.googlePlus = `https://plus.google.com/share?url=${formattedValues.encodedEventUrl}`;
               sharingLinksCtrl.email = `mailto:?subject=${formattedValues.encodedHeadline}&body=${formattedValues.encodedHeadline}${formattedValues.encodedEventUrl}`;
+              sharingLinksCtrl.date = formattedValues.date;
             }
           }
         )
