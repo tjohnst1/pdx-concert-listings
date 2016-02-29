@@ -11,10 +11,11 @@
       <p class="event-venue-info">{{ vm.event.venue.address }}</p>
     </div>
     <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address" class="sharing-links-container"></sharing-links>
-    <a href="{{ vm.event.artists.spotifyUrl}}" rel="nofollow"><img src="/images/listen-green.svg" class="event-listen-btn"></a>
+    <a href="{{ vm.event.artists.spotifyUrl}}" rel="nofollow" class="event-listen-btn">
+      <img src="/images/listen-green.svg" />
+    </a>
     <a href="{{ vm.venueDirections }}" rel="nofollow" class="event-venue-directions">Directions</a>
   </div>
-  <h1>{{ vm.combined }}</h1>
   <div class="event-map-container">
     <gm-map mapTypeId="google.maps.MapTypeId.ROADMAP" zoom="15" center="[vm.event.venue.lat, vm.event.venue.lng]">
       <gm-marker draggable="true" position="[vm.event.venue.lat, vm.event.venue.lng]"></gm-marker>
