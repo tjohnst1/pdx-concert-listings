@@ -50,23 +50,26 @@ function getAllEvents(numberOfPages, allEventsCallback){
         var eventJson = json.resultsPage.results.event;
         var formattedEvents = [];
         eventJson.forEach(function(event){
-          formattedEvents.push({
-            id: event.id,
-            venue: {
-              name: event.venue.displayName,
-              lat: event.venue.lat,
-              lng: event.venue.lng
-            },
-            artists: {
-              artists: event.performance.map(function(artist){
-                        return artist.artist.displayName
-                       })
-            },
-            eventDate: {
-              day: event.start.date,
-              time: event.start.time
-            }
-          })
+          if ((event.start.time !== null) && (event.venue.displayName !== null) && (event.venue.displayName !== 'Unknown Venue')){
+            console.log(event.performance[0].displayName, event.start.time)
+            formattedEvents.push({
+              id: event.id,
+              venue: {
+                name: event.venue.displayName,
+                lat: event.venue.lat,
+                lng: event.venue.lng
+              },
+              artists: {
+                artists: event.performance.map(function(artist){
+                          return artist.artist.displayName
+                         })
+              },
+              eventDate: {
+                day: event.start.date,
+                time: event.start.time
+              }
+            })
+          }
         })
         allEvents.push(formattedEvents);
         count++;
