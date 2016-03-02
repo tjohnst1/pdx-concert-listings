@@ -2,11 +2,16 @@ export default concertListings => {
   concertListings.directive('eventFilter', () => {
     return {
       restrict: 'E',
-      scope: {
+      controllerAs: 'eventFilterCtrl',
+      bindToController: {
         venues: '=',
         selectedVenue: '=',
         startingDate: '=',
-        endingDate: '='
+        endingDate: '=',
+        itemsPerPage: '='
+      },
+      controller: function(){
+        
       },
       template: require('../templates/eventFilter.html')
     }
