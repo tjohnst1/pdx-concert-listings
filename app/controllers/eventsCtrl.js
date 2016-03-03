@@ -4,7 +4,7 @@ export default concertListings => {
 
     vm.events = EventsFactory.events;
     vm.venues = EventsFactory.venues;
-    vm.filterOptions = {venue: "", startingDate: "", endingDate: "", itemsPerPage: 20};
+    vm.filterOptions = {venue: "", startingDate: "", endingDate: "", itemsPerPage: "20"};
     vm.event = {};
     vm.venueDirections = '';
 

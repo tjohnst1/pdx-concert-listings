@@ -1,10 +1,12 @@
 <form>
-  <input type="date" name="startingDate" ng-model="eventFilterCtrl.startingDate">
-  <input type="date" name="endingDate" ng-model="eventFilterCtrl.endingDate">
-  <select ng-model="selectedVenue" ng-options="venue for venue in eventFilterCtrl.venues">
+  <input type="date" name="startingDate" ng-model="startingDate">
+  <input type="date" name="endingDate" ng-model="endingDate">
+  <select ng-model="selectedVenue" ng-options="venue for venue in venues">
     <option value="">Venues</option>
   </select>
-  <select ng-model="eventFilterCtrl.itemsPerPage" name="items Per Page">
+  <p>{{eventFilterCtrl.itemsPerPage}}</p>
+  <p>Listings per page: </p>
+  <select name="itemsPerPage" ng-model="itemsPerPage">
     <option value="20">20</option>
     <option value="50">50</option>
     <option value="100">100</option>

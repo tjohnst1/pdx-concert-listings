@@ -2,17 +2,25 @@ export default concertListings => {
   concertListings.directive('eventFilter', () => {
     return {
       restrict: 'E',
-      controllerAs: 'eventFilterCtrl',
-      bindToController: {
+      // controllerAs: 'eventFilterCtrl',
+      scope: {
         venues: '=',
         selectedVenue: '=',
         startingDate: '=',
         endingDate: '=',
         itemsPerPage: '='
       },
-      controller: function(){
-        
-      },
+      // bindToController: {
+      //   venues: '=',
+      //   selectedVenue: '=',
+      //   startingDate: '=',
+      //   endingDate: '=',
+      //   itemsPerPage: '='
+      // },
+      // controller: function($scope){
+      //   const eventFilterCtrl = this;
+      //   eventFilterCtrl.currentVal = 20;
+      // },
       template: require('../templates/eventFilter.html')
     }
   })
