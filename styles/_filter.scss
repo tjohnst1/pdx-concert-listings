@@ -1,0 +1,19 @@
+.filter-selectedVenue{
+  display: inline-block;
+  margin: 0 10px;
+  label{
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+
+.filter-itemsPerPage{
+  display: inline-block;
+  label{
+    display: inline-block;
+    margin: 0 10px;
+  }
+  select{
+    display: inline-block;
+  }
+}
