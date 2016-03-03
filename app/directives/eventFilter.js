@@ -8,7 +8,8 @@ export default concertListings => {
         selectedVenue: '=',
         startingDate: '=',
         endingDate: '=',
-        itemsPerPage: '='
+        itemsPerPage: '=',
+        query: '='
       },
       // bindToController: {
       //   venues: '=',

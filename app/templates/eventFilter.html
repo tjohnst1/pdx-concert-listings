@@ -1,6 +1,10 @@
 <form>
   <input type="date" name="startingDate" ng-model="startingDate">
   <input type="date" name="endingDate" ng-model="endingDate">
+  <div class="filter-search">
+    <label>Search: </label>
+    <input type="text" name="query" ng-model="query"/>
+  </div>
   <div class="filter-selectedVenue">
     <label>Venues: </label>
     <select ng-model="selectedVenue" ng-options="venue for venue in venues">

@@ -1,6 +1,6 @@
 <div class="event-headline-container">
-  <event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage"></event-filter>
-  <event-headline dir-paginate="event in vm.events | itemsPerPage:vm.filterOptions.itemsPerPage | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate"
+  <event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage" query="vm.filterOptions.query"></event-filter>
+  <event-headline dir-paginate="event in vm.events | itemsPerPage:vm.filterOptions.itemsPerPage | filter:vm.filterOptions.query | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate"
   event="event" class="event-headline"></event-headline>
   <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true" ></dir-pagination-controls>
 </div>
