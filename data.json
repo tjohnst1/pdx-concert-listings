@@ -1,381 +1,6 @@
 {
     "events": [
         {
-            "id": 25563059,
-            "venue": {
-                "name": "Alberta Rose Theatre",
-                "lat": 45.5589455,
-                "lng": -122.6347471,
-                "address": "4982 NE 30th Ave, Portland, OR 97211"
-            },
-            "artists": {
-                "artists": [
-                    "Lorie Line"
-                ],
-                "image": null,
-                "spotifyUrl": null
-            },
-            "eventDate": {
-                "day": "2016-03-01",
-                "time": "19:30:00"
-            }
-        },
-        {
-            "id": 25625969,
-            "venue": {
-                "name": "Wonder Ballroom",
-                "lat": 45.5408474,
-                "lng": -122.6634854,
-                "address": "178 NE Russell St, Portland, OR 97212"
-            },
-            "artists": {
-                "artists": [
-                    "Carly Rae Jepsen",
-                    "Cardiknox",
-                    "Fairground Saints"
-                ],
-                "image": "https://i.scdn.co/image/04147f786ec7d50788471f1f4f11853e83214c40",
-                "spotifyUrl": "https://open.spotify.com/artist/6sFIWsNpZYqfjUpaCgueju"
-            },
-            "eventDate": {
-                "day": "2016-03-01",
-                "time": "20:00:00"
-            }
-        },
-        {
-            "id": 26003068,
-            "venue": {
-                "name": "Hawthorne Theatre",
-                "lat": 45.5118718,
-                "lng": -122.6229791,
-                "address": "1507 SE Cesar E Chavez Blvd, Portland, OR 97214"
-            },
-            "artists": {
-                "artists": [
-                    "gnash"
-                ],
-                "image": "https://i.scdn.co/image/107fc1cb69fa33d9b352853d77d06ef312774a21",
-                "spotifyUrl": "https://open.spotify.com/artist/3iri9nBFs9e4wN7PLIetAw"
-            },
-            "eventDate": {
-                "day": "2016-03-01",
-                "time": "19:00:00"
-            }
-        },
-        {
-            "id": 26175094,
-            "venue": {
-                "name": "McMenamin's White Eagle Saloon & Hotel",
-                "lat": 45.540794,
-                "lng": -122.675448,
-                "address": "860 N Russell St, Portland, OR 97227"
-            },
-            "artists": {
-                "artists": [
-                    "Plastic Shadow",
-                    "Nails Hide Metal",
-                    "Somerset Meadows"
-                ],
-                "image": null,
-                "spotifyUrl": null
-            },
-            "eventDate": {
-                "day": "2016-03-01",
-                "time": "19:00:00"
-            }
-        },
-        {
-            "id": 26179134,
-            "venue": {
-                "name": "Doug Fir Lounge",
-                "lat": 45.5229238,
-                "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
-            },
-            "artists": {
-                "artists": [
-                    "Classixx",
-                    "Eliot Lipp",
-                    "Karl Kling"
-                ],
-                "image": "https://i.scdn.co/image/d9e33638029e78ec908afe38356b22cf27c33e09",
-                "spotifyUrl": "https://open.spotify.com/artist/0vUTfcBDZZo2OUQJci5UNZ"
-            },
-            "eventDate": {
-                "day": "2016-03-01",
-                "time": "21:00:00"
-            }
-        },
-        {
-            "id": 26212904,
-            "venue": {
-                "name": "Psu Park Blocks",
-                "lat": null,
-                "lng": null,
-                "address": "Null Crossing, MO"
-            },
-            "artists": {
-                "artists": [
-                    "Cat Hoch"
-                ],
-                "image": "https://i.scdn.co/image/9561bf3d02c278eec15922babda14fc4f6be5735",
-                "spotifyUrl": "https://open.spotify.com/artist/1Z8kKSGULsaiKORC0xFNqL"
-            },
-            "eventDate": {
-                "day": "2016-03-01",
-                "time": "12:00:00"
-            }
-        },
-        {
-            "id": 26274204,
-            "venue": {
-                "name": "Mississippi Studios",
-                "lat": 45.5508766,
-                "lng": -122.6753828,
-                "address": "887 N Failing St, Portland, OR 97227"
-            },
-            "artists": {
-                "artists": [
-                    "Jenny Conlee"
-                ],
-                "image": "https://i.scdn.co/image/364d18d7384f4e6c27bb3eddf937fec2b02ec1e2",
-                "spotifyUrl": "https://open.spotify.com/artist/6KsuSTv5kFaVZpb8XWCpNy"
-            },
-            "eventDate": {
-                "day": "2016-03-01",
-                "time": "20:00:00"
-            }
-        },
-        {
-            "id": 24490149,
-            "venue": {
-                "name": "Star Theater",
-                "lat": 45.52335,
-                "lng": -122.6765882,
-                "address": "7 NW 6th Ave, Portland, OR 97209"
-            },
-            "artists": {
-                "artists": [
-                    "Ron Pope",
-                    "Jonathan Tyler"
-                ],
-                "image": "https://i.scdn.co/image/557c615922d2f773f2ee8e40dc02f92d6da2cfb8",
-                "spotifyUrl": "https://open.spotify.com/artist/6CmXhyslohOFRJMtPpRm4O"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "20:00:00"
-            }
-        },
-        {
-            "id": 25411899,
-            "venue": {
-                "name": "McMenamin's Crystal Ballroom",
-                "lat": 45.5229001,
-                "lng": -122.6847806,
-                "address": "1346 W Burnside St, Portland, OR 97209"
-            },
-            "artists": {
-                "artists": [
-                    "Lake Street Dive",
-                    "The Suffers"
-                ],
-                "image": "https://i.scdn.co/image/235c62b9c2472cc95fdb7721b99c54ab52642bf7",
-                "spotifyUrl": "https://open.spotify.com/artist/3nuc29fYGlQbIrwh4yrNWd"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "20:00:00"
-            }
-        },
-        {
-            "id": 25879489,
-            "venue": {
-                "name": "Euphoria Nightclub",
-                "lat": 45.520509,
-                "lng": -122.6630973,
-                "address": "343 SE 3rd Ave, Portland, OR 97214"
-            },
-            "artists": {
-                "artists": [
-                    "TroyBoi"
-                ],
-                "image": "https://i.scdn.co/image/86fa0e002930dfa9122a64c8c784246a86b390ed",
-                "spotifyUrl": "https://open.spotify.com/artist/0tvpihdAsKiNnP6sWS3jUI"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "22:00:00"
-            }
-        },
-        {
-            "id": 25906898,
-            "venue": {
-                "name": "Alberta Rose Theatre",
-                "lat": 45.5589455,
-                "lng": -122.6347471,
-                "address": "4982 NE 30th Ave, Portland, OR 97211"
-            },
-            "artists": {
-                "artists": [
-                    "Noura Mint Seymali",
-                    "Dusu Mali Band"
-                ],
-                "image": "https://i.scdn.co/image/3243e65fff728159017ef525981d6a30dd5d40d9",
-                "spotifyUrl": "https://open.spotify.com/artist/2HnmTIZBaC6upua76nuGIY"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "20:00:00"
-            }
-        },
-        {
-            "id": 25931453,
-            "venue": {
-                "name": "Wonder Ballroom",
-                "lat": 45.5408474,
-                "lng": -122.6634854,
-                "address": "178 NE Russell St, Portland, OR 97212"
-            },
-            "artists": {
-                "artists": [
-                    "Hippie Sabotage",
-                    "Alex Wiley",
-                    "Kembe X"
-                ],
-                "image": "https://i.scdn.co/image/325856fd94e8103b24822db22f4b0371473a9b02",
-                "spotifyUrl": "https://open.spotify.com/artist/4dM6NDYSfLcspt8GLoT5aE"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "20:00:00"
-            }
-        },
-        {
-            "id": 25988128,
-            "venue": {
-                "name": "Laurelthirst Public House",
-                "lat": 45.5263882,
-                "lng": -122.6346564,
-                "address": "2986 NE Glisan St, Portland, OR 97232"
-            },
-            "artists": {
-                "artists": [
-                    "SonicbutterPDX"
-                ],
-                "image": null,
-                "spotifyUrl": null
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "18:00:00"
-            }
-        },
-        {
-            "id": 26081718,
-            "venue": {
-                "name": "Doug Fir Lounge",
-                "lat": 45.5229238,
-                "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
-            },
-            "artists": {
-                "artists": [
-                    "Shivas",
-                    "Cat Hoch",
-                    "sculpture gardens"
-                ],
-                "image": "https://i.scdn.co/image/6b9670a1bd585c97612894eec3bdbd7c92a0688e",
-                "spotifyUrl": "https://open.spotify.com/artist/2OZfuhYQm8IY95egVPC1U9"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "21:00:00"
-            }
-        },
-        {
-            "id": 26157764,
-            "venue": {
-                "name": "Alberta Street Pub",
-                "lat": 45.5589313,
-                "lng": -122.6548335,
-                "address": "4979 NE 11th Ave, Portland, OR 97211"
-            },
-            "artists": {
-                "artists": [
-                    "Amit Erez & The Secret Sea",
-                    "Isaac Pierce",
-                    "The Co Founder"
-                ],
-                "image": null,
-                "spotifyUrl": null
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "20:30:00"
-            }
-        },
-        {
-            "id": 26242779,
-            "venue": {
-                "name": "Mississippi Studios",
-                "lat": 45.5508766,
-                "lng": -122.6753828,
-                "address": "887 N Failing St, Portland, OR 97227"
-            },
-            "artists": {
-                "artists": [
-                    "Hey Marseilles"
-                ],
-                "image": "https://i.scdn.co/image/75bf953ca42f4ff5bf2d37cc38a6a19c0d221c11",
-                "spotifyUrl": "https://open.spotify.com/artist/3PMXHMqW4MNj8usJ0fxAlj"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "19:00:00"
-            }
-        },
-        {
-            "id": 26257274,
-            "venue": {
-                "name": "45th Street Pub",
-                "lat": 45.4860195,
-                "lng": -122.7234171,
-                "address": "5173 SW 45th Ave, Portland, OR 97221"
-            },
-            "artists": {
-                "artists": [
-                    "Tyler Stenson"
-                ],
-                "image": "https://i.scdn.co/image/ecee01ab3b221d01a72eef1acc26b5435ba4c295",
-                "spotifyUrl": "https://open.spotify.com/artist/4zeql05QVeqaxUTs8L0bFA"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "18:00:00"
-            }
-        },
-        {
-            "id": 26286849,
-            "venue": {
-                "name": "Dante's",
-                "lat": 45.5229781,
-                "lng": -122.6736892,
-                "address": "332 W Burnside St, Portland, OR 97209"
-            },
-            "artists": {
-                "artists": [
-                    "Kill Ritual"
-                ],
-                "image": "https://i.scdn.co/image/5839695eab1e37f209d795cd7b7f736722b260be",
-                "spotifyUrl": "https://open.spotify.com/artist/44Q73FGX3fS8KV3b0DjS93"
-            },
-            "eventDate": {
-                "day": "2016-03-02",
-                "time": "21:00:00"
-            }
-        },
-        {
             "id": 25207759,
             "venue": {
                 "name": "Revolution Hall",
@@ -1209,7 +834,7 @@
                     "Almost Rock",
                     "PDX Icons"
                 ],
-                "image": "https://i.scdn.co/image/ee78b861c4775f6e9390da40292dac2e9c6f3f16",
+                "image": "https://i.scdn.co/image/32b70c34472088b14f650677d719566c553c2fcb",
                 "spotifyUrl": "https://open.spotify.com/artist/12Tpsx3rWAOGM6eA6vKWxH"
             },
             "eventDate": {
@@ -1424,6 +1049,28 @@
             }
         },
         {
+            "id": 26357709,
+            "venue": {
+                "name": "Turn Turn Turn",
+                "lat": 45.5625569,
+                "lng": -122.6667248,
+                "address": "5436 N Williams Ave, Portland, OR 97217"
+            },
+            "artists": {
+                "artists": [
+                    "Donald Beaman",
+                    "John Gnorski",
+                    "Gregory And The Hawk"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "eventDate": {
+                "day": "2016-03-05",
+                "time": "16:30:00"
+            }
+        },
+        {
             "id": 24372499,
             "venue": {
                 "name": "Star Theater",
@@ -1546,6 +1193,296 @@
             "eventDate": {
                 "day": "2016-03-06",
                 "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25733269,
+            "venue": {
+                "name": "Valentine's",
+                "lat": 45.5225331,
+                "lng": -122.6728607,
+                "address": "26 SW 3rd Ave, Portland, OR 97204"
+            },
+            "artists": {
+                "artists": [
+                    "San Lorenzo (PDX)",
+                    "Dim Wit",
+                    "thom simon"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "eventDate": {
+                "day": "2016-03-06",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 26056698,
+            "venue": {
+                "name": "Sherwood Center for the Arts",
+                "lat": 45.3556588,
+                "lng": -122.8399971,
+                "address": "811 SW Columbia St, Sherwood, OR 97140"
+            },
+            "artists": {
+                "artists": [
+                    "Téada"
+                ],
+                "image": "https://i.scdn.co/image/a13786649743c1d2a18c445e275e7b42ae7fd9ed",
+                "spotifyUrl": "https://open.spotify.com/artist/6zW5pafn6lopc4jHEN3GJQ"
+            },
+            "eventDate": {
+                "day": "2016-03-06",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 26084408,
+            "venue": {
+                "name": "Rontoms",
+                "lat": 45.522535,
+                "lng": -122.659492,
+                "address": "56 SE 6th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "DoveDriver",
+                    "Teddy Presberg"
+                ],
+                "image": "https://i.scdn.co/image/c3032bc9298d90411a39d241e14fa783352a5d89",
+                "spotifyUrl": "https://open.spotify.com/artist/2dJZCS7GvG72bCVCj69wkN"
+            },
+            "eventDate": {
+                "day": "2016-03-06",
+                "time": "20:30:00"
+            }
+        },
+        {
+            "id": 26139258,
+            "venue": {
+                "name": "Analog Theater (upstairs)",
+                "lat": 45.512006,
+                "lng": -122.658176,
+                "address": "752 SE Hawthorne Blvd, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Real Friends"
+                ],
+                "image": "https://i.scdn.co/image/05bead6a0c3963e19c826a6dc8de1cbea19a3c30",
+                "spotifyUrl": "https://open.spotify.com/artist/6dEtLwgmSI0hmfwTSjy8cw"
+            },
+            "eventDate": {
+                "day": "2016-03-06",
+                "time": "15:30:00"
+            }
+        },
+        {
+            "id": 26171604,
+            "venue": {
+                "name": "Madison High School",
+                "lat": 45.5517361,
+                "lng": -122.5522483,
+                "address": "10752 NE Shaver St, Portland, OR 97220"
+            },
+            "artists": {
+                "artists": [
+                    "Bye Bye Birdie"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "eventDate": {
+                "day": "2016-03-06",
+                "time": "14:00:00"
+            }
+        },
+        {
+            "id": 25522874,
+            "venue": {
+                "name": "Star Theater",
+                "lat": 45.52335,
+                "lng": -122.6765882,
+                "address": "7 NW 6th Ave, Portland, OR 97209"
+            },
+            "artists": {
+                "artists": [
+                    "Protoje & the Indiggnation"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "eventDate": {
+                "day": "2016-03-07",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25555279,
+            "venue": {
+                "name": "Doug Fir Lounge",
+                "lat": 45.5229238,
+                "lng": -122.6587133,
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Chastity Belt",
+                    "Hurry Up!"
+                ],
+                "image": "https://i.scdn.co/image/79c919ccd69e441eb825e0f322ffde39eca0cd92",
+                "spotifyUrl": "https://open.spotify.com/artist/1tho5dJnzdYD57EQkM3SmK"
+            },
+            "eventDate": {
+                "day": "2016-03-07",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25548849,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Dengue Fever"
+                ],
+                "image": "https://i.scdn.co/image/413f05f85f81f9bbe38aa8495ab119b234bb5e31",
+                "spotifyUrl": "https://open.spotify.com/artist/3wFHDAXLsjvclEtifEV7F5"
+            },
+            "eventDate": {
+                "day": "2016-03-07",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25614829,
+            "venue": {
+                "name": "Doug Fir Lounge",
+                "lat": 45.5229238,
+                "lng": -122.6587133,
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Jack Garratt",
+                    "Kacy Hill"
+                ],
+                "image": "https://i.scdn.co/image/3edf9337692164a1b52db701e83b809981551929",
+                "spotifyUrl": "https://open.spotify.com/artist/1Zp054Jc86WVKCxKEqZGOA"
+            },
+            "eventDate": {
+                "day": "2016-03-08",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25750324,
+            "venue": {
+                "name": "Mississippi Studios",
+                "lat": 45.5508766,
+                "lng": -122.6753828,
+                "address": "887 N Failing St, Portland, OR 97227"
+            },
+            "artists": {
+                "artists": [
+                    "Jackson Boone",
+                    "Psychomagic",
+                    "Sinless"
+                ],
+                "image": "https://i.scdn.co/image/81b98f0e621be7d7cd52e670bfb100de10596776",
+                "spotifyUrl": "https://open.spotify.com/artist/5OtSZCoZm2IsDXVk4FfF4O"
+            },
+            "eventDate": {
+                "day": "2016-03-08",
+                "time": "21:00:00"
+            }
+        },
+        {
+            "id": 25905103,
+            "venue": {
+                "name": "Lake Oswego Public Library",
+                "lat": 45.4239821,
+                "lng": -122.6673796,
+                "address": "726 4th St, Lake Oswego, OR 97034"
+            },
+            "artists": {
+                "artists": [
+                    "Kelly Brightwell"
+                ],
+                "image": "https://i.scdn.co/image/a49d3df4f9d56c407afea1023d49feb8ef657174",
+                "spotifyUrl": "https://open.spotify.com/artist/6ZG1wXCekh8ahOXJLJkPY7"
+            },
+            "eventDate": {
+                "day": "2016-03-08",
+                "time": "19:00:00"
+            }
+        },
+        {
+            "id": 25942243,
+            "venue": {
+                "name": "Alberta Rose Theatre",
+                "lat": 45.5589455,
+                "lng": -122.6347471,
+                "address": "4982 NE 30th Ave, Portland, OR 97211"
+            },
+            "artists": {
+                "artists": [
+                    "Jane Siberry",
+                    "Bergerette"
+                ],
+                "image": "https://i.scdn.co/image/b81e684fb278f8e4c38724d1e5678c006a4a01d1",
+                "spotifyUrl": "https://open.spotify.com/artist/5JQT7pvJY4ojWOl2QuzdvG"
+            },
+            "eventDate": {
+                "day": "2016-03-08",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 25993588,
+            "venue": {
+                "name": "Aladdin Theater",
+                "lat": 45.501102,
+                "lng": -122.654253,
+                "address": "3017 SE Milwaukie Ave, Portland, OR 97202"
+            },
+            "artists": {
+                "artists": [
+                    "The Wainwright Sisters"
+                ],
+                "image": "https://i.scdn.co/image/0408915ccba290c1885a98f54b13756884e848eb",
+                "spotifyUrl": "https://open.spotify.com/artist/1J9fKtKZfo0aP65plC8SRN"
+            },
+            "eventDate": {
+                "day": "2016-03-08",
+                "time": "20:00:00"
+            }
+        },
+        {
+            "id": 26077148,
+            "venue": {
+                "name": "The Liquor Store",
+                "lat": 45.5165836,
+                "lng": -122.6300034,
+                "address": "3367 SE Belmont St, Portland, OR 97214"
+            },
+            "artists": {
+                "artists": [
+                    "Shannon Entropy",
+                    "The Outer Space Heaters",
+                    "The Super Secret Hot Girls Club"
+                ],
+                "image": null,
+                "spotifyUrl": null
+            },
+            "eventDate": {
+                "day": "2016-03-08",
+                "time": "07:00:00"
             }
         }
     ]

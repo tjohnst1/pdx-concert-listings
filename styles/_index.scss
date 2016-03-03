@@ -1,12 +1,3 @@
-.index-container{
-  @include outer-container;
-}
-
-.event-headline-filter{
-  height: 40px;
-  @include span-columns(12);
-}
-
 .event-headline-container{
 }
 

@@ -1,18 +1,25 @@
-<form>
-  <input type="date" name="startingDate" ng-model="startingDate">
-  <input type="date" name="endingDate" ng-model="endingDate">
+<form class="filter-container">
+  <h3>Filter</h3>
+  <div class="filter-dates">
+    <label for="startingDate">From: </label>
+    <input type="date" name="startingDate" ng-model="startingDate">
+  </div>
+  <div class="filter-dates">
+    <label for="endingDate">To: </label>
+    <input type="date" name="endingDate" ng-model="endingDate">
+  </div>
   <div class="filter-search">
-    <label>Search: </label>
+    <label for="query">Search: </label>
     <input type="text" name="query" ng-model="query"/>
   </div>
   <div class="filter-selectedVenue">
-    <label>Venues: </label>
+    <label for="selectedVenue">Venues: </label>
     <select ng-model="selectedVenue" ng-options="venue for venue in venues">
       <option value="">Venues</option>
     </select>
   </div>
   <div class="filter-itemsPerPage">
-    <label>Listings per page: </label>
+    <label for="itemsPerPage">Listings per page: </label>
     <select name="itemsPerPage" ng-model="itemsPerPage">
       <option value="20">20</option>
       <option value="50">50</option>
