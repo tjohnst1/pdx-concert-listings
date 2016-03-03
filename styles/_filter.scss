@@ -9,6 +9,26 @@
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   padding: 20px;
   border: 1px solid darken($grey, 10%);
+  @include transform(translateX(100%));
+  .open{
+    @include transform(translateX(0));
+  }
+}
+
+.filter-chevron{
+  position: absolute;
+  left: -22px;
+  top: 12px;
+  padding: 10px 5px;
+  background: green;
+}
+
+.chevron{
+  width: 12px;
+}
+
+.filter-headline{
+  margin: 0;
 }
 
 .filter-dates{
