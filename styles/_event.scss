@@ -1,5 +1,6 @@
 .event-container{
   @include display(flex);
+  padding: 20px;
 }
 
 .event-details{

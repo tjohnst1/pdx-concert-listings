@@ -1,5 +1,5 @@
 <form class="filter-container" ng-class="{'open': eventFilterCtrl.showFilter}">
-  <h3 class="filter-headline">Filter</h3>
+  <h3 class="filter-headline">Search</h3>
   <div class="filter-content">
     <div class="filter-dates">
       <label for="startingDate">From: </label>
@@ -10,7 +10,7 @@
       <input type="date" name="endingDate" ng-model="eventFilterCtrl.endingDate">
     </div>
     <div class="filter-search">
-      <label for="query">Search: </label>
+      <label for="query">Keywords: </label>
       <input type="text" name="query" ng-model="eventFilterCtrl.query"/>
     </div>
     <div class="filter-selectedVenue">
