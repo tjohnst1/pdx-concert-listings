@@ -1,41 +1,18 @@
 .filter-container{
-  background: $grey;
-  width: 40%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 10;
-  height: 100%;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  @include span-columns(3);
+  display: inline-block;
+}
+
+.filter-content{
   padding: 20px;
-  border: 1px solid darken($grey, 10%);
-  @include transform(translateX(100%));
-  @include transition(0.3s ease);
-  &.open{
-    @include transform(translateX(0));
-    .chevron{
-      @include transform(rotate(180deg));
-    }
-  }
-}
-
-.filter-chevron{
-  position: absolute;
-  left: -22px;
-  top: 20px;
-  padding: 10px 5px;
-  background: darken($grey, 10%);
-  cursor: pointer;
-}
-
-.chevron{
-  width: 12px;
-  @include transform(rotate(0deg));
-  @include transition(0.3s ease);
 }
 
 .filter-headline{
   margin: 0;
+  border-bottom: 1px solid $black;
+  display: block;
+  margin: 0 20px;
+  color: $papaya;
 }
 
 .filter-dates{

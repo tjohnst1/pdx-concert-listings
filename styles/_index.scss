@@ -1,6 +1,16 @@
 .event-headline-container{
-  margin: 0 0 20px 0;
-  clear: both;
+  @include span-columns(9);
+  display: inline-block;
+}
+
+.event-title{
+  border-bottom: 1px solid $black;
+  margin: 0;
+  color: $papaya;
+}
+
+.event-content{
+  padding: 0;
 }
 
 .event-headline{

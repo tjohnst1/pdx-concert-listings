@@ -3,10 +3,13 @@
     <h1 class="header-logo">PDX Concert Listings</h1>
   </a>
 </div>
+<event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage" query="vm.filterOptions.query"></event-filter>
 <div class="event-headline-container">
-  <event-headline dir-paginate="event in vm.events | filter:vm.filterOptions.query | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate | itemsPerPage:vm.filterOptions.itemsPerPage"
-  event="event" class="event-headline"></event-headline>
+  <h3 class="event-title">Events</h3>
+  <div class="event-content">
+    <event-headline dir-paginate="event in vm.events | filter:vm.filterOptions.query | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate | itemsPerPage:vm.filterOptions.itemsPerPage"
+    event="event" class="event-headline"></event-headline>
+  </div>
 </div>
 <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true"></dir-pagination-controls>
-<event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage" query="vm.filterOptions.query"></event-filter>
 <p ng-show="vm.events.length === 0">Loading...</p>

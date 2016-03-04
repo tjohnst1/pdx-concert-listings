@@ -50,7 +50,7 @@ function getAllEvents(numberOfPages, allEventsCallback){
         var eventJson = json.resultsPage.results.event;
         var formattedEvents = [];
         eventJson.forEach(function(event){
-          if ((event.start.time !== null) && (event.venue.displayName !== null) && (event.venue.displayName !== 'Unknown Venue')){
+          if ((event.start.time !== null) && (event.venue.displayName !== null) && (event.start.time !== undefined) && (event.venue.displayName !== undefined) && (event.venue.displayName !== 'Unknown Venue')){
             console.log(event.performance[0].displayName, event.start.time)
             formattedEvents.push({
               id: event.id,
