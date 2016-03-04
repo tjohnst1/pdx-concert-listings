@@ -1,29 +1,29 @@
-<form class="filter-container">
-  <div class="filter-chevron">
+<form class="filter-container" ng-class="{'open': eventFilterCtrl.showFilter}">
+  <div class="filter-chevron" ng-click="eventFilterCtrl.toggleFilter()">
     <img src="/images/chevron-left.svg" class="chevron">
   </div>
   <h3 class="filter-headline">Filter</h3>
   <div class="filter-dates">
     <label for="startingDate">From: </label>
-    <input type="date" name="startingDate" ng-model="startingDate">
+    <input type="date" name="startingDate" ng-model="eventFilterCtrl.startingDate">
   </div>
   <div class="filter-dates">
     <label for="endingDate">To: </label>
-    <input type="date" name="endingDate" ng-model="endingDate">
+    <input type="date" name="endingDate" ng-model="eventFilterCtrl.endingDate">
   </div>
   <div class="filter-search">
     <label for="query">Search: </label>
-    <input type="text" name="query" ng-model="query"/>
+    <input type="text" name="query" ng-model="eventFilterCtrl.query"/>
   </div>
   <div class="filter-selectedVenue">
     <label for="selectedVenue">Venues: </label>
-    <select ng-model="selectedVenue" ng-options="venue for venue in venues">
+    <select ng-model="eventFilterCtrl.selectedVenue" ng-options="venue for venue in venues">
       <option value="">Venues</option>
     </select>
   </div>
   <div class="filter-itemsPerPage">
     <label for="itemsPerPage">Listings per page: </label>
-    <select name="itemsPerPage" ng-model="itemsPerPage">
+    <select name="itemsPerPage" ng-model="eventFilterCtrl.itemsPerPage">
       <option value="20">20</option>
       <option value="50">50</option>
       <option value="100">100</option>
