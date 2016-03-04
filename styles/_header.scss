@@ -1,8 +1,25 @@
 .header-container{
+  @include clearfix;
+  margin: 0 0 20px 0;
   a{
     text-decoration: none;
   }
 }
+
 .header-logo{
+  @include span-columns(8);
   color: $black;
+  display: inline-block;
+  h1{
+    margin: 0;
+  }
+}
+
+.header-back{
+  @include span-columns(4);
+  color: $charcoal;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  padding: 10px 10px 0;
 }

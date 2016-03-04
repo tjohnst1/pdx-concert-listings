@@ -1,3 +1,8 @@
+<div class="header-container">
+  <a ui-sref="events">
+    <h1 class="header-logo">PDX Concert Listings</h1>
+  </a>
+</div>
 <div class="event-headline-container">
   <event-headline dir-paginate="event in vm.events | filter:vm.filterOptions.query | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate | itemsPerPage:vm.filterOptions.itemsPerPage"
   event="event" class="event-headline"></event-headline>
