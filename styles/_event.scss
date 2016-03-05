@@ -5,6 +5,7 @@
 
 .event-details{
   width: 60%;
+  padding: 0 20px 0 0;
 }
 
 .event-heading-container{
@@ -34,11 +35,16 @@
 
 .event-venue-info{
   margin: 0;
-  font-weight: 300;
 }
 
-.event-metadata{
-  margin: 0;
+.event-artist-bio{
+  margin: 10px 0 0 0;
+}
+
+.event-genres{
+  margin: 10px 0 0 0;
+  color: $charcoal;
+  font-weight: 300;
 }
 
 .event-listen-btn{
