@@ -14,7 +14,8 @@ function populateFirebase(){
     getNumberOfEntries,
     getAllEvents,
     getVenueLocationData,
-    getSpotifyInfo
+    getSpotifyInfo,
+    getArtistDetails
   ], function (err, eventsArr){
     fs.writeFile('data.json', JSON.stringify({events: eventsArr}, null, 4), (err) => {
       if (err) throw err;
@@ -50,8 +51,7 @@ function getAllEvents(numberOfPages, allEventsCallback){
         var eventJson = json.resultsPage.results.event;
         var formattedEvents = [];
         eventJson.forEach(function(event){
-          if ((event.start.time !== null) && (event.venue.displayName !== null) && (event.start.time !== undefined) && (event.venue.displayName !== undefined) && (event.venue.displayName !== 'Unknown Venue')){
-            console.log(event.performance[0].displayName, event.start.time)
+          if ((event.start.time !== null) && (event.venue.displayName !== null) && (event.start.time !== undefined) && (event.venue.displayName !== undefined) && (event.venue.displayName !== 'Unknown venue')){
             formattedEvents.push({
               id: event.id,
               venue: {
@@ -123,5 +123,34 @@ function getSpotifyInfo(eventArr, spotifyInfoCallback){
     });
   }, function(err){
       spotifyInfoCallback(null, eventsWithSpotifyInfo);
+  })
+}
+
+// Add artist info from Last.fm
+function getArtistDetails(eventArr, artistDetailsCallback){
+  var eventsWithArtistDetails = [];
+  async.eachSeries(eventArr, function(event, callback){
+    var artist = event.artists.artists[0].replace(/[^a-z\s]/gi, '').replace(/\s/g, '+');
+    var url = `http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${artist}&api_key=5c9e0f93c61994caa29bb76e43c04389&format=json`;
+    request(url, function (error, response, body) {
+      var newEvent = event;
+      var json = JSON.parse(body);
+      if (json.error === undefined){
+        newEvent.artists.bio = json.artist.bio.summary;
+        newEvent.artists.genre = json.artist.tags.tag.map((tag) => {
+          return tag.name
+        });
+        if (newEvent.artists.image === null && json.artist.image.length !== 0){
+          newEvent.artists.image = json.artist.image[0]['#text'];
+        }
+      } else {
+        newEvent.artists.bio = null;
+        newEvent.artists.genre = null;
+      };
+      eventsWithArtistDetails.push(newEvent);
+      callback();
+    });
+  }, function(err){
+      artistDetailsCallback(null, eventsWithArtistDetails);
   })
 }
