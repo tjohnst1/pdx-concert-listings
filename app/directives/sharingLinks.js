@@ -20,7 +20,6 @@ export default concertListings => {
         sharingLinksCtrl.googlePlus = '';
         sharingLinksCtrl.email = '';
         sharingLinksCtrl.date = '';
-        console.log('arr:', sharingLinksCtrl.eventDate);
         $scope.$watchCollection('[sharingLinksCtrl.title, sharingLinksCtrl.day, sharingLinksCtrl.time, sharingLinksCtrl.venue, sharingLinksCtrl.address]',
           function(newVals, oldVals){
             if (newVals[0] !== undefined){

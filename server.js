@@ -94,6 +94,7 @@ function getVenueLocationData(eventArr, venueLocationCallback){
       var json = JSON.parse(body);
       var newEvent = event;
       newEvent.venue.address = json.resourceSets[0].resources[0].address.formattedAddress;
+      newEvent.venue.directionsUrl = `https://maps.google.com?q=${newEvent.venue.address.replace(/\s/g, '+')}`;
       eventsWithAddress.push(newEvent);
       callback();
     });
@@ -136,9 +137,9 @@ function getArtistDetails(eventArr, artistDetailsCallback){
       var newEvent = event;
       var json = JSON.parse(body);
       if (json.error === undefined){
-        newEvent.artists.bio = json.artist.bio.summary;
+        newEvent.artists.bio = json.artist.bio.summary.replace(/<.+>/, '');
         newEvent.artists.genre = json.artist.tags.tag.map((tag) => {
-          return tag.name
+          return tag.name.toLowerCase();
         });
         if (newEvent.artists.image === null && json.artist.image.length !== 0){
           newEvent.artists.image = json.artist.image[0]['#text'];

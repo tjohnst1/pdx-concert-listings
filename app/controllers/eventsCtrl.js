@@ -6,7 +6,6 @@ export default concertListings => {
     vm.venues = EventsFactory.venues;
     vm.filterOptions = {venue: "", startingDate: "", endingDate: "", itemsPerPage: "20", query: ""};
     vm.event = {};
-    vm.venueDirections = '';
 
     EventsFactory.getData().on("value", function(snapshot) {
      const fbSnapshot = snapshot.val();
@@ -14,8 +13,9 @@ export default concertListings => {
       $timeout(function() {
         vm.events = events;
         vm.venues = EventsFactory.getVenues(events);
-        vm.event = EventsFactory.getEventById(vm.events, Number($stateParams.eventId));
-        vm.venueDirections = `https://maps.google.com?q=${vm.event.venue.address.replace(/\s/g, '+')}`;
+        if ($stateParams.eventId){
+          vm.event = EventsFactory.getEventById(vm.events, Number($stateParams.eventId));
+        }
       });
     });
   }]);

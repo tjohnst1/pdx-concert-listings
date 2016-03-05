@@ -6,7 +6,8 @@
                 "name": "The Secret Society Ballroom",
                 "lat": 45.5409227,
                 "lng": -122.6637325,
-                "address": "150 NE Russell St, Portland, OR 97212"
+                "address": "150 NE Russell St, Portland, OR 97212",
+                "directionsUrl": "https://maps.google.com?q=150+NE+Russell+St,+Portland,+OR+97212"
             },
             "artists": {
                 "artists": [
@@ -14,11 +15,11 @@
                 ],
                 "image": "https://i.scdn.co/image/528e8a9f46b7727e9c7b6e4633e98ddee14d4ceb",
                 "spotifyUrl": "https://open.spotify.com/artist/6e5ygqf81ECK33tTPpbLLq",
-                "bio": "There are at least 4 artists with the name Baby\n1. A rapper from Louisiana, United States\n2. A southern rock band from Texas, United States\n3. A rock band led by Nick Dillon\n4. the side project of Shudder to Think singer Craig Werden\n\n1. Bryan \"Baby\" Williams. (born February 15, 1969) better known by his stage name Birdman, is an American record executive and rapper from New Orleans, Louisiana.\n\nIn 1991, Williams and his older brother Ronald \"Slim\" Williams founded the hip-hop label Cash Money Records. <a href=\"http://www.last.fm/music/Baby\">Read more on Last.fm</a>",
+                "bio": "There are at least 4 artists with the name Baby\n1. A rapper from Louisiana, United States\n2. A southern rock band from Texas, United States\n3. A rock band led by Nick Dillon\n4. the side project of Shudder to Think singer Craig Werden\n\n1. Bryan \"Baby\" Williams. (born February 15, 1969) better known by his stage name Birdman, is an American record executive and rapper from New Orleans, Louisiana.\n\nIn 1991, Williams and his older brother Ronald \"Slim\" Williams founded the hip-hop label Cash Money Records. ",
                 "genre": [
                     "rap",
-                    "Hip-Hop",
-                    "Southern Rock",
+                    "hip-hop",
+                    "southern rock",
                     "classic rock",
                     "hip hop"
                 ]
@@ -34,7 +35,8 @@
                 "name": "Roseland Theater",
                 "lat": 45.5233129,
                 "lng": -122.6764367,
-                "address": "36 NW 6th Ave, Portland, OR 97209"
+                "address": "36 NW 6th Ave, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=36+NW+6th+Ave,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -43,7 +45,7 @@
                 ],
                 "image": "https://i.scdn.co/image/94721d9349cc57b01968409bb5e5f86ade1abb91",
                 "spotifyUrl": "https://open.spotify.com/artist/4kwxTgCKMipBKhSnEstNKj",
-                "bio": "Animal Collective is a musical group which formed in Baltimore, Maryland, United States in 1999. The band consists of Panda Bear (Noah Lennox), Avey Tare (David Portner), Deakin (Josh Dibb) and Geologist (Brian Weitz). Records released under the name Animal Collective may include contributions from any or all of these members; the lineup is not uniform. \n\nThe band has released nine albums: \"Spirit They're Gone, Spirit They've Vanished\" (2000), \"Danse Manatee\" (2001) <a href=\"http://www.last.fm/music/Animal+Collective\">Read more on Last.fm</a>",
+                "bio": "Animal Collective is a musical group which formed in Baltimore, Maryland, United States in 1999. The band consists of Panda Bear (Noah Lennox), Avey Tare (David Portner), Deakin (Josh Dibb) and Geologist (Brian Weitz). Records released under the name Animal Collective may include contributions from any or all of these members; the lineup is not uniform. \n\nThe band has released nine albums: \"Spirit They're Gone, Spirit They've Vanished\" (2000), \"Danse Manatee\" (2001) ",
                 "genre": [
                     "experimental",
                     "indie",
@@ -63,7 +65,8 @@
                 "name": "Wolf Den Music Space",
                 "lat": 45.5402195,
                 "lng": -122.6094191,
-                "address": "5248 NE Sandy Blvd, Portland, OR 97213"
+                "address": "5248 NE Sandy Blvd, Portland, OR 97213",
+                "directionsUrl": "https://maps.google.com?q=5248+NE+Sandy+Blvd,+Portland,+OR+97213"
             },
             "artists": {
                 "artists": [
@@ -71,7 +74,7 @@
                 ],
                 "image": "https://i.scdn.co/image/be7b02cd07c617f0f85c39380d1995639bc51931",
                 "spotifyUrl": "https://open.spotify.com/artist/18dcnAlElD7CuJYtNLyCmY",
-                "bio": " <a href=\"http://www.last.fm/music/Neon+Culpa\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -85,7 +88,8 @@
                 "name": "Mississippi Studios",
                 "lat": 45.5508766,
                 "lng": -122.6753828,
-                "address": "887 N Failing St, Portland, OR 97227"
+                "address": "887 N Failing St, Portland, OR 97227",
+                "directionsUrl": "https://maps.google.com?q=887+N+Failing+St,+Portland,+OR+97227"
             },
             "artists": {
                 "artists": [
@@ -95,7 +99,7 @@
                 ],
                 "image": "https://i.scdn.co/image/f23a9b08302c440472d55ddbb67b28c737007918",
                 "spotifyUrl": "https://open.spotify.com/artist/6UahQwC9EZGsFSuGjHJNe1",
-                "bio": "Wolf Eyes began as a solo project of former Nautical Almanac member  Nate Young in Ann Arbor, Michigan, United States in 1996, with Aaron Dilloway joining in 1999, and John Olson in 2000. During this time, the band also briefly relocated to New York City and at one point enlisted Andrew Wilkes-Krier, now known to the public as Andrew W.K.. The group is rumored to have released over 150 recordings in their relatively short lifespan, on labels such as Bulb Records <a href=\"http://www.last.fm/music/Wolf+Eyes\">Read more on Last.fm</a>",
+                "bio": "Wolf Eyes began as a solo project of former Nautical Almanac member  Nate Young in Ann Arbor, Michigan, United States in 1996, with Aaron Dilloway joining in 1999, and John Olson in 2000. During this time, the band also briefly relocated to New York City and at one point enlisted Andrew Wilkes-Krier, now known to the public as Andrew W.K.. The group is rumored to have released over 150 recordings in their relatively short lifespan, on labels such as Bulb Records ",
                 "genre": [
                     "noise",
                     "experimental",
@@ -115,7 +119,8 @@
                 "name": "The Barrel Room",
                 "lat": 45.524118,
                 "lng": -122.67374,
-                "address": "143 NW 3rd Ave, Portland, OR 97209"
+                "address": "143 NW 3rd Ave, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=143+NW+3rd+Ave,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -123,7 +128,7 @@
                 ],
                 "image": "https://i.scdn.co/image/906093436c0d33adeb4cce09a955d9a8f72bf386",
                 "spotifyUrl": "https://open.spotify.com/artist/6hlXWCT33jcWvUMzOYyUhk",
-                "bio": "Facts About Nathan Temby:\nBorn February 12, 1980 in Sacramento, California\n\nMoved to San Francisco, California in 2000, where he currently has a home\n\nPlayed numerous shows in coffeehouses, festivals, and fairs from 2001 - 2006 while recording his debut album.\n\n\"Pocket Change\", his first full-length CD of all original songs was released on August 29, 2006 and featured the single, \"Seattle Lullaby\", for which a music video was made\n\nThe Pocket Change tour covered the West Coast of the U. <a href=\"http://www.last.fm/music/Nathan+Temby\">Read more on Last.fm</a>",
+                "bio": "Facts About Nathan Temby:\nBorn February 12, 1980 in Sacramento, California\n\nMoved to San Francisco, California in 2000, where he currently has a home\n\nPlayed numerous shows in coffeehouses, festivals, and fairs from 2001 - 2006 while recording his debut album.\n\n\"Pocket Change\", his first full-length CD of all original songs was released on August 29, 2006 and featured the single, \"Seattle Lullaby\", for which a music video was made\n\nThe Pocket Change tour covered the West Coast of the U. ",
                 "genre": []
             },
             "eventDate": {
@@ -137,7 +142,8 @@
                 "name": "Euphoria Nightclub",
                 "lat": 45.520509,
                 "lng": -122.6630973,
-                "address": "343 SE 3rd Ave, Portland, OR 97214"
+                "address": "343 SE 3rd Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=343+SE+3rd+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -145,11 +151,11 @@
                 ],
                 "image": "https://i.scdn.co/image/34ecbf8da320a1633c87ef4eaa3f4732450b44e8",
                 "spotifyUrl": "https://open.spotify.com/artist/0tMrilqtMAsG8qWMBvE0F3",
-                "bio": "TJR can refer to three artists (please note the free downloads on this page refer to the 3rd artist):\n\n1. An alias of famed uk garage pioneers Matt \"Jam\" Lamont and Karl \"Tuff Enuff\" Brown, more popularly recognised as Tuff Jam. This project is probably best known for the seminal track Just Gets Better, which featured and brought to fame vocalist Xavier.\n\n2. A New York based DJ who has gained some recognition in dance music circles for his fidget house releases including \"Atomic\" and \"Good Evening Chicago\" <a href=\"http://www.last.fm/music/TJR\">Read more on Last.fm</a>",
+                "bio": "TJR can refer to three artists (please note the free downloads on this page refer to the 3rd artist):\n\n1. An alias of famed uk garage pioneers Matt \"Jam\" Lamont and Karl \"Tuff Enuff\" Brown, more popularly recognised as Tuff Jam. This project is probably best known for the seminal track Just Gets Better, which featured and brought to fame vocalist Xavier.\n\n2. A New York based DJ who has gained some recognition in dance music circles for his fidget house releases including \"Atomic\" and \"Good Evening Chicago\" ",
                 "genre": [
-                    "House",
+                    "house",
                     "funky house",
-                    "UK Garage",
+                    "uk garage",
                     "speed garage",
                     "rockabilly"
                 ]
@@ -165,7 +171,8 @@
                 "name": "Tardis Room",
                 "lat": 45.5625927,
                 "lng": -122.6795353,
-                "address": "1222 N Killingsworth St, Portland, OR 97217"
+                "address": "1222 N Killingsworth St, Portland, OR 97217",
+                "directionsUrl": "https://maps.google.com?q=1222+N+Killingsworth+St,+Portland,+OR+97217"
             },
             "artists": {
                 "artists": [
@@ -174,7 +181,7 @@
                 ],
                 "image": "https://i.scdn.co/image/32b70c34472088b14f650677d719566c553c2fcb",
                 "spotifyUrl": "https://open.spotify.com/artist/12Tpsx3rWAOGM6eA6vKWxH",
-                "bio": " <a href=\"http://www.last.fm/music/Almost+Rock\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -188,7 +195,8 @@
                 "name": "The Secret Society Ballroom",
                 "lat": 45.5409227,
                 "lng": -122.6637325,
-                "address": "150 NE Russell St, Portland, OR 97212"
+                "address": "150 NE Russell St, Portland, OR 97212",
+                "directionsUrl": "https://maps.google.com?q=150+NE+Russell+St,+Portland,+OR+97212"
             },
             "artists": {
                 "artists": [
@@ -198,7 +206,7 @@
                 ],
                 "image": "https://i.scdn.co/image/2abb91f814053bb055789dd4962a6f012302b502",
                 "spotifyUrl": "https://open.spotify.com/artist/0lrjVsOuOG3lqrhDzsJN6x",
-                "bio": "Left Coast Country is a five piece string band based out of Portland, Oregon that delivers to you a variety of high octane  bluegrass, traditional and country along with an entourage of contemporary originals. <a href=\"http://www.last.fm/music/Left+Coast+Country\">Read more on Last.fm</a>",
+                "bio": "Left Coast Country is a five piece string band based out of Portland, Oregon that delivers to you a variety of high octane  bluegrass, traditional and country along with an entourage of contemporary originals. ",
                 "genre": []
             },
             "eventDate": {
@@ -212,7 +220,8 @@
                 "name": "Ava Roasteria - Timberland Town Center",
                 "lat": 45.5225737,
                 "lng": -122.8012298,
-                "address": "Street, Portland, OR 97229"
+                "address": "Street, Portland, OR 97229",
+                "directionsUrl": "https://maps.google.com?q=Street,+Portland,+OR+97229"
             },
             "artists": {
                 "artists": [
@@ -234,7 +243,8 @@
                 "name": "Holocene",
                 "lat": 45.5175739,
                 "lng": -122.6553277,
-                "address": "748 SE 10th Ave, Portland, OR 97214"
+                "address": "748 SE 10th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=748+SE+10th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -242,7 +252,7 @@
                 ],
                 "image": "https://i.scdn.co/image/413f05f85f81f9bbe38aa8495ab119b234bb5e31",
                 "spotifyUrl": "https://open.spotify.com/artist/3wFHDAXLsjvclEtifEV7F5",
-                "bio": " <a href=\"http://www.last.fm/music/+noredirect/Dengue+Dengue+Dengue\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "electro cumbia"
                 ]
@@ -258,7 +268,8 @@
                 "name": "Star Theater",
                 "lat": 45.52335,
                 "lng": -122.6765882,
-                "address": "7 NW 6th Ave, Portland, OR 97209"
+                "address": "7 NW 6th Ave, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=7+NW+6th+Ave,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -266,10 +277,10 @@
                 ],
                 "image": "https://i.scdn.co/image/13dbfcd2251f59a381c5fbba48d022e63e243806",
                 "spotifyUrl": "https://open.spotify.com/artist/2qcQmkXSOEfX7h1XUMYrXS",
-                "bio": "Formed in Rockford, IL. Their song \"Sumpin\" was featured in the Kirsten Dunst movie Crazy/Beautiful. <a href=\"http://www.last.fm/music/The+Pimps\">Read more on Last.fm</a>",
+                "bio": "Formed in Rockford, IL. Their song \"Sumpin\" was featured in the Kirsten Dunst movie Crazy/Beautiful. ",
                 "genre": [
                     "rock",
-                    "Nu-metal",
+                    "nu-metal",
                     "metal",
                     "hard rock",
                     "alternative"
@@ -286,7 +297,8 @@
                 "name": "Clinton Street Theater",
                 "lat": 45.5032586,
                 "lng": -122.6397926,
-                "address": "2717 SE 26th Ave, Portland, OR 97202"
+                "address": "2717 SE 26th Ave, Portland, OR 97202",
+                "directionsUrl": "https://maps.google.com?q=2717+SE+26th+Ave,+Portland,+OR+97202"
             },
             "artists": {
                 "artists": [
@@ -295,7 +307,7 @@
                 ],
                 "image": "https://i.scdn.co/image/155e857cf6700c67e9a836f0ed24ddcaef271cd9",
                 "spotifyUrl": "https://open.spotify.com/artist/4v9cwVM0AQC2tF9dkJXC3N",
-                "bio": "\n\nwhat is the harmonica pocket?\n\nthe harmonica pocket begins simply as the swinging songs of composer keeth monta apgar. keeth delivers storytelling lyrics accompanied by thick jazz chord progressions and unpredictable changes.\n\nkeeth’s songs are brought to life by a rotating musical pop-gang of friends. harmonica pocket songs are as diverse as the players who play on them. along with numerous other musicians, instruments, and sounds, harmonica pocket regulars include: <a href=\"http://www.last.fm/music/The+Harmonica+Pocket\">Read more on Last.fm</a>",
+                "bio": "\n\nwhat is the harmonica pocket?\n\nthe harmonica pocket begins simply as the swinging songs of composer keeth monta apgar. keeth delivers storytelling lyrics accompanied by thick jazz chord progressions and unpredictable changes.\n\nkeeth’s songs are brought to life by a rotating musical pop-gang of friends. harmonica pocket songs are as diverse as the players who play on them. along with numerous other musicians, instruments, and sounds, harmonica pocket regulars include: ",
                 "genre": []
             },
             "eventDate": {
@@ -309,7 +321,8 @@
                 "name": "Madison High School",
                 "lat": 45.5517361,
                 "lng": -122.5522483,
-                "address": "10752 NE Shaver St, Portland, OR 97220"
+                "address": "10752 NE Shaver St, Portland, OR 97220",
+                "directionsUrl": "https://maps.google.com?q=10752+NE+Shaver+St,+Portland,+OR+97220"
             },
             "artists": {
                 "artists": [
@@ -317,11 +330,11 @@
                 ],
                 "image": "http://img2-ak.lst.fm/i/u/34s/4ad4ebb122e74b9ea0c4da1f8bf17c7f.png",
                 "spotifyUrl": null,
-                "bio": "This is an incorrect name for a soundtrack by Charles Strouse.  If this non-artist appears in your charts, please fix your tags. <a href=\"http://www.last.fm/music/+noredirect/Bye+Bye+Birdie\">Read more on Last.fm</a>",
+                "bio": "This is an incorrect name for a soundtrack by Charles Strouse.  If this non-artist appears in your charts, please fix your tags. ",
                 "genre": [
-                    "Soundtrack",
+                    "soundtrack",
                     "musical",
-                    "Soundtracks",
+                    "soundtracks",
                     "musicals",
                     "ost"
                 ]
@@ -337,7 +350,8 @@
                 "name": "Featured in a Beautiful Private Home in Eastmoreland",
                 "lat": 45.474925,
                 "lng": -122.633722,
-                "address": "6693 SE 29th Ave, Portland, OR 97202"
+                "address": "6693 SE 29th Ave, Portland, OR 97202",
+                "directionsUrl": "https://maps.google.com?q=6693+SE+29th+Ave,+Portland,+OR+97202"
             },
             "artists": {
                 "artists": [
@@ -345,7 +359,7 @@
                 ],
                 "image": "https://i.scdn.co/image/f57a7ab39950b099ddbaceffbfa5866f50a50a52",
                 "spotifyUrl": "https://open.spotify.com/artist/4U4M588jwyF1sfQNkrYzDQ",
-                "bio": "There are more bands with the name Betrayal:\n\n1) Betrayal are a straight edge Hardcore/Beatdown band from Woodland Hills, California. They are currently signed to Mediaskare Records,  The Band mixes hardcore and metal with intensive 2-steps that result in a heavy sound in the vein of such bands as Recon, The Acacia Strain, and thick as blood. Their debut EP was release on October 21st, 2008.  Their most recent album, Abandonment was released April 26th, 2011. <a href=\"http://www.last.fm/music/Betrayal\">Read more on Last.fm</a>",
+                "bio": "There are more bands with the name Betrayal:\n\n1) Betrayal are a straight edge Hardcore/Beatdown band from Woodland Hills, California. They are currently signed to Mediaskare Records,  The Band mixes hardcore and metal with intensive 2-steps that result in a heavy sound in the vein of such bands as Recon, The Acacia Strain, and thick as blood. Their debut EP was release on October 21st, 2008.  Their most recent album, Abandonment was released April 26th, 2011. ",
                 "genre": [
                     "hardcore",
                     "beatdown",
@@ -365,7 +379,8 @@
                 "name": "The Secret Society Ballroom",
                 "lat": 45.5409227,
                 "lng": -122.6637325,
-                "address": "150 NE Russell St, Portland, OR 97212"
+                "address": "150 NE Russell St, Portland, OR 97212",
+                "directionsUrl": "https://maps.google.com?q=150+NE+Russell+St,+Portland,+OR+97212"
             },
             "artists": {
                 "artists": [
@@ -387,7 +402,8 @@
                 "name": "Turn Turn Turn",
                 "lat": 45.5625569,
                 "lng": -122.6667248,
-                "address": "5436 N Williams Ave, Portland, OR 97217"
+                "address": "5436 N Williams Ave, Portland, OR 97217",
+                "directionsUrl": "https://maps.google.com?q=5436+N+Williams+Ave,+Portland,+OR+97217"
             },
             "artists": {
                 "artists": [
@@ -396,7 +412,7 @@
                 ],
                 "image": "",
                 "spotifyUrl": null,
-                "bio": " <a href=\"http://www.last.fm/music/The+Exorcists\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -410,7 +426,8 @@
                 "name": "The Know",
                 "lat": 45.5590696,
                 "lng": -122.6441853,
-                "address": "2066 NE Alberta St, Portland, OR 97211"
+                "address": "2066 NE Alberta St, Portland, OR 97211",
+                "directionsUrl": "https://maps.google.com?q=2066+NE+Alberta+St,+Portland,+OR+97211"
             },
             "artists": {
                 "artists": [
@@ -420,7 +437,7 @@
                 ],
                 "image": "https://i.scdn.co/image/a00905c93b6afc2ba2e492111288b6cc07b35ce6",
                 "spotifyUrl": "https://open.spotify.com/artist/4llq13SfJvV5mKoRN0Of7L",
-                "bio": "Blowout is a pop-punk 4 piece playing out of Portland, Oregon. <a href=\"http://www.last.fm/music/Blowout\">Read more on Last.fm</a>",
+                "bio": "Blowout is a pop-punk 4 piece playing out of Portland, Oregon. ",
                 "genre": [
                     "jazz",
                     "5432fun"
@@ -437,7 +454,8 @@
                 "name": "Turn Turn Turn",
                 "lat": 45.5625569,
                 "lng": -122.6667248,
-                "address": "5436 N Williams Ave, Portland, OR 97217"
+                "address": "5436 N Williams Ave, Portland, OR 97217",
+                "directionsUrl": "https://maps.google.com?q=5436+N+Williams+Ave,+Portland,+OR+97217"
             },
             "artists": {
                 "artists": [
@@ -461,7 +479,8 @@
                 "name": "Star Theater",
                 "lat": 45.52335,
                 "lng": -122.6765882,
-                "address": "7 NW 6th Ave, Portland, OR 97209"
+                "address": "7 NW 6th Ave, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=7+NW+6th+Ave,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -483,7 +502,8 @@
                 "name": "McMenamin's Edgefield Winery",
                 "lat": 45.5370766,
                 "lng": -122.4064734,
-                "address": "Street, Troutdale, OR 97060"
+                "address": "Street, Troutdale, OR 97060",
+                "directionsUrl": "https://maps.google.com?q=Street,+Troutdale,+OR+97060"
             },
             "artists": {
                 "artists": [
@@ -491,7 +511,7 @@
                 ],
                 "image": "https://i.scdn.co/image/7942e1c572bd29033d56f2fe3df20cec6f52f565",
                 "spotifyUrl": "https://open.spotify.com/artist/5x5IBxSUMmnlSmU8aa7OOQ",
-                "bio": " <a href=\"http://www.last.fm/music/Vince+Brown\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -505,7 +525,8 @@
                 "name": "Doug Fir Lounge",
                 "lat": 45.5229238,
                 "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=SE+7th+Ave+&+E+Burnside+St+&+NE+7th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -514,7 +535,7 @@
                 ],
                 "image": "https://i.scdn.co/image/70bb84782d0a99055c2f0571c44bbe9ae323ca60",
                 "spotifyUrl": "https://open.spotify.com/artist/42WJFNdxsAgcn9PfjT61Z3",
-                "bio": "Eleanor Friedberger (born September 2, 1976 in Oak Park, Illinois) is an American musician most well-known for being one half of the indie rock duo The Fiery Furnaces, along with her older brother Matthew Friedberger. In the band she contributes the majority of the vocals both on record and during their live performances.\n\nFriedberger grew up singing with her grandmother, Olga Sarantos, and family in a Greek Orthodox Church. \n\nOn July 12, 2011, Merge Records released Friedberger's first solo album, Last Summer. <a href=\"http://www.last.fm/music/Eleanor+Friedberger\">Read more on Last.fm</a>",
+                "bio": "Eleanor Friedberger (born September 2, 1976 in Oak Park, Illinois) is an American musician most well-known for being one half of the indie rock duo The Fiery Furnaces, along with her older brother Matthew Friedberger. In the band she contributes the majority of the vocals both on record and during their live performances.\n\nFriedberger grew up singing with her grandmother, Olga Sarantos, and family in a Greek Orthodox Church. \n\nOn July 12, 2011, Merge Records released Friedberger's first solo album, Last Summer. ",
                 "genre": [
                     "indie rock",
                     "female vocalists",
@@ -534,7 +555,8 @@
                 "name": "Mississippi Studios",
                 "lat": 45.5508766,
                 "lng": -122.6753828,
-                "address": "887 N Failing St, Portland, OR 97227"
+                "address": "887 N Failing St, Portland, OR 97227",
+                "directionsUrl": "https://maps.google.com?q=887+N+Failing+St,+Portland,+OR+97227"
             },
             "artists": {
                 "artists": [
@@ -543,11 +565,11 @@
                 ],
                 "image": "https://i.scdn.co/image/7f77729351fbf4e2c59d82000bc24e9a547c4bcd",
                 "spotifyUrl": "https://open.spotify.com/artist/5q6z6GTth6lMbL9I8CAgby",
-                "bio": "Offering up a heaping helping of alternative rock with a healthy dose of timeless Americana influence, Anderson East is a dynamic artist who fuses modern sound with the rich undertones of his southern roots. \n\nThere was, “a lot of preachin’, a lot of prayin’ & a lot of piano playin’.” That best describes Anderson’s early years as a Southern Baptist Pastor’s grandson. Add the sweet sound of a gospel singing father, coupled with the big dreams that only a small town will inspire and you get a young man full of emotion <a href=\"http://www.last.fm/music/Anderson+East\">Read more on Last.fm</a>",
+                "bio": "Offering up a heaping helping of alternative rock with a healthy dose of timeless Americana influence, Anderson East is a dynamic artist who fuses modern sound with the rich undertones of his southern roots. \n\nThere was, “a lot of preachin’, a lot of prayin’ & a lot of piano playin’.” That best describes Anderson’s early years as a Southern Baptist Pastor’s grandson. Add the sweet sound of a gospel singing father, coupled with the big dreams that only a small town will inspire and you get a young man full of emotion ",
                 "genre": [
                     "rock",
                     "soul",
-                    "All",
+                    "all",
                     "singer-songwriter",
                     "americana"
                 ]
@@ -563,7 +585,8 @@
                 "name": "Aladdin Theater",
                 "lat": 45.501102,
                 "lng": -122.654253,
-                "address": "3017 SE Milwaukie Ave, Portland, OR 97202"
+                "address": "3017 SE Milwaukie Ave, Portland, OR 97202",
+                "directionsUrl": "https://maps.google.com?q=3017+SE+Milwaukie+Ave,+Portland,+OR+97202"
             },
             "artists": {
                 "artists": [
@@ -572,7 +595,7 @@
                 ],
                 "image": "https://i.scdn.co/image/922d5735276c6cdc313afb5cb6d9011ffbbeac65",
                 "spotifyUrl": "https://open.spotify.com/artist/0O0g9JMOVNoIgLG6dgaYMY",
-                "bio": "Robyn Raymond Hitchcock (born 3rd March 1953) is an English singer-songwriter and psych folk guitarist.  While primarily a vocalist and guitarist, he also plays harmonica, piano, and bass guitar.  Many of Hitchcock's album covers bear his paintings or drawings, and his albums' liner notes sometimes include a printed short story.  His live concerts usually include a considerable amount of story-telling, imaginative and surreal ad-libbed monologues in his lyrical style. <a href=\"http://www.last.fm/music/Robyn+Hitchcock\">Read more on Last.fm</a>",
+                "bio": "Robyn Raymond Hitchcock (born 3rd March 1953) is an English singer-songwriter and psych folk guitarist.  While primarily a vocalist and guitarist, he also plays harmonica, piano, and bass guitar.  Many of Hitchcock's album covers bear his paintings or drawings, and his albums' liner notes sometimes include a printed short story.  His live concerts usually include a considerable amount of story-telling, imaginative and surreal ad-libbed monologues in his lyrical style. ",
                 "genre": [
                     "singer-songwriter",
                     "alternative",
@@ -592,7 +615,8 @@
                 "name": "Star Theater",
                 "lat": 45.52335,
                 "lng": -122.6765882,
-                "address": "7 NW 6th Ave, Portland, OR 97209"
+                "address": "7 NW 6th Ave, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=7+NW+6th+Ave,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -602,12 +626,12 @@
                 ],
                 "image": "https://i.scdn.co/image/c9ebbec081e13794d9fe62b721ab48e9f612a303",
                 "spotifyUrl": "https://open.spotify.com/artist/1qPFzP54oMjiPXpmneoIwF",
-                "bio": "Bongzilla is a stoner metal band from Madison, Wisconsin. As their name suggests, most of their material is related to marijuana and promotes its legalization. The band formed in 1995, and over the next three years recorded and released a dozen songs on EPs and split singles. In 1998 they signed to Relapse Records, and have since released four studio albums and a live album through the label.\n\nSince the seeds were planted in the mid-90s, Bongzilla have been sowing Madison, Wisconsin's rich soil with their homegrown, psychedelic sludge. <a href=\"http://www.last.fm/music/Bongzilla\">Read more on Last.fm</a>",
+                "bio": "Bongzilla is a stoner metal band from Madison, Wisconsin. As their name suggests, most of their material is related to marijuana and promotes its legalization. The band formed in 1995, and over the next three years recorded and released a dozen songs on EPs and split singles. In 1998 they signed to Relapse Records, and have since released four studio albums and a live album through the label.\n\nSince the seeds were planted in the mid-90s, Bongzilla have been sowing Madison, Wisconsin's rich soil with their homegrown, psychedelic sludge. ",
                 "genre": [
-                    "Sludge",
+                    "sludge",
                     "stoner metal",
                     "doom metal",
-                    "Stoner Rock",
+                    "stoner rock",
                     "stoner"
                 ]
             },
@@ -622,7 +646,8 @@
                 "name": "Valentine's",
                 "lat": 45.5225331,
                 "lng": -122.6728607,
-                "address": "26 SW 3rd Ave, Portland, OR 97204"
+                "address": "26 SW 3rd Ave, Portland, OR 97204",
+                "directionsUrl": "https://maps.google.com?q=26+SW+3rd+Ave,+Portland,+OR+97204"
             },
             "artists": {
                 "artists": [
@@ -646,7 +671,8 @@
                 "name": "Sherwood Center for the Arts",
                 "lat": 45.3556588,
                 "lng": -122.8399971,
-                "address": "811 SW Columbia St, Sherwood, OR 97140"
+                "address": "811 SW Columbia St, Sherwood, OR 97140",
+                "directionsUrl": "https://maps.google.com?q=811+SW+Columbia+St,+Sherwood,+OR+97140"
             },
             "artists": {
                 "artists": [
@@ -654,7 +680,7 @@
                 ],
                 "image": "https://i.scdn.co/image/a79ab69ca1d3b014e58cde78267e8c678d403b92",
                 "spotifyUrl": "https://open.spotify.com/artist/6zW5pafn6lopc4jHEN3GJQ",
-                "bio": "There is more than one artist with this name:\n(1) A crossover urban/pop recording artist/songwriter from the Bahamas est. in the year 2000. This Tada is the singer of the albums F5 and I'm That Girl.\n(2) A South London RnB singer/songwriter.\n\nBIOS:\n(1) A native of Nassau, Bahamas, TaDa was the recent headliner for the Miss Teen USA pageant, (which was held for the first time outside the US) at exotic Atlantis, Paradise Island. Throughout her career <a href=\"http://www.last.fm/music/Tada\">Read more on Last.fm</a>",
+                "bio": "There is more than one artist with this name:\n(1) A crossover urban/pop recording artist/songwriter from the Bahamas est. in the year 2000. This Tada is the singer of the albums F5 and I'm That Girl.\n(2) A South London RnB singer/songwriter.\n\nBIOS:\n(1) A native of Nassau, Bahamas, TaDa was the recent headliner for the Miss Teen USA pageant, (which was held for the first time outside the US) at exotic Atlantis, Paradise Island. Throughout her career ",
                 "genre": [
                     "soul",
                     "r&b",
@@ -674,7 +700,8 @@
                 "name": "Rontoms",
                 "lat": 45.522535,
                 "lng": -122.659492,
-                "address": "56 SE 6th Ave, Portland, OR 97214"
+                "address": "56 SE 6th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=56+SE+6th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -683,7 +710,7 @@
                 ],
                 "image": "https://i.scdn.co/image/c3032bc9298d90411a39d241e14fa783352a5d89",
                 "spotifyUrl": "https://open.spotify.com/artist/2dJZCS7GvG72bCVCj69wkN",
-                "bio": " <a href=\"http://www.last.fm/music/DoveDriver\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -697,7 +724,8 @@
                 "name": "Analog Theater (upstairs)",
                 "lat": 45.512006,
                 "lng": -122.658176,
-                "address": "752 SE Hawthorne Blvd, Portland, OR 97214"
+                "address": "752 SE Hawthorne Blvd, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=752+SE+Hawthorne+Blvd,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -705,7 +733,7 @@
                 ],
                 "image": "https://i.scdn.co/image/05bead6a0c3963e19c826a6dc8de1cbea19a3c30",
                 "spotifyUrl": "https://open.spotify.com/artist/6dEtLwgmSI0hmfwTSjy8cw",
-                "bio": "Real Friends are an American pop punk band from the south side of Chicago, Illinois. The band consists of bassist Kyle Fasel, guitarist Dave Knox, vocalist Dan Lambton, drummer Brian Blake and guitarist Eric Haines. The band formed in late 2010, releasing their debut EP, This is Honesty, in early 2011. They have since released three more EPs - Everyone That Dragged You Here (2012), Three Songs About The Past Year of My Life (2012) and Put Yourself Back Together (2013). <a href=\"http://www.last.fm/music/Real+Friends\">Read more on Last.fm</a>",
+                "bio": "Real Friends are an American pop punk band from the south side of Chicago, Illinois. The band consists of bassist Kyle Fasel, guitarist Dave Knox, vocalist Dan Lambton, drummer Brian Blake and guitarist Eric Haines. The band formed in late 2010, releasing their debut EP, This is Honesty, in early 2011. They have since released three more EPs - Everyone That Dragged You Here (2012), Three Songs About The Past Year of My Life (2012) and Put Yourself Back Together (2013). ",
                 "genre": [
                     "pop punk",
                     "emo",
@@ -725,7 +753,8 @@
                 "name": "Madison High School",
                 "lat": 45.5517361,
                 "lng": -122.5522483,
-                "address": "10752 NE Shaver St, Portland, OR 97220"
+                "address": "10752 NE Shaver St, Portland, OR 97220",
+                "directionsUrl": "https://maps.google.com?q=10752+NE+Shaver+St,+Portland,+OR+97220"
             },
             "artists": {
                 "artists": [
@@ -733,11 +762,11 @@
                 ],
                 "image": "http://img2-ak.lst.fm/i/u/34s/4ad4ebb122e74b9ea0c4da1f8bf17c7f.png",
                 "spotifyUrl": null,
-                "bio": "This is an incorrect name for a soundtrack by Charles Strouse.  If this non-artist appears in your charts, please fix your tags. <a href=\"http://www.last.fm/music/+noredirect/Bye+Bye+Birdie\">Read more on Last.fm</a>",
+                "bio": "This is an incorrect name for a soundtrack by Charles Strouse.  If this non-artist appears in your charts, please fix your tags. ",
                 "genre": [
-                    "Soundtrack",
+                    "soundtrack",
                     "musical",
-                    "Soundtracks",
+                    "soundtracks",
                     "musicals",
                     "ost"
                 ]
@@ -753,7 +782,8 @@
                 "name": "Star Theater",
                 "lat": 45.52335,
                 "lng": -122.6765882,
-                "address": "7 NW 6th Ave, Portland, OR 97209"
+                "address": "7 NW 6th Ave, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=7+NW+6th+Ave,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -775,7 +805,8 @@
                 "name": "Doug Fir Lounge",
                 "lat": 45.5229238,
                 "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=SE+7th+Ave+&+E+Burnside+St+&+NE+7th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -784,7 +815,7 @@
                 ],
                 "image": "https://i.scdn.co/image/79c919ccd69e441eb825e0f322ffde39eca0cd92",
                 "spotifyUrl": "https://open.spotify.com/artist/1tho5dJnzdYD57EQkM3SmK",
-                "bio": "Chastity Belt is a real band formed in Walla Walla, WA by Julia Shapiro (guitar, vocals), Lydia Lund (guitar), Annie Truscott (bass), and Gretchen Grimm (drums), now residing in Seattle, WA. Songs by Julia and Chastity Belt. http://chastity-belt.bandcamp.com/ <a href=\"http://www.last.fm/music/Chastity+Belt\">Read more on Last.fm</a>",
+                "bio": "Chastity Belt is a real band formed in Walla Walla, WA by Julia Shapiro (guitar, vocals), Lydia Lund (guitar), Annie Truscott (bass), and Gretchen Grimm (drums), now residing in Seattle, WA. Songs by Julia and Chastity Belt. http://chastity-belt.bandcamp.com/ ",
                 "genre": [
                     "indie rock",
                     "indie",
@@ -804,7 +835,8 @@
                 "name": "Mississippi Studios",
                 "lat": 45.5508766,
                 "lng": -122.6753828,
-                "address": "887 N Failing St, Portland, OR 97227"
+                "address": "887 N Failing St, Portland, OR 97227",
+                "directionsUrl": "https://maps.google.com?q=887+N+Failing+St,+Portland,+OR+97227"
             },
             "artists": {
                 "artists": [
@@ -812,7 +844,7 @@
                 ],
                 "image": "https://i.scdn.co/image/413f05f85f81f9bbe38aa8495ab119b234bb5e31",
                 "spotifyUrl": "https://open.spotify.com/artist/3wFHDAXLsjvclEtifEV7F5",
-                "bio": "“Before it was partly Cambodian and partly indie rock,” explains Williams of the band's evolution. “Now it's 100 percent both.”\nPlunging headlong into their second decade as a band, DENGUE FEVER’s (www.denguefevermusic.com) new album, The Deepest Lake, their fifth full-length of all-new material, comes at a critical juncture in the bands career. In 2013, after forming their own label Tuk Tuk Records, the band crossed over into a brave new world as both artist and record label owner’s. <a href=\"http://www.last.fm/music/Dengue+Fever\">Read more on Last.fm</a>",
+                "bio": "“Before it was partly Cambodian and partly indie rock,” explains Williams of the band's evolution. “Now it's 100 percent both.”\nPlunging headlong into their second decade as a band, DENGUE FEVER’s (www.denguefevermusic.com) new album, The Deepest Lake, their fifth full-length of all-new material, comes at a critical juncture in the bands career. In 2013, after forming their own label Tuk Tuk Records, the band crossed over into a brave new world as both artist and record label owner’s. ",
                 "genre": [
                     "psychedelic",
                     "cambodian",
@@ -832,7 +864,8 @@
                 "name": "Doug Fir Lounge",
                 "lat": 45.5229238,
                 "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=SE+7th+Ave+&+E+Burnside+St+&+NE+7th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -841,7 +874,7 @@
                 ],
                 "image": "https://i.scdn.co/image/3edf9337692164a1b52db701e83b809981551929",
                 "spotifyUrl": "https://open.spotify.com/artist/1Zp054Jc86WVKCxKEqZGOA",
-                "bio": "Jack Garratt is an English multi-instrumentalist, singer and producer. He incorporates electric guitar, piano, rich percussion and electronic flourishes into his music. \n\nHe has released two EPs (\"Synesthesiac\" (2015) and \"Remnants\" (2014)) and  two singles (\"Chemical\" (2015) and \"The Love You're Given\" (2014)). <a href=\"http://www.last.fm/music/Jack+Garratt\">Read more on Last.fm</a>",
+                "bio": "Jack Garratt is an English multi-instrumentalist, singer and producer. He incorporates electric guitar, piano, rich percussion and electronic flourishes into his music. \n\nHe has released two EPs (\"Synesthesiac\" (2015) and \"Remnants\" (2014)) and  two singles (\"Chemical\" (2015) and \"The Love You're Given\" (2014)). ",
                 "genre": [
                     "seen live",
                     "electronic",
@@ -861,7 +894,8 @@
                 "name": "Mississippi Studios",
                 "lat": 45.5508766,
                 "lng": -122.6753828,
-                "address": "887 N Failing St, Portland, OR 97227"
+                "address": "887 N Failing St, Portland, OR 97227",
+                "directionsUrl": "https://maps.google.com?q=887+N+Failing+St,+Portland,+OR+97227"
             },
             "artists": {
                 "artists": [
@@ -871,7 +905,7 @@
                 ],
                 "image": "https://i.scdn.co/image/81b98f0e621be7d7cd52e670bfb100de10596776",
                 "spotifyUrl": "https://open.spotify.com/artist/5OtSZCoZm2IsDXVk4FfF4O",
-                "bio": "Jackson Boone is a songwriter born and raised in the misty magic of Portland Oregon. \nA Capricorn who surfs the Ocean.\n\n <a href=\"http://www.last.fm/music/Jackson+Boone\">Read more on Last.fm</a>",
+                "bio": "Jackson Boone is a songwriter born and raised in the misty magic of Portland Oregon. \nA Capricorn who surfs the Ocean.\n\n ",
                 "genre": [
                     "indie",
                     "indie rock",
@@ -890,7 +924,8 @@
                 "name": "Lake Oswego Public Library",
                 "lat": 45.4239821,
                 "lng": -122.6673796,
-                "address": "726 4th St, Lake Oswego, OR 97034"
+                "address": "726 4th St, Lake Oswego, OR 97034",
+                "directionsUrl": "https://maps.google.com?q=726+4th+St,+Lake+Oswego,+OR+97034"
             },
             "artists": {
                 "artists": [
@@ -898,7 +933,7 @@
                 ],
                 "image": "https://i.scdn.co/image/a49d3df4f9d56c407afea1023d49feb8ef657174",
                 "spotifyUrl": "https://open.spotify.com/artist/6ZG1wXCekh8ahOXJLJkPY7",
-                "bio": " <a href=\"http://www.last.fm/music/Kelly+Brightwell\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -912,7 +947,8 @@
                 "name": "Alberta Rose Theatre",
                 "lat": 45.5589455,
                 "lng": -122.6347471,
-                "address": "4982 NE 30th Ave, Portland, OR 97211"
+                "address": "4982 NE 30th Ave, Portland, OR 97211",
+                "directionsUrl": "https://maps.google.com?q=4982+NE+30th+Ave,+Portland,+OR+97211"
             },
             "artists": {
                 "artists": [
@@ -921,10 +957,10 @@
                 ],
                 "image": "https://i.scdn.co/image/b81e684fb278f8e4c38724d1e5678c006a4a01d1",
                 "spotifyUrl": "https://open.spotify.com/artist/5JQT7pvJY4ojWOl2QuzdvG",
-                "bio": "Jane Siberry (born October 12, 1955 in Toronto, Ontario, Canada) is most famous for her early 1980s new wave hits such as 'Mimi on the Beach', 'I Muse Aloud' and 'One More Colour'. Internationally, she is best known for her 1993 album 'When I Was a Boy'.  Her first self-titled album was released in 1981.\n\nFollowing the commercial failure of her 1995 album Maria , Siberry founded her own independent label, Sheeba Records. She has released all of her subsequent material on that label. <a href=\"http://www.last.fm/music/Jane+Siberry\">Read more on Last.fm</a>",
+                "bio": "Jane Siberry (born October 12, 1955 in Toronto, Ontario, Canada) is most famous for her early 1980s new wave hits such as 'Mimi on the Beach', 'I Muse Aloud' and 'One More Colour'. Internationally, she is best known for her 1993 album 'When I Was a Boy'.  Her first self-titled album was released in 1981.\n\nFollowing the commercial failure of her 1995 album Maria , Siberry founded her own independent label, Sheeba Records. She has released all of her subsequent material on that label. ",
                 "genre": [
                     "female vocalists",
-                    "Canadian",
+                    "canadian",
                     "singer-songwriter",
                     "alternative",
                     "pop"
@@ -941,7 +977,8 @@
                 "name": "Aladdin Theater",
                 "lat": 45.501102,
                 "lng": -122.654253,
-                "address": "3017 SE Milwaukie Ave, Portland, OR 97202"
+                "address": "3017 SE Milwaukie Ave, Portland, OR 97202",
+                "directionsUrl": "https://maps.google.com?q=3017+SE+Milwaukie+Ave,+Portland,+OR+97202"
             },
             "artists": {
                 "artists": [
@@ -949,7 +986,7 @@
                 ],
                 "image": "https://i.scdn.co/image/0408915ccba290c1885a98f54b13756884e848eb",
                 "spotifyUrl": "https://open.spotify.com/artist/1J9fKtKZfo0aP65plC8SRN",
-                "bio": "The Wainwright Sisters is a singer-songwriter duo featuring the Canadian-American Martha Wainwright and her American half-sister Lucy Wainwright Roche. <a href=\"http://www.last.fm/music/The+Wainwright+Sisters\">Read more on Last.fm</a>",
+                "bio": "The Wainwright Sisters is a singer-songwriter duo featuring the Canadian-American Martha Wainwright and her American half-sister Lucy Wainwright Roche. ",
                 "genre": []
             },
             "eventDate": {
@@ -963,7 +1000,8 @@
                 "name": "The Liquor Store",
                 "lat": 45.5165836,
                 "lng": -122.6300034,
-                "address": "3367 SE Belmont St, Portland, OR 97214"
+                "address": "3367 SE Belmont St, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=3367+SE+Belmont+St,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -973,7 +1011,7 @@
                 ],
                 "image": "",
                 "spotifyUrl": null,
-                "bio": " <a href=\"http://www.last.fm/music/Shannon+Entropy\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -987,7 +1025,8 @@
                 "name": "The Blackwater Bar",
                 "lat": 45.5352456,
                 "lng": -122.6567753,
-                "address": "1727 NE 9th Ave, Portland, OR 97212"
+                "address": "1727 NE 9th Ave, Portland, OR 97212",
+                "directionsUrl": "https://maps.google.com?q=1727+NE+9th+Ave,+Portland,+OR+97212"
             },
             "artists": {
                 "artists": [
@@ -1012,7 +1051,8 @@
                 "name": "Doug Fir Lounge",
                 "lat": 45.5229238,
                 "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=SE+7th+Ave+&+E+Burnside+St+&+NE+7th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1021,12 +1061,12 @@
                 ],
                 "image": "https://i.scdn.co/image/2516fd0e47717a877af3381197804d1d3eddef84",
                 "spotifyUrl": "https://open.spotify.com/artist/65o6y7GtoXzchyiJB3r9Ur",
-                "bio": "Penny and Sparrow are Andy Baxter and Kyle Jahnke, from the heart of Texas. Previously roommates, the duo makes music influenced by The Swell Season, Bon Iver, Mumford and Sons, and others. They also love musicals. <a href=\"http://www.last.fm/music/Penny+and+Sparrow\">Read more on Last.fm</a>",
+                "bio": "Penny and Sparrow are Andy Baxter and Kyle Jahnke, from the heart of Texas. Previously roommates, the duo makes music influenced by The Swell Season, Bon Iver, Mumford and Sons, and others. They also love musicals. ",
                 "genre": [
                     "folk",
                     "indie",
                     "seen live",
-                    "Awesome",
+                    "awesome",
                     "melancholic"
                 ]
             },
@@ -1041,7 +1081,8 @@
                 "name": "Alberta Rose Theatre",
                 "lat": 45.5589455,
                 "lng": -122.6347471,
-                "address": "4982 NE 30th Ave, Portland, OR 97211"
+                "address": "4982 NE 30th Ave, Portland, OR 97211",
+                "directionsUrl": "https://maps.google.com?q=4982+NE+30th+Ave,+Portland,+OR+97211"
             },
             "artists": {
                 "artists": [
@@ -1049,7 +1090,7 @@
                 ],
                 "image": "https://i.scdn.co/image/04f4a85f46d380e467bbef4fec6a3ed65e9d4d0b",
                 "spotifyUrl": "https://open.spotify.com/artist/0INDB6Snts5NDbzh8jC3lk",
-                "bio": "Run River North writes brilliant harmonies paired with layered instrumentations and puts on an awe-inspiring live show. Formed in 2011, Run River North is Alex Hwang (lead vocals, guitars), Daniel Chae (vocals, strings), Jennifer Rim (strings), Joe Chun (bass, vocals), John Chong (drums, vocals) and Sally Kang (vocals, keyboards). <a href=\"http://www.last.fm/music/Run+River+North\">Read more on Last.fm</a>",
+                "bio": "Run River North writes brilliant harmonies paired with layered instrumentations and puts on an awe-inspiring live show. Formed in 2011, Run River North is Alex Hwang (lead vocals, guitars), Daniel Chae (vocals, strings), Jennifer Rim (strings), Joe Chun (bass, vocals), John Chong (drums, vocals) and Sally Kang (vocals, keyboards). ",
                 "genre": [
                     "indie",
                     "folk",
@@ -1069,7 +1110,8 @@
                 "name": "Holocene",
                 "lat": 45.5175739,
                 "lng": -122.6553277,
-                "address": "748 SE 10th Ave, Portland, OR 97214"
+                "address": "748 SE 10th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=748+SE+10th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1079,7 +1121,7 @@
                 ],
                 "image": "http://img2-ak.lst.fm/i/u/34s/ff2d06c4e8914d0f85b2e75be74cac51.png",
                 "spotifyUrl": null,
-                "bio": "The Hill Dogs is a folk rock band from Oregon USA. They released their first album Ghosts Of Champoeg in 2013. <a href=\"http://www.last.fm/music/The+Hill+Dogs\">Read more on Last.fm</a>",
+                "bio": "The Hill Dogs is a folk rock band from Oregon USA. They released their first album Ghosts Of Champoeg in 2013. ",
                 "genre": []
             },
             "eventDate": {
@@ -1093,7 +1135,8 @@
                 "name": "Dante's",
                 "lat": 45.5229781,
                 "lng": -122.6736892,
-                "address": "332 W Burnside St, Portland, OR 97209"
+                "address": "332 W Burnside St, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=332+W+Burnside+St,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -1101,7 +1144,7 @@
                 ],
                 "image": "https://i.scdn.co/image/2bd363fbc4289e54b5b6d8a12142e95b1783135b",
                 "spotifyUrl": "https://open.spotify.com/artist/17yG70sNJCecYiTGc0LIj3",
-                "bio": " <a href=\"http://www.last.fm/music/Yo+Mamas+Big+Fat+Booty+Band\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "seen em"
                 ]
@@ -1117,7 +1160,8 @@
                 "name": "Analog Cafe & DRD Records Little Theater",
                 "lat": 45.512006,
                 "lng": -122.658176,
-                "address": "752 SE Hawthorne Blvd, Portland, OR 97214"
+                "address": "752 SE Hawthorne Blvd, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=752+SE+Hawthorne+Blvd,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1126,9 +1170,9 @@
                 ],
                 "image": "https://i.scdn.co/image/d59bddead54536982165f4b45ea719ab053dde55",
                 "spotifyUrl": "https://open.spotify.com/artist/4O15NlyKLIASxsJ0PrXPfz",
-                "bio": " <a href=\"http://www.last.fm/music/LIL+UZI+VERT\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
-                    "Hip-Hop",
+                    "hip-hop",
                     "trap",
                     "vocal trap"
                 ]
@@ -1144,7 +1188,8 @@
                 "name": "Mississippi Studios",
                 "lat": 45.5508766,
                 "lng": -122.6753828,
-                "address": "887 N Failing St, Portland, OR 97227"
+                "address": "887 N Failing St, Portland, OR 97227",
+                "directionsUrl": "https://maps.google.com?q=887+N+Failing+St,+Portland,+OR+97227"
             },
             "artists": {
                 "artists": [
@@ -1152,7 +1197,7 @@
                 ],
                 "image": "https://i.scdn.co/image/d47ded2d3b7d06f94cd38bdfa40869612955ad55",
                 "spotifyUrl": "https://open.spotify.com/artist/6dg0pP9nHaX9X1aK7qBAZc",
-                "bio": " <a href=\"http://www.last.fm/music/Amy+Miller\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -1166,7 +1211,8 @@
                 "name": "Aladdin Theater",
                 "lat": 45.501102,
                 "lng": -122.654253,
-                "address": "3017 SE Milwaukie Ave, Portland, OR 97202"
+                "address": "3017 SE Milwaukie Ave, Portland, OR 97202",
+                "directionsUrl": "https://maps.google.com?q=3017+SE+Milwaukie+Ave,+Portland,+OR+97202"
             },
             "artists": {
                 "artists": [
@@ -1176,7 +1222,7 @@
                 ],
                 "image": "https://i.scdn.co/image/4121da18ff69148c64543babfee63e43e984753d",
                 "spotifyUrl": "https://open.spotify.com/artist/5kuJibJcwOC53s3OkoGMRA",
-                "bio": "Exploring Brilliantivity:\nWhat is brilliantivity? Is it…\nA) Exercising brilliance in creativity?\nB) Finding creative ways to be brilliant?\nC) A word that I just made up?\nD) All of the above.\nE) The Revivalists.\nSince forming in 2007, The Revivalists have earned their standing among the best young bands in New Orleans. The group’s combination of danceable rock and soulful songwriting (and brilliantivity) comes to life through a meticulously crafted and ever-evolving live performance. <a href=\"http://www.last.fm/music/The+Revivalists\">Read more on Last.fm</a>",
+                "bio": "Exploring Brilliantivity:\nWhat is brilliantivity? Is it…\nA) Exercising brilliance in creativity?\nB) Finding creative ways to be brilliant?\nC) A word that I just made up?\nD) All of the above.\nE) The Revivalists.\nSince forming in 2007, The Revivalists have earned their standing among the best young bands in New Orleans. The group’s combination of danceable rock and soulful songwriting (and brilliantivity) comes to life through a meticulously crafted and ever-evolving live performance. ",
                 "genre": [
                     "soul",
                     "funk",
@@ -1196,7 +1242,8 @@
                 "name": "Doug Fir Lounge",
                 "lat": 45.5229238,
                 "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=SE+7th+Ave+&+E+Burnside+St+&+NE+7th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1205,7 +1252,7 @@
                 ],
                 "image": "https://i.scdn.co/image/ed91cc735d6f74cf5ca31d463c136410902fa03d",
                 "spotifyUrl": "https://open.spotify.com/artist/2ic4xySjQ39N7DJ0HZemeG",
-                "bio": "“I just fell in love with a forty-five (rpm record) been kept alive in a box over 30 years old,” sings 24-year-old Chris Henderson, the front man of the Hartford, CT, band BRONZE RADIO RETURN. This lyric, from their full-length debut album, OLD TIME SPEAKER, begins to paint the picture that enables your understanding of the group and their music. Like listening to old Bluesmen on your iPod Touch, BRONZE RADIO RETURN is about the juxtaposition of the old and the new. <a href=\"http://www.last.fm/music/Bronze+Radio+Return\">Read more on Last.fm</a>",
+                "bio": "“I just fell in love with a forty-five (rpm record) been kept alive in a box over 30 years old,” sings 24-year-old Chris Henderson, the front man of the Hartford, CT, band BRONZE RADIO RETURN. This lyric, from their full-length debut album, OLD TIME SPEAKER, begins to paint the picture that enables your understanding of the group and their music. Like listening to old Bluesmen on your iPod Touch, BRONZE RADIO RETURN is about the juxtaposition of the old and the new. ",
                 "genre": [
                     "indie",
                     "blues",
@@ -1225,7 +1272,8 @@
                 "name": "Roseland Theater",
                 "lat": 45.5233129,
                 "lng": -122.6764367,
-                "address": "36 NW 6th Ave, Portland, OR 97209"
+                "address": "36 NW 6th Ave, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=36+NW+6th+Ave,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -1234,13 +1282,13 @@
                 ],
                 "image": "https://i.scdn.co/image/9372bb925f687ca3b12cc0a7404ad773aa9e80e6",
                 "spotifyUrl": "https://open.spotify.com/artist/5ttgIeUVka6FLyi00Uu5h8",
-                "bio": " <a href=\"http://www.last.fm/music/Jauz\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
-                    "House",
+                    "house",
                     "seen live",
                     "electro",
                     "trap",
-                    "All"
+                    "all"
                 ]
             },
             "eventDate": {
@@ -1254,7 +1302,8 @@
                 "name": "Alberta Street Pub",
                 "lat": 45.5589313,
                 "lng": -122.6548335,
-                "address": "4979 NE 11th Ave, Portland, OR 97211"
+                "address": "4979 NE 11th Ave, Portland, OR 97211",
+                "directionsUrl": "https://maps.google.com?q=4979+NE+11th+Ave,+Portland,+OR+97211"
             },
             "artists": {
                 "artists": [
@@ -1262,7 +1311,7 @@
                 ],
                 "image": "https://i.scdn.co/image/785dc7c7843446918e0e73a8eb48799dca77a391",
                 "spotifyUrl": "https://open.spotify.com/artist/2339FZ7b9LMtb292UiNMiV",
-                "bio": " <a href=\"http://www.last.fm/music/The+Weather+Machine\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "indie",
                     "folk",
@@ -1282,7 +1331,8 @@
                 "name": "Mississippi Studios",
                 "lat": 45.5508766,
                 "lng": -122.6753828,
-                "address": "887 N Failing St, Portland, OR 97227"
+                "address": "887 N Failing St, Portland, OR 97227",
+                "directionsUrl": "https://maps.google.com?q=887+N+Failing+St,+Portland,+OR+97227"
             },
             "artists": {
                 "artists": [
@@ -1292,7 +1342,7 @@
                 ],
                 "image": "https://i.scdn.co/image/6c21e928284a9b36a72e5616fe9c417a39635cb7",
                 "spotifyUrl": "https://open.spotify.com/artist/3Gaqw2nGyE7yM3rcRSzE3U",
-                "bio": "Landscape and memory have always played a central part in the music of Joe Corrales Jr. aka Yppah (pronounced “yippah”). It’s what gives his tunes both their sense of place, their physicality, and their ethereal - almost nostalgic - sweetness. Joe Corrales Jr, from Houston, Texas debuted on Ninja Tune in 2006. His third album for Ninja Tune reflects a change in the landscape around him. Midway through the process of recording the demos for what became Eighty One <a href=\"http://www.last.fm/music/Yppah\">Read more on Last.fm</a>",
+                "bio": "Landscape and memory have always played a central part in the music of Joe Corrales Jr. aka Yppah (pronounced “yippah”). It’s what gives his tunes both their sense of place, their physicality, and their ethereal - almost nostalgic - sweetness. Joe Corrales Jr, from Houston, Texas debuted on Ninja Tune in 2006. His third album for Ninja Tune reflects a change in the landscape around him. Midway through the process of recording the demos for what became Eighty One ",
                 "genre": [
                     "electronic",
                     "trip-hop",
@@ -1312,7 +1362,8 @@
                 "name": "Holocene",
                 "lat": 45.5175739,
                 "lng": -122.6553277,
-                "address": "748 SE 10th Ave, Portland, OR 97214"
+                "address": "748 SE 10th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=748+SE+10th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1321,7 +1372,7 @@
                 ],
                 "image": "https://i.scdn.co/image/293cd7db15236b12b685a16e1041454c1bf04b74",
                 "spotifyUrl": "https://open.spotify.com/artist/1z2hZ30uBrGhUPnshm9DmZ",
-                "bio": " <a href=\"http://www.last.fm/music/The+Flavr+Blue\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "indie",
                     "eletronic"
@@ -1338,7 +1389,8 @@
                 "name": "Muddy Rudder Public House",
                 "lat": 45.4636269,
                 "lng": -122.6590043,
-                "address": "SE 7th Ave & SE Tenino St, Portland, OR 97202"
+                "address": "SE 7th Ave & SE Tenino St, Portland, OR 97202",
+                "directionsUrl": "https://maps.google.com?q=SE+7th+Ave+&+SE+Tenino+St,+Portland,+OR+97202"
             },
             "artists": {
                 "artists": [
@@ -1346,7 +1398,7 @@
                 ],
                 "image": "https://i.scdn.co/image/8fca606cb4ce0a1f3bd6e341a8f9f3eb4c405cda",
                 "spotifyUrl": "https://open.spotify.com/artist/0hXmVjt5xJzKhB4vmuM66C",
-                "bio": " <a href=\"http://www.last.fm/music/Jack+Dwyer\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -1360,7 +1412,8 @@
                 "name": "Dante's",
                 "lat": 45.5229781,
                 "lng": -122.6736892,
-                "address": "332 W Burnside St, Portland, OR 97209"
+                "address": "332 W Burnside St, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=332+W+Burnside+St,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -1368,7 +1421,7 @@
                 ],
                 "image": "https://i.scdn.co/image/2024c762cc7a3a3fe42071f179aae81946f957c1",
                 "spotifyUrl": "https://open.spotify.com/artist/3mp5zzEz1qTq7X5a2yOS2B",
-                "bio": " <a href=\"http://www.last.fm/music/Swingrowers\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "electro swing",
                     "electro-swing",
@@ -1388,7 +1441,8 @@
                 "name": "Solae's",
                 "lat": 45.5592291,
                 "lng": -122.6464471,
-                "address": "1835 NE Alberta St, Portland, OR 97211"
+                "address": "1835 NE Alberta St, Portland, OR 97211",
+                "directionsUrl": "https://maps.google.com?q=1835+NE+Alberta+St,+Portland,+OR+97211"
             },
             "artists": {
                 "artists": [
@@ -1410,7 +1464,8 @@
                 "name": "The Secret Society Ballroom",
                 "lat": 45.5409227,
                 "lng": -122.6637325,
-                "address": "150 NE Russell St, Portland, OR 97212"
+                "address": "150 NE Russell St, Portland, OR 97212",
+                "directionsUrl": "https://maps.google.com?q=150+NE+Russell+St,+Portland,+OR+97212"
             },
             "artists": {
                 "artists": [
@@ -1419,12 +1474,12 @@
                 ],
                 "image": "https://i.scdn.co/image/0e6d806821c561a8fbad0ff57bee1ce2966ee0e4",
                 "spotifyUrl": "https://open.spotify.com/artist/4NxJlWDPFTei44bXYt6UAL",
-                "bio": " <a href=\"http://www.last.fm/music/Joe+Baker\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "noise",
                     "ambient",
                     "water",
-                    "Field Recording",
+                    "field recording",
                     "field recordings"
                 ]
             },
@@ -1439,7 +1494,8 @@
                 "name": "World Famous Kenton Club",
                 "lat": 45.582616,
                 "lng": -122.687552,
-                "address": "2075 N Kilpatrick St, Portland, OR 97217"
+                "address": "2075 N Kilpatrick St, Portland, OR 97217",
+                "directionsUrl": "https://maps.google.com?q=2075+N+Kilpatrick+St,+Portland,+OR+97217"
             },
             "artists": {
                 "artists": [
@@ -1463,7 +1519,8 @@
                 "name": "Artichoke Music",
                 "lat": 45.511971,
                 "lng": -122.63319,
-                "address": "3154 SE Hawthorne Blvd, Portland, OR 97214"
+                "address": "3154 SE Hawthorne Blvd, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=3154+SE+Hawthorne+Blvd,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1472,7 +1529,7 @@
                 ],
                 "image": "https://i.scdn.co/image/b71886b4003e2183eff3b8d04243c665afa2e7bd",
                 "spotifyUrl": "https://open.spotify.com/artist/0nUaUmRBjIIEnSQ8DvLU3u",
-                "bio": "From http://heather.styka.com:\n\nHeather’s unique delivery combines the influences of a fragile Irish air, the warm effervescence of upbeat Americana, soulful country and mournful blues. Her voice ensures these songs hit that place in your chest where emotions reside. -Tim Carroll, FolkWords (folkwords.com, UK)\n\nStories are often lurking behind the lyrics of a song - sometimes obscurely so. But fine and direct storytelling... is a special art when it comes to songwriting. <a href=\"http://www.last.fm/music/Heather+Styka\">Read more on Last.fm</a>",
+                "bio": "From http://heather.styka.com:\n\nHeather’s unique delivery combines the influences of a fragile Irish air, the warm effervescence of upbeat Americana, soulful country and mournful blues. Her voice ensures these songs hit that place in your chest where emotions reside. -Tim Carroll, FolkWords (folkwords.com, UK)\n\nStories are often lurking behind the lyrics of a song - sometimes obscurely so. But fine and direct storytelling... is a special art when it comes to songwriting. ",
                 "genre": [
                     "under 2000 listeners",
                     "seen live",
@@ -1490,7 +1547,8 @@
                 "name": "Moda Center at the Rose Quarter",
                 "lat": 45.5319834,
                 "lng": -122.6678056,
-                "address": "7 N Center Ct, Portland, OR 97227"
+                "address": "7 N Center Ct, Portland, OR 97227",
+                "directionsUrl": "https://maps.google.com?q=7+N+Center+Ct,+Portland,+OR+97227"
             },
             "artists": {
                 "artists": [
@@ -1503,12 +1561,12 @@
                 ],
                 "image": "https://i.scdn.co/image/93928a7a32142adef6627e14ea492e7804ea65fd",
                 "spotifyUrl": "https://open.spotify.com/artist/5VX8hxrcfJWwaTLiqGUHG3",
-                "bio": "The Eye On It Songfacts reports that Eye On It, TobyMac's fifth full-length studio album was released on August 28, 2012. Said TobyMac regarding the album title: \"I want my music to depict what I'm going through. I want to write about the things that upset me, move me, hurt me and haunt me. The things that are real. With Tonight, I was determined to live more passionately with God. I was laying down the gauntlet. Eye On It is a continuation of that. <a href=\"http://www.last.fm/music/TobyMac\">Read more on Last.fm</a>",
+                "bio": "The Eye On It Songfacts reports that Eye On It, TobyMac's fifth full-length studio album was released on August 28, 2012. Said TobyMac regarding the album title: \"I want my music to depict what I'm going through. I want to write about the things that upset me, move me, hurt me and haunt me. The things that are real. With Tonight, I was determined to live more passionately with God. I was laying down the gauntlet. Eye On It is a continuation of that. ",
                 "genre": [
                     "christian",
                     "christian rock",
-                    "Christian Rap",
-                    "Hip-Hop",
+                    "christian rap",
+                    "hip-hop",
                     "rap"
                 ]
             },
@@ -1523,7 +1581,8 @@
                 "name": "Euphoria Nightclub",
                 "lat": 45.520509,
                 "lng": -122.6630973,
-                "address": "343 SE 3rd Ave, Portland, OR 97214"
+                "address": "343 SE 3rd Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=343+SE+3rd+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1531,7 +1590,7 @@
                 ],
                 "image": "https://i.scdn.co/image/ce430329647f1d9190f7a7f24eca795175b7e4b2",
                 "spotifyUrl": "https://open.spotify.com/artist/0o9qzOHuHkGZ3xMFKpMFkC",
-                "bio": "Montreal, Canada\n\nWe perform a unique show which is part DJ-set, part live, in which we combine tracks, loops, drums, samples and synths into an intense barrage of sounds and beats, all while wearing our trademark Tiger Helmets.\n\nWelcome to our Church. <a href=\"http://www.last.fm/music/Black+Tiger+Sex+Machine\">Read more on Last.fm</a>",
+                "bio": "Montreal, Canada\n\nWe perform a unique show which is part DJ-set, part live, in which we combine tracks, loops, drums, samples and synths into an intense barrage of sounds and beats, all while wearing our trademark Tiger Helmets.\n\nWelcome to our Church. ",
                 "genre": [
                     "electro",
                     "club house",
@@ -1551,7 +1610,8 @@
                 "name": "Alberta Rose Theatre",
                 "lat": 45.5589455,
                 "lng": -122.6347471,
-                "address": "4982 NE 30th Ave, Portland, OR 97211"
+                "address": "4982 NE 30th Ave, Portland, OR 97211",
+                "directionsUrl": "https://maps.google.com?q=4982+NE+30th+Ave,+Portland,+OR+97211"
             },
             "artists": {
                 "artists": [
@@ -1560,7 +1620,7 @@
                 ],
                 "image": "https://i.scdn.co/image/39325f339830ab98364b31139e21fe098d5be2f2",
                 "spotifyUrl": "https://open.spotify.com/artist/5czxHUsV5Hj6YdnVOJYgEg",
-                "bio": " <a href=\"http://www.last.fm/music/Mean+Mary\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "folk"
                 ]
@@ -1576,7 +1636,8 @@
                 "name": "Doug Fir Lounge",
                 "lat": 45.5229238,
                 "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=SE+7th+Ave+&+E+Burnside+St+&+NE+7th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1584,7 +1645,7 @@
                 ],
                 "image": "https://i.scdn.co/image/2b608771784c77634b697fb4be1260b1d994b883",
                 "spotifyUrl": "https://open.spotify.com/artist/1MzX4V5lr6RlhWbLNRq25b",
-                "bio": "Singer/guitarist with Gomez, Ben Ottewell released his first solo album Shapes & Shadows early 2011.  <a href=\"http://www.last.fm/music/Ben+Ottewell\">Read more on Last.fm</a>",
+                "bio": "Singer/guitarist with Gomez, Ben Ottewell released his first solo album Shapes & Shadows early 2011.  ",
                 "genre": [
                     "seen live",
                     "singer-songwriter",
@@ -1604,7 +1665,8 @@
                 "name": "Alberta Street Pub",
                 "lat": 45.5589313,
                 "lng": -122.6548335,
-                "address": "4979 NE 11th Ave, Portland, OR 97211"
+                "address": "4979 NE 11th Ave, Portland, OR 97211",
+                "directionsUrl": "https://maps.google.com?q=4979+NE+11th+Ave,+Portland,+OR+97211"
             },
             "artists": {
                 "artists": [
@@ -1612,7 +1674,7 @@
                 ],
                 "image": "https://i.scdn.co/image/785dc7c7843446918e0e73a8eb48799dca77a391",
                 "spotifyUrl": "https://open.spotify.com/artist/2339FZ7b9LMtb292UiNMiV",
-                "bio": " <a href=\"http://www.last.fm/music/The+Weather+Machine\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "indie",
                     "folk",
@@ -1632,7 +1694,8 @@
                 "name": "Jimmy Mak's",
                 "lat": 45.5247991,
                 "lng": -122.6812895,
-                "address": "255 NW 10th Ave, Portland, OR 97209"
+                "address": "255 NW 10th Ave, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=255+NW+10th+Ave,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -1640,7 +1703,7 @@
                 ],
                 "image": "https://i.scdn.co/image/d469878e4ef701e7cd86e7daf09f6420bd10a202",
                 "spotifyUrl": "https://open.spotify.com/artist/3qR6sqXnnwZm3tLed2CO35",
-                "bio": "Patrick grew up in Jackson, MS and toured the south as a young musician playing road house music and studying the roots of Jazz.  Patrick combines the raw energy and influences of Funk, Soul, R&B, & Jazz to make his own unique sound.  This can be heard on his latest release as a vocalist & saxophonist titled \"Soul Of A Free Man.\"\n\nPatrick has toured the world with Diane Schuur, Bobby Caldwell, & Gino Vannelli.  He has also produced an awarding winning show  \"A Tribute To Ray Charles,\"  which was recently turned into a Symphony Pops performance. <a href=\"http://www.last.fm/music/Patrick+Lamb\">Read more on Last.fm</a>",
+                "bio": "Patrick grew up in Jackson, MS and toured the south as a young musician playing road house music and studying the roots of Jazz.  Patrick combines the raw energy and influences of Funk, Soul, R&B, & Jazz to make his own unique sound.  This can be heard on his latest release as a vocalist & saxophonist titled \"Soul Of A Free Man.\"\n\nPatrick has toured the world with Diane Schuur, Bobby Caldwell, & Gino Vannelli.  He has also produced an awarding winning show  \"A Tribute To Ray Charles,\"  which was recently turned into a Symphony Pops performance. ",
                 "genre": [
                     "jazz",
                     "soul",
@@ -1660,7 +1723,8 @@
                 "name": "The Old Church",
                 "lat": 45.5146753,
                 "lng": -122.6861643,
-                "address": "1540 SW 11th Ave, Portland, OR 97201"
+                "address": "1540 SW 11th Ave, Portland, OR 97201",
+                "directionsUrl": "https://maps.google.com?q=1540+SW+11th+Ave,+Portland,+OR+97201"
             },
             "artists": {
                 "artists": [
@@ -1670,7 +1734,7 @@
                 ],
                 "image": "https://i.scdn.co/image/6f47c90e30d168c8c643b1d7a17de8ea43d53dc9",
                 "spotifyUrl": "https://open.spotify.com/artist/5IWCU0V9evBlW4gIeGY4zF",
-                "bio": "Solo project of Katie Crutchfield of P.S. Eliot and Bad Banana.\n\nWaxahatchee is a solo project of songwriter Katie Crutchfield formed after the breakup of P.S. Eliot. She released her first music as Waxahatchee as a split cassette with Chris Clavin on Plan-It-X Records. Her bedroom-recorded debut album, American Weekend, was released on Don Giovanni Records in 2012.\n\nOn June 11, 2012 \"Be Good\" was the song of the day on NPR as well as one of the best 50 songs of 2012. <a href=\"http://www.last.fm/music/Waxahatchee\">Read more on Last.fm</a>",
+                "bio": "Solo project of Katie Crutchfield of P.S. Eliot and Bad Banana.\n\nWaxahatchee is a solo project of songwriter Katie Crutchfield formed after the breakup of P.S. Eliot. She released her first music as Waxahatchee as a split cassette with Chris Clavin on Plan-It-X Records. Her bedroom-recorded debut album, American Weekend, was released on Don Giovanni Records in 2012.\n\nOn June 11, 2012 \"Be Good\" was the song of the day on NPR as well as one of the best 50 songs of 2012. ",
                 "genre": [
                     "singer-songwriter",
                     "indie",
@@ -1690,7 +1754,8 @@
                 "name": "Doug Fir Lounge",
                 "lat": 45.5229238,
                 "lng": -122.6587133,
-                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214"
+                "address": "SE 7th Ave & E Burnside St & NE 7th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=SE+7th+Ave+&+E+Burnside+St+&+NE+7th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1698,7 +1763,7 @@
                 ],
                 "image": "https://i.scdn.co/image/980376f2ed49b6d13203cea6e40f90b312c7b7e4",
                 "spotifyUrl": "https://open.spotify.com/artist/5CkVLGKUJkIc1pmSk10QP4",
-                "bio": " <a href=\"http://www.last.fm/music/Eli++Fur\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -1712,7 +1777,8 @@
                 "name": "World Famous Kenton Club",
                 "lat": 45.582616,
                 "lng": -122.687552,
-                "address": "2075 N Kilpatrick St, Portland, OR 97217"
+                "address": "2075 N Kilpatrick St, Portland, OR 97217",
+                "directionsUrl": "https://maps.google.com?q=2075+N+Kilpatrick+St,+Portland,+OR+97217"
             },
             "artists": {
                 "artists": [
@@ -1723,7 +1789,7 @@
                 ],
                 "image": "https://i.scdn.co/image/1cec633a07ae57e92cf4f9d4ac6cc0b32acaac2f",
                 "spotifyUrl": "https://open.spotify.com/artist/5dVpSY3OZUkGS3u6AbPOYq",
-                "bio": "Smoke Rings is a 4 piece dark wave post-punk band from Portland, OR. The group was formed in the winter of 2012 from remnants of other post punk acts in the area. This new fusion creates a unique blend of aggressive punk and haunting melodies by incorporating driving bass/synth lines, angular guitar riffs and innovative, solid drum beats. Topped off with sometimes sorrowful, but often psychotic vocals, Smoke Rings tightly grasps your full attention at live shows.  <a href=\"http://www.last.fm/music/Smoke+Rings\">Read more on Last.fm</a>",
+                "bio": "Smoke Rings is a 4 piece dark wave post-punk band from Portland, OR. The group was formed in the winter of 2012 from remnants of other post punk acts in the area. This new fusion creates a unique blend of aggressive punk and haunting melodies by incorporating driving bass/synth lines, angular guitar riffs and innovative, solid drum beats. Topped off with sometimes sorrowful, but often psychotic vocals, Smoke Rings tightly grasps your full attention at live shows.  ",
                 "genre": [
                     "post-punk",
                     "electronic",
@@ -1743,7 +1809,8 @@
                 "name": "Laurelthirst Public House",
                 "lat": 45.5263882,
                 "lng": -122.6346564,
-                "address": "2986 NE Glisan St, Portland, OR 97232"
+                "address": "2986 NE Glisan St, Portland, OR 97232",
+                "directionsUrl": "https://maps.google.com?q=2986+NE+Glisan+St,+Portland,+OR+97232"
             },
             "artists": {
                 "artists": [
@@ -1751,7 +1818,7 @@
                 ],
                 "image": "",
                 "spotifyUrl": null,
-                "bio": " <a href=\"http://www.last.fm/music/Garcia+Birthday+Band\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": []
             },
             "eventDate": {
@@ -1765,7 +1832,8 @@
                 "name": "Wonder Ballroom",
                 "lat": 45.5408474,
                 "lng": -122.6634854,
-                "address": "178 NE Russell St, Portland, OR 97212"
+                "address": "178 NE Russell St, Portland, OR 97212",
+                "directionsUrl": "https://maps.google.com?q=178+NE+Russell+St,+Portland,+OR+97212"
             },
             "artists": {
                 "artists": [
@@ -1773,7 +1841,7 @@
                 ],
                 "image": "https://i.scdn.co/image/0313bddd20ad15bb6bc410f5aa97dcb72ce11acb",
                 "spotifyUrl": "https://open.spotify.com/artist/5bepW5vcdRzheNc0F8lHJ5",
-                "bio": "Born in 1984, bassist, singer and composer Esperanza Spalding began playing in small jazz and blues venues around her hometown of Portland, Oregon. Soon after picking up the acoustic bass at the late age of 14, she helped form Noise For Pretend, an eclectic band fusing jazz and pop for which she sang and played bass (often simultaneously). The group signed with indie rock imprint Hush Records, which released two albums of their original compositions. <a href=\"http://www.last.fm/music/Esperanza+Spalding\">Read more on Last.fm</a>",
+                "bio": "Born in 1984, bassist, singer and composer Esperanza Spalding began playing in small jazz and blues venues around her hometown of Portland, Oregon. Soon after picking up the acoustic bass at the late age of 14, she helped form Noise For Pretend, an eclectic band fusing jazz and pop for which she sang and played bass (often simultaneously). The group signed with indie rock imprint Hush Records, which released two albums of their original compositions. ",
                 "genre": [
                     "jazz",
                     "female vocalists",
@@ -1793,7 +1861,8 @@
                 "name": "The Firkin Tavern",
                 "lat": 45.5087707,
                 "lng": -122.6548564,
-                "address": "1983 SE 11th Ave, Portland, OR 97214"
+                "address": "1983 SE 11th Ave, Portland, OR 97214",
+                "directionsUrl": "https://maps.google.com?q=1983+SE+11th+Ave,+Portland,+OR+97214"
             },
             "artists": {
                 "artists": [
@@ -1815,7 +1884,8 @@
                 "name": "The Secret Society Ballroom",
                 "lat": 45.5409227,
                 "lng": -122.6637325,
-                "address": "150 NE Russell St, Portland, OR 97212"
+                "address": "150 NE Russell St, Portland, OR 97212",
+                "directionsUrl": "https://maps.google.com?q=150+NE+Russell+St,+Portland,+OR+97212"
             },
             "artists": {
                 "artists": [
@@ -1823,7 +1893,7 @@
                 ],
                 "image": "https://i.scdn.co/image/810aeb0bc9d36900ef9f63d28b76d9fe6d5d24a5",
                 "spotifyUrl": "https://open.spotify.com/artist/7xnXk0h9EZ7clkbsZQPFR3",
-                "bio": " <a href=\"http://www.last.fm/music/The+Cats+Meow\">Read more on Last.fm</a>",
+                "bio": " ",
                 "genre": [
                     "60s psychedelic and garage"
                 ]
@@ -1839,7 +1909,8 @@
                 "name": "Dante's",
                 "lat": 45.5229781,
                 "lng": -122.6736892,
-                "address": "332 W Burnside St, Portland, OR 97209"
+                "address": "332 W Burnside St, Portland, OR 97209",
+                "directionsUrl": "https://maps.google.com?q=332+W+Burnside+St,+Portland,+OR+97209"
             },
             "artists": {
                 "artists": [
@@ -1847,7 +1918,7 @@
                 ],
                 "image": "http://img2-ak.lst.fm/i/u/34s/6ce2595ab82246c4a3bbd2978c3b7311.png",
                 "spotifyUrl": null,
-                "bio": "1)  HellsBelles was a British heavy metal band formed in England in 1984 at the latter stages of the New Wave of British Heavy Metal (NWOBHM). The band, now reformed by original member Paul Quigley as HellsBelles, originally released one LP in 1986 on the Raw Power label of Castle Communications \"Hell's Belles\", one 12\" single 'Barricades' also in 1986 on the Raw Power label and various tracks released throughout the 1990s on various rock compilation albums <a href=\"http://www.last.fm/music/Hells+Belles\">Read more on Last.fm</a>",
+                "bio": "1)  HellsBelles was a British heavy metal band formed in England in 1984 at the latter stages of the New Wave of British Heavy Metal (NWOBHM). The band, now reformed by original member Paul Quigley as HellsBelles, originally released one LP in 1986 on the Raw Power label of Castle Communications \"Hell's Belles\", one 12\" single 'Barricades' also in 1986 on the Raw Power label and various tracks released throughout the 1990s on various rock compilation albums ",
                 "genre": [
                     "seen live",
                     "hard rock",
