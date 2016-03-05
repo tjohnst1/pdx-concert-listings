@@ -4,4 +4,5 @@ export default concertListings => {
   require('./venueFilter')(concertListings);
   require('./formatTime')(concertListings);
   require('./fixedNumLength')(concertListings);
+  require('./limitBands')(concertListings);
 };

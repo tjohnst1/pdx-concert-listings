@@ -2,7 +2,7 @@
   <div ng-if="event.artists.image" style="background-image: url('{{event.artists.image}}')" class="event-headline-img"></div>
   <div ng-if="!event.artists.image" style="background-image: url('/images/band-default.png')" class="event-headline-img"></div>
   <div class="event-headline-text">
-    <p class="event-headline-artists">{{event.artists.artists.join(', ')}}</p>
+    <p class="event-headline-artists">{{event.artists.artists | limitBands:2}}</p>
     <p class="event-headline-venue">{{event.venue.name}}<p>
     <p class="event-headline-date">{{event.eventDate.day | date: format: short}}</p>
   </div>
