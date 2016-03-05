@@ -11,7 +11,7 @@
       <event-headline dir-paginate="event in vm.events | filter:vm.filterOptions.query | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate | itemsPerPage:vm.filterOptions.itemsPerPage"
       event="event" class="event-headline"></event-headline>
     </div>
+    <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true"></dir-pagination-controls>
   </div>
-  <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true"></dir-pagination-controls>
   <p class="loading-warning" ng-show="vm.events.length === 0">Loading...</p>
 </div>

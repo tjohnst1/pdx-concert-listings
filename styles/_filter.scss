@@ -4,7 +4,7 @@
 }
 
 .filter-content{
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .filter-headline{
@@ -16,7 +16,11 @@
 }
 
 .filter-dates{
+  margin: 10px 0;
   label{
+    color: $charcoal;
+    font-weight: 300;
+    font-size: 0.75em;
   }
   input{
     width: 100%;
@@ -24,7 +28,11 @@
 }
 
 .filter-search{
+  margin: 10px 0;
   label{
+    color: $charcoal;
+    font-weight: 300;
+    font-size: 0.75em;
   }
   input{
     width: 100%;
@@ -32,7 +40,11 @@
 }
 
 .filter-selectedVenue{
+  margin: 10px 0;
   label{
+    color: $charcoal;
+    font-weight: 300;
+    font-size: 0.75em;
   }
   select{
     width: 100%;
@@ -40,7 +52,11 @@
 }
 
 .filter-itemsPerPage{
+  margin: 10px 0;
   label{
+    color: $charcoal;
+    font-weight: 300;
+    font-size: 0.75em;
   }
   select{
     width: 100%;
