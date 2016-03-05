@@ -16,12 +16,10 @@
 .event-content{
   padding: 10px 0;
   text-align: center;
-  @include clearfix;
 }
 
 .event-headline{
   list-style: none;
-  padding: 2%;
   @include span-columns(3);
   background: white;
   margin-bottom: 10px;
@@ -36,27 +34,13 @@
   }
 }
 
-.event-headline-artists{
-  margin: 0;
-  color: $black;
-  font-size: 1.25em;
-}
-
-.event-headline-text{
-  margin: 0;
-  display: inline-block;
-  font-size: 0.8em;
-}
-
-.event-headline-date{
-  margin: 0;
-  color: $black;
-  font-size: 0.8em;
-}
-
-.event-headline-venue{
-  margin: 0;
-  color: $charcoal;
+.event-headline-link{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: block;
+  position: relative;
+  text-decoration: none;
 }
 
 .event-headline-img{
@@ -66,5 +50,38 @@
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
+}
+
+.event-headline-text{
+  margin: 5px 0 0 0;
+}
+
+.event-headline-artists{
+  margin: 0;
+  color: $black;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.event-headline-date{
+  margin: 0;
+  color: $charcoal;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.event-headline-venue{
+  margin: 0;
+  color: $papaya;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.event-headline-more-info{
+  margin: 10px 0 0 0;
+  color: $charcoal;
+  font-size: 0.6em;
+  position: absolute;
+  bottom: 5%;
+  left: 39.5%;
 }
