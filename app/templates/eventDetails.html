@@ -20,9 +20,9 @@
     <a href="{{ vm.event.venue.directionsUrl }}" rel="nofollow" class="event-venue-directions">Directions</a>
   </div>
   <div class="event-map-container" ng-show="vm.event.venue.lat !== undefined">
-    <!-- <gm-map mapTypeId="google.maps.MapTypeId.ROADMAP" zoom="15" center="[vm.event.venue.lat, vm.event.venue.lng]">
+    <gm-map mapTypeId="google.maps.MapTypeId.ROADMAP" zoom="15" center="[vm.event.venue.lat, vm.event.venue.lng]">
       <gm-marker draggable="true" position="[vm.event.venue.lat, vm.event.venue.lng]"></gm-marker>
-    </gm-map> -->
+    </gm-map>
   </div>
 </div>
 <p class="loading-warning" ng-show="vm.event.artists === undefined">Loading...</p>

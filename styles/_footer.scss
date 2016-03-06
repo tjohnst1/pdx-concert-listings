@@ -1,0 +1,20 @@
+footer{
+  background: $grey;
+  padding: 15px;
+}
+
+.footer-text{
+  color: $charcoal;
+  display: inline-block;
+  margin: 0;
+  font-size: 0.6em;
+}
+
+.footer-songkick-logo{
+  display: inline-block;
+  min-height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 100px;
+  float: right;
+}
