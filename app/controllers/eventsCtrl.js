@@ -6,6 +6,7 @@ export default concertListings => {
     vm.venues = EventsFactory.venues;
     vm.filterOptions = {venue: "", startingDate: "", endingDate: "", itemsPerPage: "20", query: ""};
     vm.event = {};
+    vm.currentState = 'Index'
 
     EventsFactory.getData().on("value", function(snapshot) {
      const fbSnapshot = snapshot.val();
@@ -18,6 +19,9 @@ export default concertListings => {
           uiGmapGoogleMapApi.then(function(maps) {
             vm.map = { center: { latitude: vm.event.venue.lat, longitude: vm.event.venue.lng }, zoom: 15 };
           });
+          vm.currentState = 'Event';
+        } else {
+          vm.currentState = 'Index';
         }
       });
     });
