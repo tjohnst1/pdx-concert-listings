@@ -1,6 +1,6 @@
 .events-container{
   padding: 20px;
-  @include display(flex);
+  @include display(flex)
 }
 
 .event-headline-container{
@@ -16,6 +16,7 @@
 .event-content{
   padding: 10px 0;
   text-align: center;
+  @include clearfix;
 }
 
 .event-headline{
