@@ -1,17 +1,34 @@
-<header current-state="vm.currentState"></header>
-<div class="events-container">
-  <event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage" query="vm.filterOptions.query"></event-filter>
-  <div class="event-headline-container">
-    <h3 class="event-title">Events</h3>
-    <div class="event-content">
-      <event-headline dir-paginate="event in vm.events | filter:vm.filterOptions.query | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate | itemsPerPage:vm.filterOptions.itemsPerPage"
-      event="event" class="event-headline"></event-headline>
+<div class="wrapper">
+  <header current-state="vm.currentState"></header>
+  <div class="events-container">
+    <event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage" query="vm.filterOptions.query"></event-filter>
+    <div class="event-headline-container">
+      <h3 class="event-title">Events</h3>
+      <div class="event-content">
+        <event-headline dir-paginate="event in vm.events | filter:vm.filterOptions.query | venueFilter:vm.filterOptions.venue | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate | itemsPerPage:vm.filterOptions.itemsPerPage"
+        event="event" class="event-headline"></event-headline>
+        <div class="loading-warning" ng-show="vm.events.length === 0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="#F89406">
+            <circle transform="translate(8 0)" cx="0" cy="16" r="0">
+              <animate attributeName="r" values="0; 4; 0; 0" dur="1.2s" repeatCount="indefinite" begin="0"
+                keytimes="0;0.2;0.7;1" keySplines="0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8" calcMode="spline" />
+            </circle>
+            <circle transform="translate(16 0)" cx="0" cy="16" r="0">
+              <animate attributeName="r" values="0; 4; 0; 0" dur="1.2s" repeatCount="indefinite" begin="0.3"
+                keytimes="0;0.2;0.7;1" keySplines="0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8" calcMode="spline" />
+            </circle>
+            <circle transform="translate(24 0)" cx="0" cy="16" r="0">
+              <animate attributeName="r" values="0; 4; 0; 0" dur="1.2s" repeatCount="indefinite" begin="0.6"
+                keytimes="0;0.2;0.7;1" keySplines="0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8" calcMode="spline" />
+            </circle>
+          </svg>
+        </div>
+      </div>
+      <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true"></dir-pagination-controls>
     </div>
-    <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true"></dir-pagination-controls>
   </div>
-  <p class="loading-warning" ng-show="vm.events.length === 0">Loading...</p>
+  <footer>
+    <p class="footer-text">All event info is graciously provided by Songkick. Artist biographies are supplied by Last.fm and geolocation data is gathered from Bing Maps.</p>
+    <div class="footer-songkick-logo" style="background-image: url('/images/concerts-songkick.png')"></div>
+  </footer>
 </div>
-<footer>
-  <p class="footer-text">All event info is graciously provided by Songkick. Artist biographies are supplied by Last.fm and geolocation data is gathered from Bing Maps.</p>
-  <div class="footer-songkick-logo" style="background-image: url('/images/concerts-songkick.png')"></div>
-</footer>

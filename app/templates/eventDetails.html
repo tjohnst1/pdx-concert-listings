@@ -1,36 +1,53 @@
-<header current-state="vm.currentState"></header>
-<div class="event-container" ng-if="vm.event.artists !== undefined">
-  <div class="event-details">
-    <div class="event-heading-container">
-      <h2 class="event-artists">{{ vm.event.artists.artists.join(", ") }}</h2>
-      <p class="event-date">{{ vm.event.eventDate.day | date: 'longDate' }}</p>
-      <p class="event-time" ng-if="vm.event.eventDate.time">{{ vm.event.eventDate.time | formatTime }}</p>
+<div class="wrapper">
+  <header current-state="vm.currentState"></header>
+  <div class="event-container" ng-if="vm.event.artists !== undefined">
+    <div class="event-details">
+      <div class="event-heading-container">
+        <h2 class="event-artists">{{ vm.event.artists.artists.join(", ") }}</h2>
+        <p class="event-date">{{ vm.event.eventDate.day | date: 'longDate' }}</p>
+        <p class="event-time" ng-if="vm.event.eventDate.time">{{ vm.event.eventDate.time | formatTime }}</p>
+      </div>
+      <div class="event-venue-container">
+        <p class="event-venue-info">Venue Information:</p>
+        <p class="event-venue-info">{{ vm.event.venue.name }}</p>
+        <p class="event-venue-info">{{ vm.event.venue.address }}</p>
+      </div>
+      <p class="event-artist-bio" ng-if="vm.event.artists.bio">{{ vm.event.artists.bio }}</p>
+      <p class="event-genres" ng-if="vm.event.artists.genre">Genres: {{ vm.event.artists.genre.join(", ") }}</p>
+      <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address" class="sharing-links-container"></sharing-links>
+      <a href="{{ vm.event.artists.spotifyUrl}}" rel="nofollow" class="event-listen-btn">
+        <img src="/images/listen-green.svg" />
+      </a>
+      <a href="{{ vm.event.venue.directionsUrl }}" rel="nofollow" class="event-venue-directions">Directions</a>
     </div>
-    <div class="event-venue-container">
-      <p class="event-venue-info">Venue Information:</p>
-      <p class="event-venue-info">{{ vm.event.venue.name }}</p>
-      <p class="event-venue-info">{{ vm.event.venue.address }}</p>
+    <div class="event-map-container">
+      <!-- ng-show="vm.event.venue.lat !== undefined"
+        <gm-map mapTypeId="google.maps.MapTypeId.ROADMAP" zoom="15" center="[vm.event.venue.lat, vm.event.venue.lng]">
+        <gm-marker draggable="true" position="[vm.event.venue.lat, vm.event.venue.lng]"></gm-marker>
+      </gm-map> -->
+      <ui-gmap-google-map center='vm.map.center' zoom='vm.map.zoom'>
+        <ui-gmap-marker coords="vm.map.center" idkey="0">
+      </ui-gmap-google-map>
     </div>
-    <p class="event-artist-bio" ng-if="vm.event.artists.bio">{{ vm.event.artists.bio }}</p>
-    <p class="event-genres" ng-if="vm.event.artists.genre">Genres: {{ vm.event.artists.genre.join(", ") }}</p>
-    <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address" class="sharing-links-container"></sharing-links>
-    <a href="{{ vm.event.artists.spotifyUrl}}" rel="nofollow" class="event-listen-btn">
-      <img src="/images/listen-green.svg" />
-    </a>
-    <a href="{{ vm.event.venue.directionsUrl }}" rel="nofollow" class="event-venue-directions">Directions</a>
   </div>
-  <div class="event-map-container">
-    <!-- ng-show="vm.event.venue.lat !== undefined"
-      <gm-map mapTypeId="google.maps.MapTypeId.ROADMAP" zoom="15" center="[vm.event.venue.lat, vm.event.venue.lng]">
-      <gm-marker draggable="true" position="[vm.event.venue.lat, vm.event.venue.lng]"></gm-marker>
-    </gm-map> -->
-    <ui-gmap-google-map center='vm.map.center' zoom='vm.map.zoom'>
-      <ui-gmap-marker coords="vm.map.center" idkey="0">
-    </ui-gmap-google-map>
+  <div class="loading-warning" ng-show="vm.event.artists === undefined">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="#F89406">
+      <circle transform="translate(8 0)" cx="0" cy="16" r="0">
+        <animate attributeName="r" values="0; 4; 0; 0" dur="1.2s" repeatCount="indefinite" begin="0"
+          keytimes="0;0.2;0.7;1" keySplines="0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8" calcMode="spline" />
+      </circle>
+      <circle transform="translate(16 0)" cx="0" cy="16" r="0">
+        <animate attributeName="r" values="0; 4; 0; 0" dur="1.2s" repeatCount="indefinite" begin="0.3"
+          keytimes="0;0.2;0.7;1" keySplines="0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8" calcMode="spline" />
+      </circle>
+      <circle transform="translate(24 0)" cx="0" cy="16" r="0">
+        <animate attributeName="r" values="0; 4; 0; 0" dur="1.2s" repeatCount="indefinite" begin="0.6"
+          keytimes="0;0.2;0.7;1" keySplines="0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8" calcMode="spline" />
+      </circle>
+    </svg>
   </div>
+  <footer>
+    <p class="footer-text">All event info is graciously provided by Songkick. Artist biographies are supplied by Last.fm and geolocation data is gathered from Bing Maps.</p>
+    <div class="footer-songkick-logo" style="background-image: url('/images/concerts-songkick.png')"></div>
+  </footer>
 </div>
-<p class="loading-warning" ng-show="vm.event.artists === undefined">Loading...</p>
-<footer>
-  <p class="footer-text">All event info is graciously provided by Songkick. Artist biographies are supplied by Last.fm and geolocation data is gathered from Bing Maps.</p>
-  <div class="footer-songkick-logo" style="background-image: url('/images/concerts-songkick.png')"></div>
-</footer>

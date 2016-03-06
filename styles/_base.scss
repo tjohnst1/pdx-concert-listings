@@ -2,6 +2,8 @@ body{
   font-family: "europa";
   color: $black;
   margin: 0;
+  height: 100%;
+  position: relative;
   // background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
 }
 
@@ -21,4 +23,9 @@ gm-map {
 .loading-warning{
   text-align: center;
   padding: 20px;
+}
+
+.wrapper{
+  margin: 0 0 51px 0;
+  min-height: calc(100vh - 51px);
 }
