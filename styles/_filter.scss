@@ -1,17 +1,16 @@
-.filter-container{
-  @include span-columns(3);
-  display: inline-block;
+event-filter{
+  width: 25%;
 }
 
 .filter-content{
-  padding: 0 20px;
+  padding: 0 20px 0 0;
 }
 
 .filter-headline{
   margin: 0;
   border-bottom: 1px solid $black;
   display: block;
-  margin: 0 20px;
+  margin: 0 20px 0 0;
   color: $orange;
 }
 

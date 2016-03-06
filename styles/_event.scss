@@ -1,5 +1,6 @@
 .event-container{
   @include display(flex);
+  @include clearfix;
   padding: 20px;
 }
 
@@ -50,6 +51,9 @@
 .event-listen-btn{
   width: 100px;
   display: inline-block;
+  &:hover{
+    opacity: 0.8;
+  }
 }
 
 .event-venue-directions{
@@ -61,6 +65,11 @@
   color: $charcoal;
   display: inline-block;
   vertical-align: top;
+  background: none;
+  &:hover{
+    color: white;
+    background: $charcoal;
+  }
 }
 
 .event-map-container{

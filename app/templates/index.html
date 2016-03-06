@@ -1,8 +1,4 @@
-<div class="header-container">
-  <a ui-sref="events">
-    <h1 class="header-logo">PDX Concert Guide</h1>
-  </a>
-</div>
+<header></header>
 <div class="events-container">
   <event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage" query="vm.filterOptions.query"></event-filter>
   <div class="event-headline-container">
@@ -15,3 +11,7 @@
   </div>
   <p class="loading-warning" ng-show="vm.events.length === 0">Loading...</p>
 </div>
+<footer>
+  <p class="footer-text">All event info is graciously provided by Songkick. Artist biographies are supplied by Last.fm and geolocation data is gathered from Bing Maps.</p>
+  <div class="footer-songkick-logo" style="background-image: url('/images/concerts-songkick.png')"></div>
+</footer>

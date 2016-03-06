@@ -1,10 +1,10 @@
 .events-container{
-  padding: 20px 0 0 0;
+  padding: 20px;
+  @include display(flex);
 }
 
 .event-headline-container{
-  @include span-columns(9);
-  display: inline-block;
+  width: 75%;
 }
 
 .event-title{

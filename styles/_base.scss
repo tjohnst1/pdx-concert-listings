@@ -7,7 +7,9 @@ body{
 
 .icon{
   max-width: 40px;
-  fill: $charcoal;
+  &:hover{
+    opacity: 0.8;
+  }
 }
 
 gm-map {

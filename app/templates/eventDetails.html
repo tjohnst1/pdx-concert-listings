@@ -1,7 +1,4 @@
-<div class="header-container">
-  <a ui-sref="events"><h1 class="header-logo">PDX Concert Guide</h1></a>
-  <a ui-sref="events" class="header-back">Go Back</a>
-</div>
+<header></header>
 <div class="event-container" ng-show="vm.event.artists !== undefined">
   <div class="event-details">
     <div class="event-heading-container">
@@ -22,10 +19,14 @@
     </a>
     <a href="{{ vm.event.venue.directionsUrl }}" rel="nofollow" class="event-venue-directions">Directions</a>
   </div>
-  <div class="event-map-container">
-    <gm-map mapTypeId="google.maps.MapTypeId.ROADMAP" zoom="15" center="[vm.event.venue.lat, vm.event.venue.lng]">
+  <div class="event-map-container" ng-show="vm.event.venue.lat !== undefined">
+    <!-- <gm-map mapTypeId="google.maps.MapTypeId.ROADMAP" zoom="15" center="[vm.event.venue.lat, vm.event.venue.lng]">
       <gm-marker draggable="true" position="[vm.event.venue.lat, vm.event.venue.lng]"></gm-marker>
-    </gm-map>
+    </gm-map> -->
   </div>
 </div>
 <p class="loading-warning" ng-show="vm.event.artists === undefined">Loading...</p>
+<footer>
+  <p class="footer-text">All event info is graciously provided by Songkick. Artist biographies are supplied by Last.fm and geolocation data is gathered from Bing Maps.</p>
+  <div class="footer-songkick-logo" style="background-image: url('/images/concerts-songkick.png')"></div>
+</footer>
