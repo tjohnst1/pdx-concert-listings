@@ -14,7 +14,7 @@ gulp.task('sass', function(){
 });
 
 gulp.task('publish', function(){
-  gulp.src('app/dist/**/*.*')
+  gulp.src('./dist/**/*.*')
   .pipe(gulp.dest('./'));
 })
 
