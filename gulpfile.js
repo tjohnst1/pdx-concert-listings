@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
+    imagemin = require('gulp-imagemin'),
     sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('default', ['watch']);
@@ -18,7 +19,7 @@ gulp.task('publish', function(){
 })
 
 gulp.task('optimize-imgs', function(){
-  return gulp.src('./img/*')
+  return gulp.src('./images/*')
         .pipe(imagemin({ optimizationLevel: 5, progressive: true }))
         .pipe(gulp.dest('./dist/images'));
 });
