@@ -15,7 +15,7 @@ export default concertListings => {
           venueArr.push(eventObj.venue.name);
         };
       });
-      return venueArr;
+      return venueArr.sort();
     };
 
     EventsFactory.getGenres = (events) => {
@@ -26,13 +26,13 @@ export default concertListings => {
             return genre.toLowerCase();
           });
           genresArr.forEach((genre) => {
-            if (filteredArr.indexOf(genre) === -1){
+            if (filteredArr.indexOf(genre) === -1 && genre !== 'all'){
               filteredArr.push(genre);
             };
           });
         };
       });
-      return filteredArr;
+      return filteredArr.sort();
     };
 
     EventsFactory.getData = () => {
