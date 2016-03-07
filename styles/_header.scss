@@ -1,15 +1,11 @@
 header{
-  padding: 20px;
+  padding: 10px 20px;
   border-bottom: 1px solid $grey;
+  text-align: left;
   @include display(flex);
-  text-align: center;
-  @include justify-content(center);
+  @include justify-content(space-between);
   a{
     text-decoration: none;
-  }
-  @include media(min-width 750px) {
-    text-align: left;
-    @include justify-content(space-between);
   }
 }
 
@@ -17,10 +13,14 @@ header{
   h1{
     color: $orange;
     margin: 0;
-    font-size: 1em;
+    font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+}
+
+.header-nav-link{
+  display: block;
 }
 
 .header-icon-container{

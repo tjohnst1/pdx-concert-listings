@@ -1,12 +1,17 @@
 .event-container{
   @include display(flex);
   @include clearfix;
-  padding: 20px;
+  padding: 10px 20px;
+  @include media(min-width 750px) {
+    padding: 20px;
+  }
 }
 
 .event-details{
-  width: 60%;
-  padding: 0 20px 0 0;
+  width: 100%;
+  @include media(min-width 750px) {
+    width: 60%;
+  }
 }
 
 .event-heading-container{
@@ -76,6 +81,10 @@
   // width: 40%;
   height: 400px;
   width: 400px;
+  display: none;
+  @include media(min-width 750px) {
+    display: block;
+  }
 }
 
 .angular-google-map-container{
