@@ -1,5 +1,3 @@
-import moment from 'moment';
-
 export default concertListings => {
 
   concertListings.factory('EventsFactory', ['$window', function($window){

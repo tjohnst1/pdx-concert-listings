@@ -11,7 +11,7 @@ export default concertListings => {
         venue: '=',
         address: '=',
       },
-      controller: function($scope, $location){
+      controller: ['$scope', '$location', function($scope, $location){
         const sharingLinksCtrl = this;
         sharingLinksCtrl.formattedValues = {};
         sharingLinksCtrl.gCalendar = '';
@@ -44,7 +44,7 @@ export default concertListings => {
             }
           }
         )
-      }
+      }]
     }
   })
 }
