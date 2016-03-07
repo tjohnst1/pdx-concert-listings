@@ -2,7 +2,7 @@
 #### Find out about upcoming PDX area concerts
 
 ## Description
-This is a Angular/Node/Firebase app displays event data for PDX area concerts.
+This is a Angular/Node/Firebase app displays PDX area concert listings. A Node script initially pulls event data from Songkick, artist info from Spotify, and band biographies from Last.fm, formats all of this into JSON data, and then stores it into Firebase. Angular then calls this info from Firebase and displays it with some formatting. 
 
 ## Setup
 If you want to run a local copy:
