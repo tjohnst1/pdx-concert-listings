@@ -3,7 +3,8 @@ export default concertListings => {
     return {
       restrict: 'E',
       controllerAs: 'eventFilterCtrl',
-      scope: {
+      scope: {},
+      bindToController: {
         venues: '=',
         selectedVenue: '=',
         startingDate: '=',
@@ -11,18 +12,8 @@ export default concertListings => {
         itemsPerPage: '=',
         query: '='
       },
-      bindToController: {
-        venues: '=',
-        selectedVenue: '=',
-        startingDate: '=',
-        endingDate: '=',
-        itemsPerPage: '='
-      },
-      controller: function($scope){
+      controller: function(){
         const eventFilterCtrl = this;
-        eventFilterCtrl.toggleFilter = function(){
-          eventFilterCtrl.showFilter = !eventFilterCtrl.showFilter;
-        }
       },
       template: require('../templates/eventFilter.html')
     }

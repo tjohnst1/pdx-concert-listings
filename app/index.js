@@ -3,7 +3,6 @@ import angular from 'angular';
 import angularfire from 'angularfire';
 import Firebase from 'firebase';
 import 'angular-ui-router';
-// import 'angular-google-maps-native';
 import 'angular-utils-pagination';
 import 'angular-simple-logger';
 import 'angular-google-maps';

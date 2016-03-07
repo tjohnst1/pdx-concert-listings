@@ -15,8 +15,8 @@
     </div>
     <div class="filter-selectedVenue">
       <label for="selectedVenue">Venues</label>
-      <select ng-model="eventFilterCtrl.selectedVenue" ng-options="venue for venue in venues">
-        <option value="">Venues</option>
+      <select ng-model="eventFilterCtrl.selectedVenue" ng-options="venue for venue in eventFilterCtrl.venues">
+        <option value="">All Venues</option>
       </select>
     </div>
     <div class="filter-itemsPerPage">

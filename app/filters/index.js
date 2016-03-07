@@ -5,4 +5,5 @@ export default concertListings => {
   require('./formatTime')(concertListings);
   require('./fixedNumLength')(concertListings);
   require('./limitBands')(concertListings);
+  require('./keywordSearch')(concertListings);
 };
