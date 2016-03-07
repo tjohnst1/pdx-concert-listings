@@ -1,0 +1,29 @@
+.loading-container{
+  height: 10px;
+  text-align: center;
+}
+
+.loading-dot{
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background: $orange;
+  @include animation(pulse 1.7s infinite ease-in-out both);
+  &:nth-child(1){
+    @include animation-delay(-0.40s);
+  }
+  &:nth-child(2){
+    @include animation-delay(-0.20s);
+  }
+}
+
+@include keyframes(pulse) {
+  0%, 80%, 100% {
+    transform: scale(0);
+    opacity: 0;
+  } 40% {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+}
