@@ -4,7 +4,8 @@ export default concertListings => {
 
     vm.events = EventsFactory.events;
     vm.venues = EventsFactory.venues;
-    vm.filterOptions = {venue: "", startingDate: "", endingDate: "", itemsPerPage: "20", query: ""};
+    vm.genres = EventsFactory.genres;
+    vm.filterOptions = {venue: "", startingDate: "", endingDate: "", itemsPerPage: "20", query: "", genre: ""};
     vm.event = {};
     vm.currentState = 'Index';
 
@@ -14,6 +15,7 @@ export default concertListings => {
       $timeout(function() {
         vm.events = events;
         vm.venues = EventsFactory.getVenues(events);
+        vm.genres = EventsFactory.getGenres(events);
         if ($stateParams.eventId){
           vm.event = EventsFactory.getEventById(vm.events, Number($stateParams.eventId));
           uiGmapGoogleMapApi.then(function(maps) {

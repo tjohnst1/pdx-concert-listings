@@ -19,6 +19,12 @@
         <option value="">All Venues</option>
       </select>
     </div>
+    <div class="filter-genres">
+      <label for="selectedVenue">Genres</label>
+      <select ng-model="eventFilterCtrl.selectedGenre" ng-options="genre for genre in eventFilterCtrl.genres">
+        <option value="">All Genres</option>
+      </select>
+    </div>
     <div class="filter-itemsPerPage">
       <label for="itemsPerPage">Listings per page</label>
       <select name="itemsPerPage" ng-model="eventFilterCtrl.itemsPerPage">

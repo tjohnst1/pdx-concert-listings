@@ -18,6 +18,23 @@ export default concertListings => {
       return venueArr;
     };
 
+    EventsFactory.getGenres = (events) => {
+      var filteredArr = [];
+      events.forEach(function(eventObj){
+        if (eventObj.artists.genre){
+          const genresArr = eventObj.artists.genre.map((genre) => {
+            return genre.toLowerCase();
+          });
+          genresArr.forEach((genre) => {
+            if (filteredArr.indexOf(genre) === -1){
+              filteredArr.push(genre);
+            };
+          });
+        };
+      });
+      return filteredArr;
+    };
+
     EventsFactory.getData = () => {
       return new $window.Firebase('https://concertlistings.firebaseio.com/');
     }

@@ -1,11 +1,11 @@
 <div class="wrapper">
   <header current-state="vm.currentState"></header>
   <div class="events-container">
-    <event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage" query="vm.filterOptions.query"></event-filter>
+    <event-filter venues="vm.venues" selected-venue="vm.filterOptions.venue" starting-date="vm.filterOptions.startingDate" ending-date="vm.filterOptions.endingDate" items-per-page="vm.filterOptions.itemsPerPage" query="vm.filterOptions.query" genres="vm.genres" selected-genre="vm.filterOptions.genre"></event-filter>
     <div class="event-headline-container">
       <h3 class="event-title">Events</h3>
       <div class="event-content">
-        <event-headline dir-paginate="event in vm.events | venueFilter:vm.filterOptions.venue | filter:vm.filterOptions.query | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate | itemsPerPage:vm.filterOptions.itemsPerPage"
+        <event-headline dir-paginate="event in vm.events | venueFilter:vm.filterOptions.venue | filter:vm.filterOptions.query | dateBefore:vm.filterOptions.endingDate | dateAfter:vm.filterOptions.startingDate | itemsPerPage:vm.filterOptions.itemsPerPage | genreFilter:vm.filterOptions.genre"
         event="event" class="event-headline"></event-headline>
         <loading-animation class="loading-warning" ng-show="vm.events.length === 0"></loading-animation>
       </div>

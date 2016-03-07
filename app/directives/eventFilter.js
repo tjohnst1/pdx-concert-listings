@@ -10,7 +10,9 @@ export default concertListings => {
         startingDate: '=',
         endingDate: '=',
         itemsPerPage: '=',
-        query: '='
+        query: '=',
+        selectedGenre: "=",
+        genres: "="
       },
       controller: function(){
         const eventFilterCtrl = this;
