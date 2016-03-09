@@ -19,5 +19,5 @@ export default concertListings => {
       },
       template: require('../templates/eventFilter.html')
     }
-  })
-}
+  });
+};
