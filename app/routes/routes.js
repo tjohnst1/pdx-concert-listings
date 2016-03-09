@@ -1,7 +1,6 @@
 export default (concertListings) => {
-  concertListings.config(function($stateProvider, $urlRouterProvider){
+  concertListings.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
     $urlRouterProvider.otherwise('/');
-
     $stateProvider
       .state('events', {
         url: '',
@@ -15,5 +14,5 @@ export default (concertListings) => {
         controller: 'EventsCtrl',
         controllerAs: 'vm'
       })
-  })
+  }])
 }

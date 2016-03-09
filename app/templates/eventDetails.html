@@ -16,7 +16,7 @@
       <p class="event-genres" ng-if="vm.event.artists.genre">Genres: {{ vm.event.artists.genre.join(", ") }}</p>
       <sharing-links title="vm.event.artists.artists.join(', ')" day="vm.event.eventDate.day" time="vm.event.eventDate.time" venue="vm.event.venue.name" address="vm.event.venue.address" class="sharing-links-container"></sharing-links>
       <a href="{{ vm.event.artists.spotifyUrl}}" rel="nofollow" class="event-listen-btn">
-        <img src="/images/listen-green.svg" />
+        <img src="images/listen-green.svg" />
       </a>
       <a href="{{ vm.event.venue.directionsUrl }}" rel="nofollow" class="event-venue-directions">Directions</a>
     </div>
@@ -29,6 +29,6 @@
   <loading-animation class="loading-warning" ng-show="vm.event.artists === undefined"></loading-animation>
   <footer>
     <p class="footer-text">All event info is graciously provided by Songkick. Artist biographies are supplied by Last.fm and geolocation data is gathered from Bing Maps.</p>
-    <div class="footer-songkick-logo" style="background-image: url('/images/concerts-songkick.png')"></div>
+    <div class="footer-songkick-logo" style="background-image: url('images/concerts-songkick.png')"></div>
   </footer>
 </div>

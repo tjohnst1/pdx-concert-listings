@@ -1,5 +1,4 @@
 export default concertListings => {
-
   concertListings.filter('fixedNumLength', () => {
     return function(num, desiredLength){
       let valToReturn = num.toString();
@@ -12,6 +11,4 @@ export default concertListings => {
       return valToReturn;
     }
   });
-
-
 }

@@ -9,13 +9,13 @@ import 'angular-google-maps';
 
 const concertListings = angular.module('concertListings', ['firebase', 'ui.router', 'nemLogging','uiGmapgoogle-maps', 'angularUtils.directives.dirPagination']);
 
-concertListings.config(function(uiGmapGoogleMapApiProvider) {
+concertListings.config(['uiGmapGoogleMapApiProvider', function(uiGmapGoogleMapApiProvider) {
     uiGmapGoogleMapApiProvider.configure({
         //    key: 'your api key',
         v: '3.23', //defaults to latest 3.X anyhow
         libraries: 'weather,geometry,visualization'
     });
-})
+}])
 
 require('./factories/eventsFactory')(concertListings);
 require('./controllers')(concertListings);
