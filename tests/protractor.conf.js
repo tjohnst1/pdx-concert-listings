@@ -1,6 +1,6 @@
 exports.config = {
   specs: [
-    './tests/**/*.spec.js'
+    './tests/**/filter.spec.js'
   ],
   baseUrl: 'http://localhost:8080'
 };
