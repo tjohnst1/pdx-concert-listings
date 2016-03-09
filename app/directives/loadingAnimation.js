@@ -5,5 +5,5 @@ export default concertListings => {
       scope: {},
       template: require('../templates/loadingAnimation.html'),
     }
-  })
-}
+  });
+};
